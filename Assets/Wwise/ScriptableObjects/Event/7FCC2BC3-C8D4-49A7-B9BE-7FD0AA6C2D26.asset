@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b1d94c1120ae634b9baa0588b74bdbf, type: 3}
+  m_Name: 7FCC2BC3-C8D4-49A7-B9BE-7FD0AA6C2D26
+  m_EditorClassIdentifier: 
+  objectName: tst_Play_880Hz_lp
+  id: 4230237515
+  guid: 7FCC2BC3-C8D4-49A7-B9BE-7FD0AA6C2D26
+  IsInUserDefinedSoundBank: 1
+  IsAutoBankLoaded: 0

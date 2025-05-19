@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b1d94c1120ae634b9baa0588b74bdbf, type: 3}
+  m_Name: 0A437AC8-E0B2-4B28-BA00-9F1FBF71B232
+  m_EditorClassIdentifier: 
+  objectName: ui_Play_Glitches_MainMenu
+  id: 2396159913
+  guid: 0A437AC8-E0B2-4B28-BA00-9F1FBF71B232
+  IsInUserDefinedSoundBank: 1
+  IsAutoBankLoaded: 0
