@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 7e122c382244e849aa12fb4d9cdfd74c
     GuidInternal: 
-    m_lastTime: -8584585046859035902
+    m_lastTime: -8584585046854775808
     List: []
   - PhysicalPath: Virtual Acoustics\Factory Acoustic Textures.wwu
     PathAndIcons:
@@ -37,7 +37,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Factory Acoustic Textures
     guid: 6b663d46a83ca54f8b4a5fef12b883f6
     GuidInternal: 
-    m_lastTime: -8584585050789062052
+    m_lastTime: -8584585050774775808
     List:
     - name: Acoustic_Banner
       guid: f2532d2fccda8e408b8898b1b52a26d6
@@ -303,7 +303,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: a6ea8e514c8f9243ad9319166732f0db
     GuidInternal: 
-    m_lastTime: -8584539227121329308
+    m_lastTime: -8584539227114775808
     List:
     - name: _utility
       guid: ae774c3aa514d541ab5167fa777cc790
@@ -747,7 +747,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 1abd70dc9f0bf844ad0cb1e2d03ac7f9
     GuidInternal: 
-    m_lastTime: -8584540066643138649
+    m_lastTime: -8584540066634775808
     List: []
   - PhysicalPath: SoundBanks\Soundbanks.wwu
     PathAndIcons:
@@ -760,7 +760,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Soundbanks
     guid: 07a9b741fc74c74cb1c8da740bb0acbc
     GuidInternal: 
-    m_lastTime: -8584539371000745410
+    m_lastTime: -8584539370994775808
     List:
     - name: Music
       guid: 33133562a4a91d4780f6f4a27c7a2fd4
@@ -830,7 +830,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: b8689c1550682645b47ff08efebb39b6
     GuidInternal: 
-    m_lastTime: -8584585046858769591
+    m_lastTime: -8584585046854775808
     List: []
   - PhysicalPath: Events\Environment.wwu
     PathAndIcons:
@@ -843,7 +843,7 @@ MonoBehaviour:
     ParentPath: Events\Environment
     guid: 5ef021a53028924ba3ab051c657892b1
     GuidInternal: 
-    m_lastTime: -8584539373530045414
+    m_lastTime: -8584539373514775808
     List:
     - name: env_Play_Spark
       guid: ea3fdd2ddfe1814ea738834bab0fa24a
@@ -859,9 +859,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: ea3fdd2ddfe1814ea738834bab0fa24a
       Path: Events\Environment\env_Play_Spark
-      maxAttenuation: 20
-      maxDuration: 0.60578513
-      minDuration: 0.4756164
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: env_Play_Steam
       guid: bf01f57e0ca3ac4a95e8f12aecf116f1
       id: 2371890402
@@ -876,9 +876,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: bf01f57e0ca3ac4a95e8f12aecf116f1
       Path: Events\Environment\env_Play_Steam
-      maxAttenuation: 20
-      maxDuration: 0
-      minDuration: 0
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\Music.wwu
     PathAndIcons:
     - ElementName: Events
@@ -890,7 +890,7 @@ MonoBehaviour:
     ParentPath: Events\Music
     guid: 5ed3712fa55d4542b6fa10aeb8763a71
     GuidInternal: 
-    m_lastTime: -8584539376422566108
+    m_lastTime: -8584539376414775808
     List:
     - name: mus_Play_Music
       guid: 33623fca77ad704f8ee5c2194b654dbe
@@ -907,8 +907,8 @@ MonoBehaviour:
         guid: 33623fca77ad704f8ee5c2194b654dbe
       Path: Events\Music\mus_Play_Music
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: stg_Trigger_EnterGame_Loading
       guid: b156563f2525b24fb7ae41dfc4d92c45
       id: 1074417302
@@ -924,8 +924,8 @@ MonoBehaviour:
         guid: b156563f2525b24fb7ae41dfc4d92c45
       Path: Events\Music\stg_Trigger_EnterGame_Loading
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\Player.wwu
     PathAndIcons:
     - ElementName: Events
@@ -937,7 +937,7 @@ MonoBehaviour:
     ParentPath: Events\Player
     guid: f83d388415a41d40915ce8f0232499a8
     GuidInternal: 
-    m_lastTime: -8584539376422605082
+    m_lastTime: -8584539376414775808
     List:
     - name: plr_Play_fs
       guid: c8053f4febcde14f91822c4199a3d473
@@ -954,8 +954,8 @@ MonoBehaviour:
         guid: c8053f4febcde14f91822c4199a3d473
       Path: Events\Player\plr_Play_fs
       maxAttenuation: 0
-      maxDuration: 0.78414595
-      minDuration: 0.4504451
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\TestEvents.wwu
     PathAndIcons:
     - ElementName: Events
@@ -967,7 +967,7 @@ MonoBehaviour:
     ParentPath: Events\TestEvents
     guid: a24ab4f3185e654a81c69db5e3f70cb3
     GuidInternal: 
-    m_lastTime: -8584539395398751557
+    m_lastTime: -8584539395394775808
     List:
     - name: tst_Play_880Hz_3D_beep
       guid: 7004ddaf808fad46bb5ab206013d8558
@@ -1000,9 +1000,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: c32bcc7fd4c8a749b9be7fd0aa6c2d26
       Path: Events\TestEvents\tst_Play_880Hz_lp
-      maxAttenuation: 20
-      maxDuration: 0
-      minDuration: 0
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: tst_Play_880Hz_lp_Stop
       guid: 904f39cc3d90c745972723f742018301
       id: 3379435718
@@ -1018,8 +1018,8 @@ MonoBehaviour:
         guid: 904f39cc3d90c745972723f742018301
       Path: Events\TestEvents\tst_Play_880Hz_lp_Stop
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\UI.wwu
     PathAndIcons:
     - ElementName: Events
@@ -1031,7 +1031,7 @@ MonoBehaviour:
     ParentPath: Events\UI
     guid: 03bea6eefc1cee42af4fbda6657da8c9
     GuidInternal: 
-    m_lastTime: -8584539376422581201
+    m_lastTime: -8584539376414775808
     List:
     - name: ui_Play_Button_Select
       guid: 422bec9cd781b14f93fe6fe3c3553eae
@@ -1048,8 +1048,8 @@ MonoBehaviour:
         guid: 422bec9cd781b14f93fe6fe3c3553eae
       Path: Events\UI\ui_Play_Button_Select
       maxAttenuation: 0
-      maxDuration: 0.5845205
-      minDuration: 0.5845205
+      maxDuration: -1
+      minDuration: -1
     - name: ui_Play_Glitches_MainMenu
       guid: c87a430ab2e0284bba009f1fbf71b232
       id: 2396159913
@@ -1065,8 +1065,8 @@ MonoBehaviour:
         guid: c87a430ab2e0284bba009f1fbf71b232
       Path: Events\UI\ui_Play_Glitches_MainMenu
       maxAttenuation: 0
-      maxDuration: 0.34266636
-      minDuration: 0.15904386
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -1079,7 +1079,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 52151e289fb1d94ebfd822b23a449220
     GuidInternal: 
-    m_lastTime: -8584585046858740639
+    m_lastTime: -8584585046854775808
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -1093,7 +1093,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: f436c267898e5a4b973cb017cb2c8d1f
     GuidInternal: 
-    m_lastTime: -8584541730453689269
+    m_lastTime: -8584541730434775808
     List: []
   - PhysicalPath: States\Music.wwu
     PathAndIcons:
@@ -1106,7 +1106,7 @@ MonoBehaviour:
     ParentPath: States\Music
     guid: 1e8bfafb2bbeaf4bb6f6ab7a1acb3876
     GuidInternal: 
-    m_lastTime: -8584539291151723808
+    m_lastTime: -8584539291134775808
     List:
     - name: GameState
       guid: 58c9d95ade007645931a57c9054df4aa
@@ -1414,7 +1414,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: fc3d59e80d5129489b590cfb9c4d32c6
     GuidInternal: 
-    m_lastTime: -8584585046858890282
+    m_lastTime: -8584585046854775808
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -1428,7 +1428,7 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 32e4a2d49cd49441b3cb8c1f9760b9ef
     GuidInternal: 
-    m_lastTime: -8584541750944012376
+    m_lastTime: -8584541750934775808
     List: []
   - PhysicalPath: Triggers\Music.wwu
     PathAndIcons:
@@ -1441,7 +1441,7 @@ MonoBehaviour:
     ParentPath: Triggers\Music
     guid: 4b8f6104e28a8449a01dab97f2314197
     GuidInternal: 
-    m_lastTime: -8584541750944136188
+    m_lastTime: -8584541750934775808
     List:
     - name: Enter_Game
       guid: 10a1dfcaec7d6d489e3afb51baf84d6d
