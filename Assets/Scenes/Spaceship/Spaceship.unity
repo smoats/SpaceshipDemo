@@ -374,64 +374,6 @@ MonoBehaviour:
   Calls:
   - {fileID: 136236113}
   - {fileID: 136236112}
---- !u!1 &182617514
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 182617516}
-  - component: {fileID: 182617515}
-  m_Layer: 0
-  m_Name: WwiseGlobal
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &182617515
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 182617514}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f800a44064d63b45b66d4afc8b9e33d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  InitializationSettings: {fileID: 11400000, guid: 4a5e3230f96644d4699f5b6b1a952138,
-    type: 2}
-  basePath: 
-  language: 
-  defaultPoolSize: 0
-  lowerPoolSize: 0
-  streamingPoolSize: 0
-  memoryCutoffThreshold: 0
-  monitorPoolSize: 0
-  monitorQueuePoolSize: 0
-  callbackManagerBufferSize: 0
-  spatialAudioPoolSize: 0
-  maxSoundPropagationDepth: 0
-  engineLogging: 0
---- !u!4 &182617516
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 182617514}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &203894667
 GameObject:
   m_ObjectHideFlags: 0
@@ -1044,6 +986,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1247851367240522586, guid: e065f0f214f550c49ba92797f0ccd437,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1959744592424832193, guid: e065f0f214f550c49ba92797f0ccd437,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1094,13 +1041,43 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2578065051004178515, guid: e065f0f214f550c49ba92797f0ccd437,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303049241274824263, guid: e065f0f214f550c49ba92797f0ccd437,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3400143031095010086, guid: e065f0f214f550c49ba92797f0ccd437,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5604302501160435454, guid: e065f0f214f550c49ba92797f0ccd437,
+        type: 3}
+      propertyPath: InitializationSettings
+      value: 
+      objectReference: {fileID: 11400000, guid: 4a5e3230f96644d4699f5b6b1a952138,
+        type: 2}
+    - target: {fileID: 6204725166573927351, guid: e065f0f214f550c49ba92797f0ccd437,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7397243542587146620, guid: e065f0f214f550c49ba92797f0ccd437,
         type: 3}
       propertyPath: m_Name
       value: Wwise_AudioManager
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 9023876647532740794, guid: e065f0f214f550c49ba92797f0ccd437, type: 3}
+    - target: {fileID: 7721921503906444559, guid: e065f0f214f550c49ba92797f0ccd437,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1381,6 +1358,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlayerStart-Spaceship
+      objectReference: {fileID: 0}
+    - target: {fileID: 1880381431977666439, guid: 4852b0028ca6ba14485b2ba666b2f735,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1880381431977666490, guid: 4852b0028ca6ba14485b2ba666b2f735,
         type: 3}
@@ -2846,6 +2828,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Benchmark
       objectReference: {fileID: 0}
+    - target: {fileID: 2844759637480249413, guid: 7a4067ac9aa3d974cbdfb8831d2cebeb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844759637480249413, guid: 7a4067ac9aa3d974cbdfb8831d2cebeb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2844759637480249415, guid: 7a4067ac9aa3d974cbdfb8831d2cebeb,
         type: 3}
       propertyPath: m_RootOrder
@@ -3019,5 +3011,4 @@ SceneRoots:
   - {fileID: 1417347480}
   - {fileID: 2020136046}
   - {fileID: 1295896010}
-  - {fileID: 182617516}
   - {fileID: 906045020}

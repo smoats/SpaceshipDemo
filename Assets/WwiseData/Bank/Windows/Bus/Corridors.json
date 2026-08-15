@@ -1,0 +1,58 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "1938385722",
+    "Type": "Bus",
+    "GUID": "{AE7BC320-FC8F-406C-AD74-237A920429FD}",
+    "Language": "SFX",
+    "Hash": "{2EBC2230-96BE-5C82-A9D5-F85DDBB4DA9B}",
+    "ObjectPath": "Corridors",
+    "ShortName": "Corridors",
+    "Path": "Bus/Corridors.bnk",
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "580668364",
+       "Name": "Aluminium_Tank (Custom)",
+       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\AUXs\\Rooms\\Corridors\\[Effect Slot [0]: (RoomVerb)]\\Aluminium_Tank (Custom)",
+       "GUID": "{865D6620-A9B9-4AA6-ABE4-DAC48C186D7B}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "1938385722",
+      "Name": "Corridors",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\AUXs\\Rooms\\Corridors",
+      "GUID": "{AE7BC320-FC8F-406C-AD74-237A920429FD}",
+      "Color": "21",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "580668364"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "849258820",
+        "Name": "EarlyReflections",
+        "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\AUXs\\EarlyReflections",
+        "GUID": "{1ED24EFF-7068-41B0-950A-F7774D2A9E63}",
+        "Color": "21"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{CFB82F4F-744C-8A43-F37F-7E63F15E6527}"
+ }
+}

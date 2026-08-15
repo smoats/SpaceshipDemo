@@ -1,0 +1,6 @@
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	849258820	EarlyReflections			\Default Work Unit\Master Audio Bus\SFX\AUXs\EarlyReflections	
+
+Effect plug-ins	ID	Name	Type				Notes
+	3399505373	Reflect_Physically_Based	Wwise Reflect			
+

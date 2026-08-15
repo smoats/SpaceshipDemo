@@ -1,0 +1,36 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "SpaceshipDemo_WwiseProject",
+   "GUID": "{E4E053DA-48F2-496B-B442-EC7AFD440CB0}",
+   "Generator": "2025.1.7.9143"
+  },
+  "CacheRoot": "../../../../Spaceship_Wwise/.cache",
+  "Platforms": [
+   {
+    "Name": "Mac",
+    "GUID": "{9580ED0D-CB78-4D15-A936-A3AB376C332E}",
+    "BasePlatform": "Mac",
+    "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
+    "Path": "Mac"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{07F80D18-3DA4-43BD-80D1-DA6DB8761169}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{04B64146-0F7E-434E-8470-5EFBA37A9175}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{76DA69BF-862F-5AFF-D89E-62082F6F88AE}"
+ }
+}

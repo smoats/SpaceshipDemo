@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="2786758029" Type="Bus" GUID="{B95D4422-E9F1-43DC-A79A-E98295DA9CF4}" Language="SFX" Hash="{3C639F37-5344-94D2-4B3E-0A5E108A88FB}">
+			<ObjectPath>MainDeck</ObjectPath>
+			<ShortName>MainDeck</ShortName>
+			<Path>Bus/MainDeck.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="730688266" Name="Wwise_RoomVerb_(Custom)" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\MainDeck\[Effect Slot [0]: (RoomVerb)]\Wwise_RoomVerb_(Custom)" GUID="{A31F8306-1453-4012-92A4-AE974D0066E5}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</Custom>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="2786758029" Name="MainDeck" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\MainDeck" GUID="{B95D4422-E9F1-43DC-A79A-E98295DA9CF4}" Color="21">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="730688266"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{63498262-FF69-7BEB-439E-AAE25FC38C27}</FileHash>
+</SoundBanksInfo>

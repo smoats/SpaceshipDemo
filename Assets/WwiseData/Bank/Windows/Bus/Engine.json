@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "268529915",
+    "Type": "Bus",
+    "GUID": "{FC4B05CE-7993-46E2-9DBC-CBA7CE06179F}",
+    "Language": "SFX",
+    "Hash": "{F504B4B0-C8FF-BBDF-1D01-4F1F874B0217}",
+    "ObjectPath": "Engine",
+    "ShortName": "Engine",
+    "Path": "Bus/Engine.bnk",
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "23000714",
+       "Name": "Metal_Hangar (Custom)",
+       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\AUXs\\Rooms\\Engine\\[Effect Slot [0]: (RoomVerb)]\\Metal_Hangar (Custom)",
+       "GUID": "{9F22A1E0-3ED4-43C8-8F15-4382FE456BFF}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "268529915",
+      "Name": "Engine",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\AUXs\\Rooms\\Engine",
+      "GUID": "{FC4B05CE-7993-46E2-9DBC-CBA7CE06179F}",
+      "Color": "21",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "23000714"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{4D31491F-8E0A-D93D-C34E-F078B9C3E8E9}"
+ }
+}

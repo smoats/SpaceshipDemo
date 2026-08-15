@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginInfo Platform="Windows" BasePlatform="Windows">
+	<PluginLibs>
+		<PluginLib LibName="iZotope Hybrid Reverb" LibId="135219" Type="Effect" DLL="iZotope" StaticLib="iZHybridReverbFX"/>
+		<PluginLib LibName="Wwise Matrix Reverb" LibId="7536643" Type="Effect" DLL="AkMatrixReverb" StaticLib="AkMatrixReverbFX"/>
+		<PluginLib LibName="Wwise RoomVerb" LibId="7733251" Type="Effect" DLL="AkRoomVerb" StaticLib="AkRoomVerbFX"/>
+		<PluginLib LibName="Wwise Reflect" LibId="11206659" Type="Effect" DLL="AkReflect" StaticLib="AkReflectFX"/>
+		<PluginLib LibName="System" LibId="11403271" Type="AudioDevice"/>
+		<PluginLib LibName="No Output" LibId="11862023" Type="AudioDevice"/>
+	</PluginLibs>
+	<FileHash>{5F118620-F8F6-0FE2-9A60-E7D6B354E351}</FileHash>
+</PluginInfo>

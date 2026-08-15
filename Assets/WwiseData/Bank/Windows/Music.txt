@@ -1,0 +1,35 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1074417302	stg_Trigger_EnterGame_Loading			\Music\stg_Trigger_EnterGame_Loading	
+	2480461419	mus_Play_Music			\Music\mus_Play_Music	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	984691642	InGame			\Default Work Unit\InGame	
+	4091656514	GameState			\Default Work Unit\GameState	
+
+State	ID	Name	State Group			Notes
+	268529915	Engine	InGame			
+	748895195	None	InGame			
+	1359360137	Room1	InGame			
+	1938385784	Corridor1	InGame			
+	1938385787	Corridor2	InGame			
+	2786758029	MainDeck	InGame			
+	3705378287	Elevator	InGame			
+	702482391	Game	GameState			
+	748895195	None	GameState			
+	3092587493	Pause	GameState			
+	3573931707	Loading	GameState			
+	3604647259	MainMenu	GameState			
+
+Effect plug-ins	ID	Name	Type				Notes
+	2098638826	Underground_Parking1	Wwise Matrix Reverb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	99267492	Synth Mist	.cache\03\{030D4A35-73D5-6F61-A8D4-664264AE3EDD}.wem		\Containers\Music (Migrated)\Music\Music\Main Menu\Main Menu\Synth Mist		1502708
+	175004890	Synth Mist	.cache\A5\{A50BC6B1-F1FF-BF46-4CAA-F8E7351688DD}.wem		\Containers\Music (Migrated)\Music\Music\Main Menu\Main Menu\Synth Mist		1502708
+	226536422	Strings	.cache\04\{0435B848-72CF-6F21-C110-1964E412EB90}.wem		\Containers\Music (Migrated)\Music\Music\Main Menu\Main Menu\Strings		2504444
+	345883505	Back Pad	.cache\1E\{1EDCA583-79E7-AF63-803D-292F30B52DF8}.wem		\Containers\Music (Migrated)\Music\Music\Main Menu\Main Menu\Back Pad		17029664
+	672927643	Synth Mist	.cache\B8\{B8CD2C81-C5D2-ABD0-FCDF-042ACC03619F}.wem		\Containers\Music (Migrated)\Music\Music\Main Menu\Main Menu\Synth Mist		1502704
+	812432388	Strings	.cache\18\{182B4746-6BFF-CF13-B2DC-4A7D0EBFE549}.wem		\Containers\Music (Migrated)\Music\Music\Main Menu\Main Menu\Strings		2504448
+	900973150	Strings	.cache\11\{1198A408-EB81-58C1-4564-9789062BA9FD}.wem		\Containers\Music (Migrated)\Music\Music\Main Menu\Main Menu\Strings		2504444
+	992080249	Cosmic Background	.cache\6D\{6DBCC841-2EAA-7DD1-4DFE-366812EA29F8}.wem		\Containers\Music (Migrated)\Music\Music\Main Menu\Main Menu\Cosmic Background		5561328
+

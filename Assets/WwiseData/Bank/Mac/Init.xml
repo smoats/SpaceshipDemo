@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{380FA4DE-CEC7-4C04-80F8-950DC1917CCE}">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Media>
+				<File Id="844479567" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>B-39 Black Widow Submarine Engine Room.wav</ShortName>
+					<Path>Media/844479567.wem</Path>
+					<CachePath>7C/{7C9D2B6E-981E-CC5B-3318-C97D9268FDFC}.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="23000714" Name="Metal_Hangar (Custom)" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Engine\[Effect Slot [0]: (RoomVerb)]\Metal_Hangar (Custom)" GUID="{9F22A1E0-3ED4-43C8-8F15-4382FE456BFF}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="395674233" Name="Room_Medium_Tiled (Custom)" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Room_1\[Effect Slot [0]: (RoomVerb)]\Room_Medium_Tiled (Custom)" GUID="{7A55C4A3-B8DC-4FCF-B866-BC3B7FDBFBB3}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="438002550" Name="Metal_Hangar (Custom)" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Elevator\[Effect Slot [0]: (RoomVerb)]\Metal_Hangar (Custom)" GUID="{C38E2746-37DC-47D9-9732-7CC4D839170C}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="580668364" Name="Aluminium_Tank (Custom)" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Corridors\[Effect Slot [0]: (RoomVerb)]\Aluminium_Tank (Custom)" GUID="{865D6620-A9B9-4AA6-ABE4-DAC48C186D7B}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="730688266" Name="Wwise_RoomVerb_(Custom)" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\MainDeck\[Effect Slot [0]: (RoomVerb)]\Wwise_RoomVerb_(Custom)" GUID="{A31F8306-1453-4012-92A4-AE974D0066E5}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</Custom>
+				<ShareSets>
+					<Plugin Id="361056738" Name="New_iZotope_Hybrid_Reverb" ObjectPath="\Effects\Custom Effects\New_iZotope_Hybrid_Reverb" GUID="{CAA746A6-834D-4263-8927-DBA3B37BF221}" LibName="iZotope Hybrid Reverb" LibId="135219">
+						<MediaRefs>
+							<MediaRef Id="844479567"/>
+						</MediaRefs>
+					</Plugin>
+					<Plugin Id="3399505373" Name="Reflect_Physically_Based" ObjectPath="\Effects\Factory Reflect Physically-Based\Reflect_Physically_Based" GUID="{C69F5865-C206-4B45-BC40-315F3F39151A}" LibName="Wwise Reflect" LibId="11206659"/>
+				</ShareSets>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Devices\Default Work Unit\No_Output" GUID="{F1D968A6-B9D4-4FF7-A009-0D49DABF36D7}" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" ObjectPath="\Devices\Default Work Unit\System" GUID="{B653A5E9-B5BB-48AB-92CF-614D0678B26B}" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="82043516" Name="Ambience3D" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\Ambience\Ambience3D" GUID="{2D9DB95F-701F-40C5-A325-239F4DCF673B}" Color="13"/>
+				<Bus Id="85412153" Name="Ambience" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\Ambience" GUID="{9EC0A8E5-6830-4DB2-B98D-A85E57CE105A}" Color="13"/>
+				<Bus Id="98821071" Name="Ambience2D" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\Ambience\Ambience2D" GUID="{49143703-043B-4C6C-B073-95DD23E63AC3}" Color="13"/>
+				<Bus Id="393239870" Name="SFX" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX" GUID="{2027C65A-CEAF-4B25-AFE1-FCF8588E876B}" Color="8"/>
+				<Bus Id="429132440" Name="_utility" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\_utility" GUID="{3A4C77AE-14A5-41D5-AB51-67FA777CC790}"/>
+				<Bus Id="438105790" Name="Outside" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\Environment\Outside" GUID="{B96A7D5D-74E7-4394-A159-AD0686BE468B}" Color="4"/>
+				<Bus Id="1069431850" Name="Player" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\Player" GUID="{32B16F62-FE34-4FBF-BA74-5131A6374CFF}" Color="11"/>
+				<Bus Id="1229948536" Name="Environment" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\Environment" GUID="{ECB7702E-300C-493D-A8E6-9D5BE98DCAE7}" Color="4"/>
+				<Bus Id="1359360203" Name="Rooms" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms" GUID="{E2E0786C-6D97-48F0-B0F4-8583595B4AC7}" Color="21"/>
+				<Bus Id="1551306167" Name="UI" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\UI" GUID="{3DCD189D-E98D-4EE6-837D-A3F015ECFB03}" Color="15"/>
+				<Bus Id="3368497452" Name="AUXs" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs" GUID="{E629D68C-704D-46A8-BD3A-AF23EF7E9E65}" Color="21"/>
+				<Bus Id="3553349781" Name="Inside" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\Environment\Inside" GUID="{955050CD-ACC3-48ED-8CC8-11D9754EF154}" Color="4"/>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Busses\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Bus Id="3991942870" Name="Music" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Music" GUID="{AFD51C94-BD4C-4638-A356-8372437DC97D}" Color="6"/>
+			</Busses>
+			<AuxBusses>
+				<AuxBus Id="268529915" Name="Engine" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Engine" GUID="{FC4B05CE-7993-46E2-9DBC-CBA7CE06179F}" Color="21">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="23000714"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="849258820" Name="EarlyReflections" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\EarlyReflections" GUID="{1ED24EFF-7068-41B0-950A-F7774D2A9E63}" Color="21">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3399505373"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="1938385722" Name="Corridors" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Corridors" GUID="{AE7BC320-FC8F-406C-AD74-237A920429FD}" Color="21">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="580668364"/>
+						</Custom>
+					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="849258820" Name="EarlyReflections" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\EarlyReflections" GUID="{1ED24EFF-7068-41B0-950A-F7774D2A9E63}" Color="21"/>
+					</AuxBusRefs>
+				</AuxBus>
+				<AuxBus Id="1941896084" Name="Room_1" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Room_1" GUID="{AAABB9A5-EAF0-4E3B-9B0C-AEB2C80ACF63}" Color="21">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="395674233"/>
+						</Custom>
+						<ShareSets>
+							<PluginRef Id="361056738"/>
+						</ShareSets>
+					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="849258820" Name="EarlyReflections" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\EarlyReflections" GUID="{1ED24EFF-7068-41B0-950A-F7774D2A9E63}" Color="21"/>
+					</AuxBusRefs>
+				</AuxBus>
+				<AuxBus Id="2786758029" Name="MainDeck" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\MainDeck" GUID="{B95D4422-E9F1-43DC-A79A-E98295DA9CF4}" Color="21">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="730688266"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="3705378287" Name="Elevator" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Elevator" GUID="{47C113E2-8AAC-4A0A-9DE6-B0DB144722EC}" Color="21">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="438002550"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+			<StateGroups>
+				<StateGroup Id="984691642" Name="InGame" ObjectPath="\States\Default Work Unit\InGame" GUID="{288C5B4D-B42A-43E0-815A-193CE3C95521}">
+					<States>
+						<State Id="268529915" Name="Engine" ObjectPath="\States\Default Work Unit\InGame\Engine" GUID="{D48FFE7D-DC64-4B7D-A0DF-07965191FC74}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\InGame\None" GUID="{202424F4-00CC-4D1B-9F50-58132AAE0FE1}"/>
+						<State Id="1359360137" Name="Room1" ObjectPath="\States\Default Work Unit\InGame\Room1" GUID="{654187F4-4275-4526-8913-E61C70364BA8}"/>
+						<State Id="1938385784" Name="Corridor1" ObjectPath="\States\Default Work Unit\InGame\Corridor1" GUID="{B0BFE2FF-695B-41D6-996C-ED11EE83D67E}"/>
+						<State Id="1938385787" Name="Corridor2" ObjectPath="\States\Default Work Unit\InGame\Corridor2" GUID="{D9D02474-D031-4CD3-BB52-38A59F94599F}"/>
+						<State Id="2786758029" Name="MainDeck" ObjectPath="\States\Default Work Unit\InGame\MainDeck" GUID="{DAD6B814-710F-4D84-A6BF-49B2BB15903A}"/>
+						<State Id="3705378287" Name="Elevator" ObjectPath="\States\Default Work Unit\InGame\Elevator" GUID="{0695D323-3B27-4D91-87E4-CFB70C5AD7C7}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2786758029" Name="MainDeck" ObjectPath="\States\Default Work Unit\MainDeck" GUID="{90A35CB5-FF18-4ED0-B7EE-287D5822C894}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\MainDeck\None" GUID="{D31D7E2D-DF7D-4456-969D-62D5B74D96ED}"/>
+						<State Id="1095383085" Name="ControlPanels" ObjectPath="\States\Default Work Unit\MainDeck\ControlPanels" GUID="{F5047456-01C1-4083-AE74-8F4695C5512C}"/>
+						<State Id="2933838247" Name="SmallRoom" ObjectPath="\States\Default Work Unit\MainDeck\SmallRoom" GUID="{38890BA6-F48C-48AF-879A-2565F09E5C84}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="4091656514" Name="GameState" ObjectPath="\States\Default Work Unit\GameState" GUID="{5AD9C958-00DE-4576-931A-57C9054DF4AA}">
+					<States>
+						<State Id="702482391" Name="Game" ObjectPath="\States\Default Work Unit\GameState\Game" GUID="{22669760-FDD6-4A40-81FA-129627D8552D}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\GameState\None" GUID="{C91F06AE-2BEB-4D57-A663-90D879CE5BCD}"/>
+						<State Id="3092587493" Name="Pause" ObjectPath="\States\Default Work Unit\GameState\Pause" GUID="{53A57DB7-75F7-4DBF-B87F-19D769EC84DB}"/>
+						<State Id="3573931707" Name="Loading" ObjectPath="\States\Default Work Unit\GameState\Loading" GUID="{D4E686B1-CF6E-41E3-862C-C55D4980A1AF}"/>
+						<State Id="3604647259" Name="MainMenu" ObjectPath="\States\Default Work Unit\GameState\MainMenu" GUID="{6002BEA1-5A6C-4A7F-88D9-BBD60DBDBBD8}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<AcousticTextures>
+				<AcousticTexture Id="504532776" Name="Brick" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Brick" GUID="{B086A5A9-F204-4C53-A838-BDB18B18F6D6}" Color="8">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="12"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="18"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="23"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="513139656" Name="Mountain" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Mountain" GUID="{C5933731-001A-4AB4-98DD-9B033A8C8EAB}">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="841620460" Name="Concrete" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Concrete" GUID="{5CF81C00-2896-4AE0-AF7C-3080BDABA682}" Color="27">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="14"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1755085759" Name="Wood_Deep" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Wood_Deep" GUID="{5246478E-C5DA-4E0C-A0DE-C98D1479529A}" Color="9">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="1"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="8"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="20"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1873957695" Name="Anechoic" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Anechoic" GUID="{8B0AC232-02E2-4EDE-BEAC-FDD1A900E3ED}" Color="13">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1970351858" Name="Fabric" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Fabric" GUID="{8381D532-DB6E-4EED-A7A3-BC7B0A0B8BA8}" Color="4">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="3"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="13"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="48"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="72"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2058049674" Name="Wood" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Wood" GUID="{1FFFBC96-6FE7-489E-BA6C-7C14A71391AE}" Color="7">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="32"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="25"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="20"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2412606308" Name="Carpet" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Carpet" GUID="{34227589-DC56-4260-96C4-B9F4B669092B}" Color="17">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="46"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="45"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="76"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2473969246" Name="Metal" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Metal" GUID="{A64E96CC-2CDF-425A-A0B1-D0B6FAB1945F}">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2637588553" Name="Tile" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Tile" GUID="{A882DAC4-132A-47B7-BA9D-B9907BA29CC0}" Color="16">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="67"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="41"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="12"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2928161104" Name="Curtains" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Curtains" GUID="{F8E69E33-5C97-4968-B508-A1535F2D66E8}" Color="3">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="7"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="60"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="84"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="3195498748" Name="Cork_Tiles" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Cork_Tiles" GUID="{30D2C919-925F-4143-8906-3DBB3C4AE5E2}" Color="19">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="14"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="30"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="73"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="3670307564" Name="Drywall" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Drywall" GUID="{68A4E3F4-4C0B-4687-A8B8-A84DB93DBC8F}" Color="15">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="2"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="4168643977" Name="Acoustic_Banner" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Acoustic_Banner" GUID="{2F2D53F2-DACC-408E-8B88-98B1B52A26D6}" Color="10">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="37"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="4262522749" Name="Wood_Bright" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Wood_Bright" GUID="{7B85D1E5-C1A2-4E63-9A13-CEC54B641ADC}" Color="20">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="32"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="25"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="10"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="9"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+			</AcousticTextures>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{C5CADD30-D369-E350-A0E7-AD5C53CF27DF}</FileHash>
+</SoundBanksInfo>

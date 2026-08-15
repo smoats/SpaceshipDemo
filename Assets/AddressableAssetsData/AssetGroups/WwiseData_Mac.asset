@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: WwiseData_Mac
+  m_EditorClassIdentifier: 
+  m_GroupName: WwiseData_Mac
+  m_GUID: 1c5a71cdae6793744a493f2f480d1ff2
+  m_SerializeEntries:
+  - m_GUID: 14735c25994f07e4a98acf219917e37e
+    m_Address: Assets/WwiseData/Bank/Mac/UI.bnk
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 148e4e9c347636b40888555efba983c8
+    m_Address: Assets/WwiseData/Bank/Mac/Bus/Room_1.bnk
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f197888cc9fdae40897c6e16c962d4f
+    m_Address: Assets/WwiseData/Bank/Mac/Event/tst_Play_880Hz_3D_beep.bnk
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 999e74888f447404d8f255b361f075d6
+    m_Address: Assets/WwiseData/Bank/Mac/Media/844479567.wem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b480b1130c1772148b0ef5ea18141d42
+    m_Address: Assets/WwiseData/Bank/Mac/SFX.bnk
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be254effa01263245b14f2da8f606a79
+    m_Address: Assets/WwiseData/Bank/Mac/TestEvents.bnk
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc949eb3dfa488a45aa6ddb5146343ce
+    m_Address: Assets/WwiseData/Bank/Mac/Music.bnk
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e44eb15f99796bc4aabecb35b28763ab
+    m_Address: Assets/WwiseData/Bank/Mac/Bus/EarlyReflections.bnk
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ed595b246e83b474097b23bea1bbc44f
+    m_Address: Assets/WwiseData/Bank/Mac/Bus/Corridors.bnk
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: ee16fe13e1077dc41b67d3cc60b758b1, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 76c8b70b744e904439a03f3424d1b146, type: 2}

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="3991942870" Type="User" GUID="{62351333-A9A4-471D-80F6-F4A27C7A2FD4}" Language="SFX" Hash="{1C8F55F9-5E0D-9995-3029-27F944E48B6C}">
+			<ObjectPath>\SoundBanks\Soundbanks\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<Media>
+				<File Id="99267492" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>spc_mus_mainMenu_synthMist_4-4_C2-Bb2_92.wav</ShortName>
+					<CachePath>03/{030D4A35-73D5-6F61-A8D4-664264AE3EDD}.wem</CachePath>
+				</File>
+				<File Id="175004890" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>spc_mus_mainMenu_synthMist_4-4_Dis2-G2_92.wav</ShortName>
+					<CachePath>A5/{A50BC6B1-F1FF-BF46-4CAA-F8E7351688DD}.wem</CachePath>
+				</File>
+				<File Id="226536422" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>spc_mus_mainMenu_strings_4-4_Amin_92.wav</ShortName>
+					<CachePath>04/{0435B848-72CF-6F21-C110-1964E412EB90}.wem</CachePath>
+				</File>
+				<File Id="345883505" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>spc_mus_mainMenu_backPad_4-4_Dm_92_lp.wav</ShortName>
+					<CachePath>1E/{1EDCA583-79E7-AF63-803D-292F30B52DF8}.wem</CachePath>
+				</File>
+				<File Id="672927643" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>spc_mus_mainMenu_synthMist_4-4_E2-G2_92.wav</ShortName>
+					<CachePath>B8/{B8CD2C81-C5D2-ABD0-FCDF-042ACC03619F}.wem</CachePath>
+				</File>
+				<File Id="812432388" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>spc_mus_mainMenu_strings_4-4_F-Bb-E_92.wav</ShortName>
+					<CachePath>18/{182B4746-6BFF-CF13-B2DC-4A7D0EBFE549}.wem</CachePath>
+				</File>
+				<File Id="900973150" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>spc_mus_mainMenu_strings_4-4_Amin11no35_92.wav</ShortName>
+					<CachePath>11/{1198A408-EB81-58C1-4564-9789062BA9FD}.wem</CachePath>
+				</File>
+				<File Id="992080249" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>spc_mus_mainMenu_cosmicBackground.wav</ShortName>
+					<CachePath>6D/{6DBCC841-2EAA-7DD1-4DFE-366812EA29F8}.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="2098638826" Name="Underground_Parking1" ObjectPath="\Effects\Factory Effects\Matrix Reverb\Underground_Parking1" GUID="{8DA66AA3-6CA0-41A0-B7A2-BB6FCABFCDA8}" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+				</ShareSets>
+			</Plugins>
+			<Events>
+				<Event Id="2480461419" Name="mus_Play_Music" ObjectPath="\Events\Music\mus_Play_Music" GUID="{CA3F6233-AD77-4F70-8EE5-C2194B654DBE}" Color="18" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="4091656514" Id="3604647259" GUID="{6002BEA1-5A6C-4A7F-88D9-BBD60DBDBBD8}"/>
+							<MediaRefs>
+								<MediaRef Id="99267492"/>
+								<MediaRef Id="175004890"/>
+								<MediaRef Id="226536422"/>
+								<MediaRef Id="345883505"/>
+								<MediaRef Id="672927643"/>
+								<MediaRef Id="812432388"/>
+								<MediaRef Id="900973150"/>
+								<MediaRef Id="992080249"/>
+							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="2098638826"/>
+								</ShareSets>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="4091656514" Id="702482391" GUID="{22669760-FDD6-4A40-81FA-129627D8552D}"/>
+							<Children/>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1074417302" Name="stg_Trigger_EnterGame_Loading" ObjectPath="\Events\Music\stg_Trigger_EnterGame_Loading" GUID="{3F5656B1-2525-4FB2-B7AE-41DFC4D92C45}" Color="18" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="4091656514" Id="3573931707" Name="Loading" ObjectPath="\States\Default Work Unit\GameState\Loading" GUID="{D4E686B1-CF6E-41E3-862C-C55D4980A1AF}"/>
+					</ActionSetState>
+					<ActionTrigger>
+						<ActionTriggerEntry Id="4117021394" Name="Enter_Game" ObjectPath="\Triggers\Music\Enter_Game" GUID="{CADFA110-7DEC-486D-9E3A-FB51BAF84D6D}"/>
+					</ActionTrigger>
+				</Event>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="984691642" Name="InGame" ObjectPath="\States\Default Work Unit\InGame" GUID="{288C5B4D-B42A-43E0-815A-193CE3C95521}">
+					<States>
+						<State Id="268529915" Name="Engine" ObjectPath="\States\Default Work Unit\InGame\Engine" GUID="{D48FFE7D-DC64-4B7D-A0DF-07965191FC74}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\InGame\None" GUID="{202424F4-00CC-4D1B-9F50-58132AAE0FE1}"/>
+						<State Id="1359360137" Name="Room1" ObjectPath="\States\Default Work Unit\InGame\Room1" GUID="{654187F4-4275-4526-8913-E61C70364BA8}"/>
+						<State Id="1938385784" Name="Corridor1" ObjectPath="\States\Default Work Unit\InGame\Corridor1" GUID="{B0BFE2FF-695B-41D6-996C-ED11EE83D67E}"/>
+						<State Id="1938385787" Name="Corridor2" ObjectPath="\States\Default Work Unit\InGame\Corridor2" GUID="{D9D02474-D031-4CD3-BB52-38A59F94599F}"/>
+						<State Id="2786758029" Name="MainDeck" ObjectPath="\States\Default Work Unit\InGame\MainDeck" GUID="{DAD6B814-710F-4D84-A6BF-49B2BB15903A}"/>
+						<State Id="3705378287" Name="Elevator" ObjectPath="\States\Default Work Unit\InGame\Elevator" GUID="{0695D323-3B27-4D91-87E4-CFB70C5AD7C7}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="4091656514" Name="GameState" ObjectPath="\States\Default Work Unit\GameState" GUID="{5AD9C958-00DE-4576-931A-57C9054DF4AA}">
+					<States>
+						<State Id="702482391" Name="Game" ObjectPath="\States\Default Work Unit\GameState\Game" GUID="{22669760-FDD6-4A40-81FA-129627D8552D}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\GameState\None" GUID="{C91F06AE-2BEB-4D57-A663-90D879CE5BCD}"/>
+						<State Id="3092587493" Name="Pause" ObjectPath="\States\Default Work Unit\GameState\Pause" GUID="{53A57DB7-75F7-4DBF-B87F-19D769EC84DB}"/>
+						<State Id="3573931707" Name="Loading" ObjectPath="\States\Default Work Unit\GameState\Loading" GUID="{D4E686B1-CF6E-41E3-862C-C55D4980A1AF}"/>
+						<State Id="3604647259" Name="MainMenu" ObjectPath="\States\Default Work Unit\GameState\MainMenu" GUID="{6002BEA1-5A6C-4A7F-88D9-BBD60DBDBBD8}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<Triggers>
+				<Trigger Id="4117021394" Name="Enter_Game" ObjectPath="\Triggers\Music\Enter_Game" GUID="{CADFA110-7DEC-486D-9E3A-FB51BAF84D6D}"/>
+			</Triggers>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{B66A1F07-6804-EA2E-E1ED-6CCA37307B7E}</FileHash>
+</SoundBanksInfo>

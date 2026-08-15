@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="393239870" Type="User" GUID="{836A5791-17FF-4791-81A0-25D8F58E7A99}" Language="SFX" Hash="{A5FF0F3C-8223-01B4-62C3-EC003A45FE94}">
+			<ObjectPath>\SoundBanks\Soundbanks\SFX</ObjectPath>
+			<ShortName>SFX</ShortName>
+			<Path>SFX.bnk</Path>
+			<Media>
+				<File Id="54077337" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Environment\Sparks\spc_sfx_sparks_var04.wav</ShortName>
+					<CachePath>54/{544A3F29-F5F7-71ED-D6FD-EB22D16A73D8}.wem</CachePath>
+				</File>
+				<File Id="59608555" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps\Footsteps, Human, Metal Ladder, Sneakers SND4062.wav</ShortName>
+					<CachePath>16/{1626CC55-BA5A-9D41-197A-47AE6ED80AC9}.wem</CachePath>
+				</File>
+				<File Id="162699505" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Environment\Elevator\spc_sfx_elevator_door.wav</ShortName>
+					<CachePath>E8/{E894108C-D178-9B0B-EFE1-F995FF525F2B}.wem</CachePath>
+				</File>
+				<File Id="212066122" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps\Footsteps, Human, Metal Ladder, Sneakers SND4062.wav</ShortName>
+					<CachePath>F6/{F6736F78-E016-3419-B817-EA2E6510B607}.wem</CachePath>
+				</File>
+				<File Id="216606426" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps\Footsteps, Human, Metal Ladder, Sneakers SND4062.wav</ShortName>
+					<CachePath>78/{78B57CBD-C488-7CC9-C0A2-A709B0E6B010}.wem</CachePath>
+				</File>
+				<File Id="412105135" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Environment\Elevator\spc_sfx_elevator_stop.wav</ShortName>
+					<CachePath>38/{384E4DB7-7B31-0C3E-1D80-E6CB64FB6DB5}.wem</CachePath>
+				</File>
+				<File Id="498415207" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps\Footsteps, Human, Metal Ladder, Sneakers SND4062.wav</ShortName>
+					<CachePath>F3/{F3595E3F-C6A2-1850-1FAF-394E868A1176}.wem</CachePath>
+				</File>
+				<File Id="523394628" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps\Footsteps, Human, Metal Ladder, Sneakers SND4062.wav</ShortName>
+					<CachePath>02/{02D61E11-4ADB-EC79-6CC6-B6D75FBF98DD}.wem</CachePath>
+				</File>
+				<File Id="549415802" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps\Footsteps, Human, Metal Ladder, Sneakers SND4062.wav</ShortName>
+					<CachePath>4E/{4EF25F6B-F874-51F0-17F7-574E57813CF7}.wem</CachePath>
+				</File>
+				<File Id="570580501" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps\Footsteps, Human, Metal Ladder, Sneakers SND4062.wav</ShortName>
+					<CachePath>36/{36B47A32-6F6A-485C-3063-C00F68762158}.wem</CachePath>
+				</File>
+				<File Id="578388388" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps\Footsteps, Human, Metal Ladder, Sneakers SND4062.wav</ShortName>
+					<CachePath>0D/{0D33FB17-1936-1B6D-D3F7-19031A601F50}.wem</CachePath>
+				</File>
+				<File Id="638280477" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Environment\Spaceship\Steam\Water, Steam, Steam, Long, Constant SND64324.wav</ShortName>
+					<CachePath>A2/{A2242A64-D29F-323A-C74E-A9355C50CBBB}.wem</CachePath>
+				</File>
+				<File Id="662297845" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps\Footsteps, Human, Metal Ladder, Sneakers SND4062.wav</ShortName>
+					<CachePath>64/{64195F9E-73A4-FB7E-0930-AC124F1C6F99}.wem</CachePath>
+				</File>
+				<File Id="841163289" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Environment\Sparks\spc_sfx_sparks_var01.wav</ShortName>
+					<CachePath>D0/{D0DD645F-69AB-65A5-1A86-F6C1B457810E}.wem</CachePath>
+				</File>
+				<File Id="852197693" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Environment\Sparks\spc_sfx_sparks_var02.wav</ShortName>
+					<CachePath>0B/{0B8105A8-602A-F1E0-D49C-2E9BAA2E52D6}.wem</CachePath>
+				</File>
+				<File Id="885820701" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Environment\Sparks\spc_sfx_sparks_var03.wav</ShortName>
+					<CachePath>A1/{A1C45714-715A-761D-92CF-E02969943FEE}.wem</CachePath>
+				</File>
+				<File Id="971699724" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps\Footsteps, Human, Metal Ladder, Sneakers SND4062.wav</ShortName>
+					<CachePath>E5/{E5D10E3C-1278-6BB9-C677-FD9BD83E7A93}.wem</CachePath>
+				</File>
+				<File Id="999192872" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps\Footsteps, Human, Metal Ladder, Sneakers SND4062.wav</ShortName>
+					<CachePath>7F/{7FEBEA05-8037-BE87-1DA5-F7878BB5D25A}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2720011068" Name="enc_Play_elevator_door" ObjectPath="\Events\Environment\enc_Play_elevator_door" GUID="{7FE5DEF4-E39F-44AF-9C33-1BE58164A0F1}" Color="4" MaxAttenuation="40" DurationType="OneShot" DurationMin="6.7800627" DurationMax="6.7800627">
+					<MediaRefs>
+						<MediaRef Id="162699505"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="849258820" Name="EarlyReflections" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\EarlyReflections" GUID="{1ED24EFF-7068-41B0-950A-F7774D2A9E63}" Color="21"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="2077017211" Name="env_Play_elevator_stop" ObjectPath="\Events\Environment\env_Play_elevator_stop" GUID="{63540B98-A70B-4FE6-A79F-9925153EC742}" Color="4" MaxAttenuation="40" DurationType="OneShot" DurationMin="5.350021" DurationMax="5.350021">
+					<MediaRefs>
+						<MediaRef Id="412105135"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="849258820" Name="EarlyReflections" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\EarlyReflections" GUID="{1ED24EFF-7068-41B0-950A-F7774D2A9E63}" Color="21"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="1116795697" Name="env_Play_Spark" ObjectPath="\Events\Environment\env_Play_Spark" GUID="{2DDD3FEA-E1DF-4E81-A738-834BAB0FA24A}" Color="4" MaxAttenuation="40" DurationType="OneShot" DurationMin="0.36979166" DurationMax="0.5970625">
+					<MediaRefs>
+						<MediaRef Id="54077337"/>
+						<MediaRef Id="841163289"/>
+						<MediaRef Id="852197693"/>
+						<MediaRef Id="885820701"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="849258820" Name="EarlyReflections" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\EarlyReflections" GUID="{1ED24EFF-7068-41B0-950A-F7774D2A9E63}" Color="21"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="2371890402" Name="env_Play_Steam" ObjectPath="\Events\Environment\env_Play_Steam" GUID="{7EF501BF-A30C-4AAC-95E8-F12AECF116F1}" Color="4" MaxAttenuation="40" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="638280477"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="849258820" Name="EarlyReflections" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\EarlyReflections" GUID="{1ED24EFF-7068-41B0-950A-F7774D2A9E63}" Color="21"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="3082617436" Name="plr_Play_fs" ObjectPath="\Events\Player\plr_Play_fs" GUID="{4F3F05C8-CDEB-4FE1-9182-2C4199A3D473}" Color="11" DurationType="OneShot" DurationMin="0.4504451" DurationMax="0.78414595">
+					<MediaRefs>
+						<MediaRef Id="59608555"/>
+						<MediaRef Id="212066122"/>
+						<MediaRef Id="216606426"/>
+						<MediaRef Id="498415207"/>
+						<MediaRef Id="523394628"/>
+						<MediaRef Id="549415802"/>
+						<MediaRef Id="570580501"/>
+						<MediaRef Id="578388388"/>
+						<MediaRef Id="662297845"/>
+						<MediaRef Id="971699724"/>
+						<MediaRef Id="999192872"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{952D04EC-CF3A-1483-6F15-4ECAD78CEEC2}</FileHash>
+</SoundBanksInfo>

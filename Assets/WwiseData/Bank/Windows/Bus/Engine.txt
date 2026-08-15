@@ -1,0 +1,6 @@
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	268529915	Engine			\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Engine	
+
+Effect plug-ins	ID	Name	Type				Notes
+	23000714	Metal_Hangar (Custom)	Wwise RoomVerb			
+

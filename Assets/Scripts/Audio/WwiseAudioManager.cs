@@ -31,6 +31,7 @@ public class WwiseAudioManager : MonoBehaviour
             GameObject initGO = new GameObject("AkInitializer (Auto)");
             initGO.AddComponent<AkInitializer>();
             DontDestroyOnLoad(initGO);
+            Debug.Log("new initializer created");
         }
     }
 

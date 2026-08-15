@@ -1,0 +1,59 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	984691642	InGame			\Default Work Unit\InGame	
+	2786758029	MainDeck			\Default Work Unit\MainDeck	
+	4091656514	GameState			\Default Work Unit\GameState	
+
+State	ID	Name	State Group			Notes
+	268529915	Engine	InGame			
+	748895195	None	InGame			
+	1359360137	Room1	InGame			
+	1938385784	Corridor1	InGame			
+	1938385787	Corridor2	InGame			
+	2786758029	MainDeck	InGame			
+	3705378287	Elevator	InGame			
+	748895195	None	MainDeck			
+	1095383085	ControlPanels	MainDeck			
+	2933838247	SmallRoom	MainDeck			
+	702482391	Game	GameState			
+	748895195	None	GameState			
+	3092587493	Pause	GameState			
+	3573931707	Loading	GameState			
+	3604647259	MainMenu	GameState			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	82043516	Ambience3D			\Default Work Unit\Master Audio Bus\SFX\Ambience\Ambience3D	
+	85412153	Ambience			\Default Work Unit\Master Audio Bus\SFX\Ambience	
+	98821071	Ambience2D			\Default Work Unit\Master Audio Bus\SFX\Ambience\Ambience2D	
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	429132440	_utility			\Default Work Unit\Master Audio Bus\_utility	
+	438105790	Outside			\Default Work Unit\Master Audio Bus\SFX\Environment\Outside	
+	1069431850	Player			\Default Work Unit\Master Audio Bus\SFX\Player	
+	1229948536	Environment			\Default Work Unit\Master Audio Bus\SFX\Environment	
+	1359360203	Rooms			\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms	
+	1551306167	UI			\Default Work Unit\Master Audio Bus\UI	
+	3368497452	AUXs			\Default Work Unit\Master Audio Bus\SFX\AUXs	
+	3553349781	Inside			\Default Work Unit\Master Audio Bus\SFX\Environment\Inside	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	268529915	Engine			\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Engine	
+	849258820	EarlyReflections			\Default Work Unit\Master Audio Bus\SFX\AUXs\EarlyReflections	
+	1938385722	Corridors			\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Corridors	
+	1941896084	Room_1			\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Room_1	
+	2786758029	MainDeck			\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\MainDeck	
+	3705378287	Elevator			\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Elevator	
+
+Effect plug-ins	ID	Name	Type				Notes
+	23000714	Metal_Hangar (Custom)	Wwise RoomVerb			
+	361056738	New_iZotope_Hybrid_Reverb	iZotope Hybrid Reverb			
+	395674233	Room_Medium_Tiled (Custom)	Wwise RoomVerb			
+	438002550	Metal_Hangar (Custom)	Wwise RoomVerb			
+	580668364	Aluminium_Tank (Custom)	Wwise RoomVerb			
+	730688266	Wwise_RoomVerb_(Custom)	Wwise RoomVerb			
+	3399505373	Reflect_Physically_Based	Wwise Reflect			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

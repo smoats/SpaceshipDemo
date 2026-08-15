@@ -1,0 +1,170 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "1551306167",
+    "Type": "User",
+    "GUID": "{17E82E3A-267E-4928-818F-9747346AFDCC}",
+    "Language": "SFX",
+    "Hash": "{54104EA9-CD01-76AF-7A1D-581705A56D24}",
+    "ObjectPath": "\\SoundBanks\\Soundbanks\\UI",
+    "ShortName": "UI",
+    "Path": "UI.bnk",
+    "Media": [
+     {
+      "Id": "91826360",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\Glitches\\spc_ui_mainMenu_glitches_long.wav",
+      "CachePath": "7E/{7E55EBA6-AA01-CFF3-AB65-BB03D8DFA00A}.wem"
+     },
+     {
+      "Id": "126209472",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\Glitches\\spc_ui_mainMenu_glitches_long.wav",
+      "CachePath": "9B/{9BDBCA9B-3E51-88D1-96D3-E85C6476FE0B}.wem"
+     },
+     {
+      "Id": "422326891",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\Glitches\\spc_ui_mainMenu_glitches_long.wav",
+      "CachePath": "5B/{5BDAEE8B-034D-2D8D-8936-A9C71D9D9C16}.wem"
+     },
+     {
+      "Id": "453804827",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\Glitches\\spc_ui_mainMenu_glitches_long.wav",
+      "CachePath": "84/{84EE9BFD-E6F5-3E77-201B-09E429E58E01}.wem"
+     },
+     {
+      "Id": "455902364",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\Glitches\\spc_ui_mainMenu_glitches_long.wav",
+      "CachePath": "50/{50DB0246-CCA1-2504-A5AC-E7DD5E083F1D}.wem"
+     },
+     {
+      "Id": "488473147",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\Button\\Select\\spc_ui_select_var01.wav",
+      "CachePath": "9E/{9E4AEC46-52B7-D066-2839-65629D6AC857}.wem"
+     },
+     {
+      "Id": "519787711",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\Glitches\\spc_ui_mainMenu_glitches_long.wav",
+      "CachePath": "C5/{C5D529F7-8525-0499-8789-C7F27FD0C633}.wem"
+     },
+     {
+      "Id": "526982926",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\Glitches\\spc_ui_mainMenu_glitches_long.wav",
+      "CachePath": "EA/{EA04DDBD-6030-3244-924A-D357A6966D0B}.wem"
+     },
+     {
+      "Id": "846129371",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\Glitches\\spc_ui_mainMenu_glitches_long.wav",
+      "CachePath": "87/{87AD1A25-FE7A-C898-D1F9-44C026783989}.wem"
+     },
+     {
+      "Id": "853559225",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\Glitches\\spc_ui_mainMenu_glitches_long.wav",
+      "CachePath": "FE/{FE104BC9-8348-B3E6-6BE4-B6AA5FE50244}.wem"
+     },
+     {
+      "Id": "970332927",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\Glitches\\spc_ui_mainMenu_glitches_long.wav",
+      "CachePath": "1A/{1A4D16CD-D313-7AD6-E824-E1EF9A72AA2D}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2605417374",
+      "Name": "ui_Play_Button_Select",
+      "ObjectPath": "\\Events\\UI\\ui_Play_Button_Select",
+      "GUID": "{9CEC2B42-81D7-4FB1-93FE-6FE3C3553EAE}",
+      "Color": "15",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5845205",
+      "DurationMax": "0.5845205",
+      "MediaRefs": [
+       {
+        "Id": "488473147"
+       }
+      ]
+     },
+     {
+      "Id": "2396159913",
+      "Name": "ui_Play_Glitches_MainMenu",
+      "ObjectPath": "\\Events\\UI\\ui_Play_Glitches_MainMenu",
+      "GUID": "{0A437AC8-E0B2-4B28-BA00-9F1FBF71B232}",
+      "Color": "15",
+      "DurationType": "OneShot",
+      "DurationMin": "0.15904386",
+      "DurationMax": "0.34266636",
+      "MediaRefs": [
+       {
+        "Id": "91826360"
+       },
+       {
+        "Id": "126209472"
+       },
+       {
+        "Id": "422326891"
+       },
+       {
+        "Id": "453804827"
+       },
+       {
+        "Id": "455902364"
+       },
+       {
+        "Id": "519787711"
+       },
+       {
+        "Id": "526982926"
+       },
+       {
+        "Id": "846129371"
+       },
+       {
+        "Id": "853559225"
+       },
+       {
+        "Id": "970332927"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{8632BB7F-AB41-7D2E-A557-D539C0A1A328}"
+ }
+}

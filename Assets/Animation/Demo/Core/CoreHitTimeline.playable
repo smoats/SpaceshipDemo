@@ -209,8 +209,8 @@ MonoBehaviour:
     m_ParentTrack: {fileID: -7894395032639947818}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -268,7 +268,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: VisualEffectControlClip
+    m_DisplayName: ' '
   m_Markers:
     m_Objects: []
   m_VFXVersion: 1

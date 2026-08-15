@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
+	<RootPaths>
+		<ProjectRoot>../../../../../Spaceship_Wwise</ProjectRoot>
+		<SourceFilesRoot>../../../../../Spaceship_Wwise/.cache</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>../../../GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="155015370" Type="User" GUID="{3E00C3E0-C090-461E-83B2-95321957B4D7}" Language="SFX" Hash="{A52E88A3-10D5-122B-A5B0-D3CEC71C214C}">
+			<ObjectPath>\SoundBanks\Soundbanks\TestEvents</ObjectPath>
+			<ShortName>TestEvents</ShortName>
+			<Path>TestEvents.bnk</Path>
+			<Media>
+				<File Id="269277191" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>utility_48k_sine_880Hz_a_10s_-12TP_mono.wav</ShortName>
+					<CachePath>F8/{F82E9239-F62F-947A-2798-B35B8A16A82F}.wem</CachePath>
+				</File>
+				<File Id="431370555" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Test\test_Supersonic - Skrillex_01.wav</ShortName>
+					<CachePath>4B/{4B595E89-1EDD-ECAF-847C-3C224E62FFA6}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4230237515" Name="tst_Play_880Hz_lp" ObjectPath="\Events\TestEvents\tst_Play_880Hz_lp" GUID="{7FCC2BC3-C8D4-49A7-B9BE-7FD0AA6C2D26}" MaxAttenuation="40" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="269277191"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3379435718" Name="tst_Play_880Hz_lp_Stop" ObjectPath="\Events\TestEvents\tst_Play_880Hz_lp_Stop" GUID="{CC394F90-903D-45C7-9727-23F742018301}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2036962697" Name="tst_Play_Supersonic" ObjectPath="\Events\TestEvents\tst_Play_Supersonic" GUID="{D6B715DF-E4E7-4F29-B053-34FC38171C11}" MaxAttenuation="40" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="431370555"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="849258820" Name="EarlyReflections" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\EarlyReflections" GUID="{1ED24EFF-7068-41B0-950A-F7774D2A9E63}" Color="21"/>
+					</AuxBusRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="268529915" Type="Bus" GUID="{FC4B05CE-7993-46E2-9DBC-CBA7CE06179F}" Language="SFX" Hash="{F504B4B0-C8FF-BBDF-1D01-4F1F874B0217}">
+			<ObjectPath>Engine</ObjectPath>
+			<ShortName>Engine</ShortName>
+			<Path>Bus/Engine.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="23000714" Name="Metal_Hangar (Custom)" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Engine\[Effect Slot [0]: (RoomVerb)]\Metal_Hangar (Custom)" GUID="{9F22A1E0-3ED4-43C8-8F15-4382FE456BFF}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</Custom>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="268529915" Name="Engine" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Engine" GUID="{FC4B05CE-7993-46E2-9DBC-CBA7CE06179F}" Color="21">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="23000714"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+		</SoundBank>
+		<SoundBank Id="393239870" Type="User" GUID="{836A5791-17FF-4791-81A0-25D8F58E7A99}" Language="SFX" Hash="{A5FF0F3C-8223-01B4-62C3-EC003A45FE94}">
+			<ObjectPath>\SoundBanks\Soundbanks\SFX</ObjectPath>
+			<ShortName>SFX</ShortName>
+			<Path>SFX.bnk</Path>
+			<Media>
+				<File Id="54077337" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Environment\Sparks\spc_sfx_sparks_var04.wav</ShortName>
+					<CachePath>54/{544A3F29-F5F7-71ED-D6FD-EB22D16A73D8}.wem</CachePath>
+				</File>
+				<File Id="59608555" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps\Footsteps, Human, Metal Ladder, Sneakers SND4062.wav</ShortName>
+					<CachePath>16/{1626CC55-BA5A-9D41-197A-47AE6ED80AC9}.wem</CachePath>
+				</File>
+				<File Id="162699505" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Environment\Elevator\spc_sfx_elevator_door.wav</ShortName>
+					<CachePath>E8/{E894108C-D178-9B0B-EFE1-F995FF525F2B}.wem</CachePath>
+				</File>
+				<File Id="212066122" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps\Footsteps, Human, Metal Ladder, Sneakers SND4062.wav</ShortName>
+					<CachePath>F6/{F6736F78-E016-3419-B817-EA2E6510B607}.wem</CachePath>
+				</File>
+				<File Id="216606426" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps\Footsteps, Human, Metal Ladder, Sneakers SND4062.wav</ShortName>
+					<CachePath>78/{78B57CBD-C488-7CC9-C0A2-A709B0E6B010}.wem</CachePath>
+				</File>
+				<File Id="412105135" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Environment\Elevator\spc_sfx_elevator_stop.wav</ShortName>
+					<CachePath>38/{384E4DB7-7B31-0C3E-1D80-E6CB64FB6DB5}.wem</CachePath>
+				</File>
+				<File Id="498415207" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps\Footsteps, Human, Metal Ladder, Sneakers SND4062.wav</ShortName>
+					<CachePath>F3/{F3595E3F-C6A2-1850-1FAF-394E868A1176}.wem</CachePath>
+				</File>
+				<File Id="523394628" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps\Footsteps, Human, Metal Ladder, Sneakers SND4062.wav</ShortName>
+					<CachePath>02/{02D61E11-4ADB-EC79-6CC6-B6D75FBF98DD}.wem</CachePath>
+				</File>
+				<File Id="549415802" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps\Footsteps, Human, Metal Ladder, Sneakers SND4062.wav</ShortName>
+					<CachePath>4E/{4EF25F6B-F874-51F0-17F7-574E57813CF7}.wem</CachePath>
+				</File>
+				<File Id="570580501" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps\Footsteps, Human, Metal Ladder, Sneakers SND4062.wav</ShortName>
+					<CachePath>36/{36B47A32-6F6A-485C-3063-C00F68762158}.wem</CachePath>
+				</File>
+				<File Id="578388388" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps\Footsteps, Human, Metal Ladder, Sneakers SND4062.wav</ShortName>
+					<CachePath>0D/{0D33FB17-1936-1B6D-D3F7-19031A601F50}.wem</CachePath>
+				</File>
+				<File Id="638280477" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Environment\Spaceship\Steam\Water, Steam, Steam, Long, Constant SND64324.wav</ShortName>
+					<CachePath>A2/{A2242A64-D29F-323A-C74E-A9355C50CBBB}.wem</CachePath>
+				</File>
+				<File Id="662297845" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps\Footsteps, Human, Metal Ladder, Sneakers SND4062.wav</ShortName>
+					<CachePath>64/{64195F9E-73A4-FB7E-0930-AC124F1C6F99}.wem</CachePath>
+				</File>
+				<File Id="841163289" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Environment\Sparks\spc_sfx_sparks_var01.wav</ShortName>
+					<CachePath>D0/{D0DD645F-69AB-65A5-1A86-F6C1B457810E}.wem</CachePath>
+				</File>
+				<File Id="852197693" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Environment\Sparks\spc_sfx_sparks_var02.wav</ShortName>
+					<CachePath>0B/{0B8105A8-602A-F1E0-D49C-2E9BAA2E52D6}.wem</CachePath>
+				</File>
+				<File Id="885820701" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Environment\Sparks\spc_sfx_sparks_var03.wav</ShortName>
+					<CachePath>A1/{A1C45714-715A-761D-92CF-E02969943FEE}.wem</CachePath>
+				</File>
+				<File Id="971699724" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps\Footsteps, Human, Metal Ladder, Sneakers SND4062.wav</ShortName>
+					<CachePath>E5/{E5D10E3C-1278-6BB9-C677-FD9BD83E7A93}.wem</CachePath>
+				</File>
+				<File Id="999192872" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps\Footsteps, Human, Metal Ladder, Sneakers SND4062.wav</ShortName>
+					<CachePath>7F/{7FEBEA05-8037-BE87-1DA5-F7878BB5D25A}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2720011068" Name="enc_Play_elevator_door" ObjectPath="\Events\Environment\enc_Play_elevator_door" GUID="{7FE5DEF4-E39F-44AF-9C33-1BE58164A0F1}" Color="4" MaxAttenuation="40" DurationType="OneShot" DurationMin="6.7800627" DurationMax="6.7800627">
+					<MediaRefs>
+						<MediaRef Id="162699505"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="849258820" Name="EarlyReflections" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\EarlyReflections" GUID="{1ED24EFF-7068-41B0-950A-F7774D2A9E63}" Color="21"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="2077017211" Name="env_Play_elevator_stop" ObjectPath="\Events\Environment\env_Play_elevator_stop" GUID="{63540B98-A70B-4FE6-A79F-9925153EC742}" Color="4" MaxAttenuation="40" DurationType="OneShot" DurationMin="5.350021" DurationMax="5.350021">
+					<MediaRefs>
+						<MediaRef Id="412105135"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="849258820" Name="EarlyReflections" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\EarlyReflections" GUID="{1ED24EFF-7068-41B0-950A-F7774D2A9E63}" Color="21"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="1116795697" Name="env_Play_Spark" ObjectPath="\Events\Environment\env_Play_Spark" GUID="{2DDD3FEA-E1DF-4E81-A738-834BAB0FA24A}" Color="4" MaxAttenuation="40" DurationType="OneShot" DurationMin="0.36979166" DurationMax="0.5970625">
+					<MediaRefs>
+						<MediaRef Id="54077337"/>
+						<MediaRef Id="841163289"/>
+						<MediaRef Id="852197693"/>
+						<MediaRef Id="885820701"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="849258820" Name="EarlyReflections" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\EarlyReflections" GUID="{1ED24EFF-7068-41B0-950A-F7774D2A9E63}" Color="21"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="2371890402" Name="env_Play_Steam" ObjectPath="\Events\Environment\env_Play_Steam" GUID="{7EF501BF-A30C-4AAC-95E8-F12AECF116F1}" Color="4" MaxAttenuation="40" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="638280477"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="849258820" Name="EarlyReflections" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\EarlyReflections" GUID="{1ED24EFF-7068-41B0-950A-F7774D2A9E63}" Color="21"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="3082617436" Name="plr_Play_fs" ObjectPath="\Events\Player\plr_Play_fs" GUID="{4F3F05C8-CDEB-4FE1-9182-2C4199A3D473}" Color="11" DurationType="OneShot" DurationMin="0.4504451" DurationMax="0.78414595">
+					<MediaRefs>
+						<MediaRef Id="59608555"/>
+						<MediaRef Id="212066122"/>
+						<MediaRef Id="216606426"/>
+						<MediaRef Id="498415207"/>
+						<MediaRef Id="523394628"/>
+						<MediaRef Id="549415802"/>
+						<MediaRef Id="570580501"/>
+						<MediaRef Id="578388388"/>
+						<MediaRef Id="662297845"/>
+						<MediaRef Id="971699724"/>
+						<MediaRef Id="999192872"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="849258820" Type="Bus" GUID="{1ED24EFF-7068-41B0-950A-F7774D2A9E63}" Language="SFX" Hash="{9345AE95-E08D-F887-0514-8B7F12026FAB}">
+			<ObjectPath>EarlyReflections</ObjectPath>
+			<ShortName>EarlyReflections</ShortName>
+			<Path>Bus/EarlyReflections.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="3399505373" Name="Reflect_Physically_Based" ObjectPath="\Effects\Factory Reflect Physically-Based\Reflect_Physically_Based" GUID="{C69F5865-C206-4B45-BC40-315F3F39151A}" LibName="Wwise Reflect" LibId="11206659"/>
+				</ShareSets>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="849258820" Name="EarlyReflections" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\EarlyReflections" GUID="{1ED24EFF-7068-41B0-950A-F7774D2A9E63}" Color="21">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3399505373"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+		</SoundBank>
+		<SoundBank Id="1099549313" Type="Event" GUID="{AFDD0470-8F80-46AD-BB5A-B206013D8558}" Language="SFX" Hash="{6A2E944A-8B78-629D-5796-6FD240503C81}">
+			<ObjectPath>tst_Play_880Hz_3D_beep</ObjectPath>
+			<ShortName>tst_Play_880Hz_3D_beep</ShortName>
+			<Path>Event/tst_Play_880Hz_3D_beep.bnk</Path>
+			<Media>
+				<File Id="986699865" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>utility_48k_sine_880Hz_a_10s_-12TP_mono.wav</ShortName>
+					<Path>Media/986699865.wem</Path>
+					<CachePath>13/{13722A85-AC84-08F2-0785-FC7E90AE5F7B}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1099549313" Name="tst_Play_880Hz_3D_beep" ObjectPath="\Events\TestEvents\tst_Play_880Hz_3D_beep" GUID="{AFDD0470-8F80-46AD-BB5A-B206013D8558}" MaxAttenuation="40" DurationType="OneShot" DurationMin="0.6037019" DurationMax="0.6037019">
+					<MediaRefs>
+						<MediaRef Id="986699865"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{120375C4-66ED-D62A-6B3D-7C329A0058A1}">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Media>
+				<File Id="844479567" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>B-39 Black Widow Submarine Engine Room.wav</ShortName>
+					<Path>Media/844479567.wem</Path>
+					<CachePath>0C/{0CB4B591-FDB1-E06A-D87F-28D2DB03D6CB}.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="23000714" Name="Metal_Hangar (Custom)" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Engine\[Effect Slot [0]: (RoomVerb)]\Metal_Hangar (Custom)" GUID="{9F22A1E0-3ED4-43C8-8F15-4382FE456BFF}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="395674233" Name="Room_Medium_Tiled (Custom)" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Room_1\[Effect Slot [0]: (RoomVerb)]\Room_Medium_Tiled (Custom)" GUID="{7A55C4A3-B8DC-4FCF-B866-BC3B7FDBFBB3}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="438002550" Name="Metal_Hangar (Custom)" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Elevator\[Effect Slot [0]: (RoomVerb)]\Metal_Hangar (Custom)" GUID="{C38E2746-37DC-47D9-9732-7CC4D839170C}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="580668364" Name="Aluminium_Tank (Custom)" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Corridors\[Effect Slot [0]: (RoomVerb)]\Aluminium_Tank (Custom)" GUID="{865D6620-A9B9-4AA6-ABE4-DAC48C186D7B}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="730688266" Name="Wwise_RoomVerb_(Custom)" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\MainDeck\[Effect Slot [0]: (RoomVerb)]\Wwise_RoomVerb_(Custom)" GUID="{A31F8306-1453-4012-92A4-AE974D0066E5}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</Custom>
+				<ShareSets>
+					<Plugin Id="361056738" Name="New_iZotope_Hybrid_Reverb" ObjectPath="\Effects\Custom Effects\New_iZotope_Hybrid_Reverb" GUID="{CAA746A6-834D-4263-8927-DBA3B37BF221}" LibName="iZotope Hybrid Reverb" LibId="135219">
+						<MediaRefs>
+							<MediaRef Id="844479567"/>
+						</MediaRefs>
+					</Plugin>
+					<Plugin Id="3399505373" Name="Reflect_Physically_Based" ObjectPath="\Effects\Factory Reflect Physically-Based\Reflect_Physically_Based" GUID="{C69F5865-C206-4B45-BC40-315F3F39151A}" LibName="Wwise Reflect" LibId="11206659"/>
+				</ShareSets>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Devices\Default Work Unit\No_Output" GUID="{F1D968A6-B9D4-4FF7-A009-0D49DABF36D7}" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" ObjectPath="\Devices\Default Work Unit\System" GUID="{B653A5E9-B5BB-48AB-92CF-614D0678B26B}" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="82043516" Name="Ambience3D" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\Ambience\Ambience3D" GUID="{2D9DB95F-701F-40C5-A325-239F4DCF673B}" Color="13"/>
+				<Bus Id="85412153" Name="Ambience" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\Ambience" GUID="{9EC0A8E5-6830-4DB2-B98D-A85E57CE105A}" Color="13"/>
+				<Bus Id="98821071" Name="Ambience2D" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\Ambience\Ambience2D" GUID="{49143703-043B-4C6C-B073-95DD23E63AC3}" Color="13"/>
+				<Bus Id="393239870" Name="SFX" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX" GUID="{2027C65A-CEAF-4B25-AFE1-FCF8588E876B}" Color="8"/>
+				<Bus Id="429132440" Name="_utility" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\_utility" GUID="{3A4C77AE-14A5-41D5-AB51-67FA777CC790}"/>
+				<Bus Id="438105790" Name="Outside" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\Environment\Outside" GUID="{B96A7D5D-74E7-4394-A159-AD0686BE468B}" Color="4"/>
+				<Bus Id="1069431850" Name="Player" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\Player" GUID="{32B16F62-FE34-4FBF-BA74-5131A6374CFF}" Color="11"/>
+				<Bus Id="1229948536" Name="Environment" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\Environment" GUID="{ECB7702E-300C-493D-A8E6-9D5BE98DCAE7}" Color="4"/>
+				<Bus Id="1359360203" Name="Rooms" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms" GUID="{E2E0786C-6D97-48F0-B0F4-8583595B4AC7}" Color="21"/>
+				<Bus Id="1551306167" Name="UI" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\UI" GUID="{3DCD189D-E98D-4EE6-837D-A3F015ECFB03}" Color="15"/>
+				<Bus Id="3368497452" Name="AUXs" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs" GUID="{E629D68C-704D-46A8-BD3A-AF23EF7E9E65}" Color="21"/>
+				<Bus Id="3553349781" Name="Inside" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\Environment\Inside" GUID="{955050CD-ACC3-48ED-8CC8-11D9754EF154}" Color="4"/>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Busses\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Bus Id="3991942870" Name="Music" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Music" GUID="{AFD51C94-BD4C-4638-A356-8372437DC97D}" Color="6"/>
+			</Busses>
+			<AuxBusses>
+				<AuxBus Id="268529915" Name="Engine" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Engine" GUID="{FC4B05CE-7993-46E2-9DBC-CBA7CE06179F}" Color="21">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="23000714"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="849258820" Name="EarlyReflections" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\EarlyReflections" GUID="{1ED24EFF-7068-41B0-950A-F7774D2A9E63}" Color="21">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3399505373"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="1938385722" Name="Corridors" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Corridors" GUID="{AE7BC320-FC8F-406C-AD74-237A920429FD}" Color="21">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="580668364"/>
+						</Custom>
+					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="849258820" Name="EarlyReflections" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\EarlyReflections" GUID="{1ED24EFF-7068-41B0-950A-F7774D2A9E63}" Color="21"/>
+					</AuxBusRefs>
+				</AuxBus>
+				<AuxBus Id="1941896084" Name="Room_1" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Room_1" GUID="{AAABB9A5-EAF0-4E3B-9B0C-AEB2C80ACF63}" Color="21">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="395674233"/>
+						</Custom>
+						<ShareSets>
+							<PluginRef Id="361056738"/>
+						</ShareSets>
+					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="849258820" Name="EarlyReflections" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\EarlyReflections" GUID="{1ED24EFF-7068-41B0-950A-F7774D2A9E63}" Color="21"/>
+					</AuxBusRefs>
+				</AuxBus>
+				<AuxBus Id="2786758029" Name="MainDeck" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\MainDeck" GUID="{B95D4422-E9F1-43DC-A79A-E98295DA9CF4}" Color="21">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="730688266"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="3705378287" Name="Elevator" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Elevator" GUID="{47C113E2-8AAC-4A0A-9DE6-B0DB144722EC}" Color="21">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="438002550"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+			<StateGroups>
+				<StateGroup Id="984691642" Name="InGame" ObjectPath="\States\Default Work Unit\InGame" GUID="{288C5B4D-B42A-43E0-815A-193CE3C95521}">
+					<States>
+						<State Id="268529915" Name="Engine" ObjectPath="\States\Default Work Unit\InGame\Engine" GUID="{D48FFE7D-DC64-4B7D-A0DF-07965191FC74}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\InGame\None" GUID="{202424F4-00CC-4D1B-9F50-58132AAE0FE1}"/>
+						<State Id="1359360137" Name="Room1" ObjectPath="\States\Default Work Unit\InGame\Room1" GUID="{654187F4-4275-4526-8913-E61C70364BA8}"/>
+						<State Id="1938385784" Name="Corridor1" ObjectPath="\States\Default Work Unit\InGame\Corridor1" GUID="{B0BFE2FF-695B-41D6-996C-ED11EE83D67E}"/>
+						<State Id="1938385787" Name="Corridor2" ObjectPath="\States\Default Work Unit\InGame\Corridor2" GUID="{D9D02474-D031-4CD3-BB52-38A59F94599F}"/>
+						<State Id="2786758029" Name="MainDeck" ObjectPath="\States\Default Work Unit\InGame\MainDeck" GUID="{DAD6B814-710F-4D84-A6BF-49B2BB15903A}"/>
+						<State Id="3705378287" Name="Elevator" ObjectPath="\States\Default Work Unit\InGame\Elevator" GUID="{0695D323-3B27-4D91-87E4-CFB70C5AD7C7}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2786758029" Name="MainDeck" ObjectPath="\States\Default Work Unit\MainDeck" GUID="{90A35CB5-FF18-4ED0-B7EE-287D5822C894}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\MainDeck\None" GUID="{D31D7E2D-DF7D-4456-969D-62D5B74D96ED}"/>
+						<State Id="1095383085" Name="ControlPanels" ObjectPath="\States\Default Work Unit\MainDeck\ControlPanels" GUID="{F5047456-01C1-4083-AE74-8F4695C5512C}"/>
+						<State Id="2933838247" Name="SmallRoom" ObjectPath="\States\Default Work Unit\MainDeck\SmallRoom" GUID="{38890BA6-F48C-48AF-879A-2565F09E5C84}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="4091656514" Name="GameState" ObjectPath="\States\Default Work Unit\GameState" GUID="{5AD9C958-00DE-4576-931A-57C9054DF4AA}">
+					<States>
+						<State Id="702482391" Name="Game" ObjectPath="\States\Default Work Unit\GameState\Game" GUID="{22669760-FDD6-4A40-81FA-129627D8552D}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\GameState\None" GUID="{C91F06AE-2BEB-4D57-A663-90D879CE5BCD}"/>
+						<State Id="3092587493" Name="Pause" ObjectPath="\States\Default Work Unit\GameState\Pause" GUID="{53A57DB7-75F7-4DBF-B87F-19D769EC84DB}"/>
+						<State Id="3573931707" Name="Loading" ObjectPath="\States\Default Work Unit\GameState\Loading" GUID="{D4E686B1-CF6E-41E3-862C-C55D4980A1AF}"/>
+						<State Id="3604647259" Name="MainMenu" ObjectPath="\States\Default Work Unit\GameState\MainMenu" GUID="{6002BEA1-5A6C-4A7F-88D9-BBD60DBDBBD8}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<AcousticTextures>
+				<AcousticTexture Id="504532776" Name="Brick" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Brick" GUID="{B086A5A9-F204-4C53-A838-BDB18B18F6D6}" Color="8">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="12"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="18"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="23"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="513139656" Name="Mountain" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Mountain" GUID="{C5933731-001A-4AB4-98DD-9B033A8C8EAB}">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="841620460" Name="Concrete" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Concrete" GUID="{5CF81C00-2896-4AE0-AF7C-3080BDABA682}" Color="27">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="14"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1755085759" Name="Wood_Deep" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Wood_Deep" GUID="{5246478E-C5DA-4E0C-A0DE-C98D1479529A}" Color="9">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="1"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="8"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="20"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1873957695" Name="Anechoic" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Anechoic" GUID="{8B0AC232-02E2-4EDE-BEAC-FDD1A900E3ED}" Color="13">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1970351858" Name="Fabric" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Fabric" GUID="{8381D532-DB6E-4EED-A7A3-BC7B0A0B8BA8}" Color="4">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="3"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="13"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="48"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="72"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2058049674" Name="Wood" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Wood" GUID="{1FFFBC96-6FE7-489E-BA6C-7C14A71391AE}" Color="7">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="32"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="25"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="20"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2412606308" Name="Carpet" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Carpet" GUID="{34227589-DC56-4260-96C4-B9F4B669092B}" Color="17">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="46"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="45"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="76"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2473969246" Name="Metal" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Metal" GUID="{A64E96CC-2CDF-425A-A0B1-D0B6FAB1945F}">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2637588553" Name="Tile" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Tile" GUID="{A882DAC4-132A-47B7-BA9D-B9907BA29CC0}" Color="16">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="67"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="41"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="12"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2928161104" Name="Curtains" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Curtains" GUID="{F8E69E33-5C97-4968-B508-A1535F2D66E8}" Color="3">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="7"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="60"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="84"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="3195498748" Name="Cork_Tiles" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Cork_Tiles" GUID="{30D2C919-925F-4143-8906-3DBB3C4AE5E2}" Color="19">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="14"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="30"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="73"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="3670307564" Name="Drywall" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Drywall" GUID="{68A4E3F4-4C0B-4687-A8B8-A84DB93DBC8F}" Color="15">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="2"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="4168643977" Name="Acoustic_Banner" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Acoustic_Banner" GUID="{2F2D53F2-DACC-408E-8B88-98B1B52A26D6}" Color="10">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="37"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="4262522749" Name="Wood_Bright" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Wood_Bright" GUID="{7B85D1E5-C1A2-4E63-9A13-CEC54B641ADC}" Color="20">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="32"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="25"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="10"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="9"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+			</AcousticTextures>
+		</SoundBank>
+		<SoundBank Id="1551306167" Type="User" GUID="{17E82E3A-267E-4928-818F-9747346AFDCC}" Language="SFX" Hash="{54104EA9-CD01-76AF-7A1D-581705A56D24}">
+			<ObjectPath>\SoundBanks\Soundbanks\UI</ObjectPath>
+			<ShortName>UI</ShortName>
+			<Path>UI.bnk</Path>
+			<Media>
+				<File Id="91826360" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\Glitches\spc_ui_mainMenu_glitches_long.wav</ShortName>
+					<CachePath>7E/{7E55EBA6-AA01-CFF3-AB65-BB03D8DFA00A}.wem</CachePath>
+				</File>
+				<File Id="126209472" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\Glitches\spc_ui_mainMenu_glitches_long.wav</ShortName>
+					<CachePath>9B/{9BDBCA9B-3E51-88D1-96D3-E85C6476FE0B}.wem</CachePath>
+				</File>
+				<File Id="422326891" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\Glitches\spc_ui_mainMenu_glitches_long.wav</ShortName>
+					<CachePath>5B/{5BDAEE8B-034D-2D8D-8936-A9C71D9D9C16}.wem</CachePath>
+				</File>
+				<File Id="453804827" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\Glitches\spc_ui_mainMenu_glitches_long.wav</ShortName>
+					<CachePath>84/{84EE9BFD-E6F5-3E77-201B-09E429E58E01}.wem</CachePath>
+				</File>
+				<File Id="455902364" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\Glitches\spc_ui_mainMenu_glitches_long.wav</ShortName>
+					<CachePath>50/{50DB0246-CCA1-2504-A5AC-E7DD5E083F1D}.wem</CachePath>
+				</File>
+				<File Id="488473147" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\Button\Select\spc_ui_select_var01.wav</ShortName>
+					<CachePath>9E/{9E4AEC46-52B7-D066-2839-65629D6AC857}.wem</CachePath>
+				</File>
+				<File Id="519787711" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\Glitches\spc_ui_mainMenu_glitches_long.wav</ShortName>
+					<CachePath>C5/{C5D529F7-8525-0499-8789-C7F27FD0C633}.wem</CachePath>
+				</File>
+				<File Id="526982926" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\Glitches\spc_ui_mainMenu_glitches_long.wav</ShortName>
+					<CachePath>EA/{EA04DDBD-6030-3244-924A-D357A6966D0B}.wem</CachePath>
+				</File>
+				<File Id="846129371" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\Glitches\spc_ui_mainMenu_glitches_long.wav</ShortName>
+					<CachePath>87/{87AD1A25-FE7A-C898-D1F9-44C026783989}.wem</CachePath>
+				</File>
+				<File Id="853559225" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\Glitches\spc_ui_mainMenu_glitches_long.wav</ShortName>
+					<CachePath>FE/{FE104BC9-8348-B3E6-6BE4-B6AA5FE50244}.wem</CachePath>
+				</File>
+				<File Id="970332927" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\Glitches\spc_ui_mainMenu_glitches_long.wav</ShortName>
+					<CachePath>1A/{1A4D16CD-D313-7AD6-E824-E1EF9A72AA2D}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2605417374" Name="ui_Play_Button_Select" ObjectPath="\Events\UI\ui_Play_Button_Select" GUID="{9CEC2B42-81D7-4FB1-93FE-6FE3C3553EAE}" Color="15" DurationType="OneShot" DurationMin="0.5845205" DurationMax="0.5845205">
+					<MediaRefs>
+						<MediaRef Id="488473147"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2396159913" Name="ui_Play_Glitches_MainMenu" ObjectPath="\Events\UI\ui_Play_Glitches_MainMenu" GUID="{0A437AC8-E0B2-4B28-BA00-9F1FBF71B232}" Color="15" DurationType="OneShot" DurationMin="0.15904386" DurationMax="0.34266636">
+					<MediaRefs>
+						<MediaRef Id="91826360"/>
+						<MediaRef Id="126209472"/>
+						<MediaRef Id="422326891"/>
+						<MediaRef Id="453804827"/>
+						<MediaRef Id="455902364"/>
+						<MediaRef Id="519787711"/>
+						<MediaRef Id="526982926"/>
+						<MediaRef Id="846129371"/>
+						<MediaRef Id="853559225"/>
+						<MediaRef Id="970332927"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1938385722" Type="Bus" GUID="{AE7BC320-FC8F-406C-AD74-237A920429FD}" Language="SFX" Hash="{2EBC2230-96BE-5C82-A9D5-F85DDBB4DA9B}">
+			<ObjectPath>Corridors</ObjectPath>
+			<ShortName>Corridors</ShortName>
+			<Path>Bus/Corridors.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="580668364" Name="Aluminium_Tank (Custom)" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Corridors\[Effect Slot [0]: (RoomVerb)]\Aluminium_Tank (Custom)" GUID="{865D6620-A9B9-4AA6-ABE4-DAC48C186D7B}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</Custom>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="1938385722" Name="Corridors" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Corridors" GUID="{AE7BC320-FC8F-406C-AD74-237A920429FD}" Color="21">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="580668364"/>
+						</Custom>
+					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="849258820" Name="EarlyReflections" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\EarlyReflections" GUID="{1ED24EFF-7068-41B0-950A-F7774D2A9E63}" Color="21"/>
+					</AuxBusRefs>
+				</AuxBus>
+			</AuxBusses>
+		</SoundBank>
+		<SoundBank Id="1941896084" Type="Bus" GUID="{AAABB9A5-EAF0-4E3B-9B0C-AEB2C80ACF63}" Language="SFX" Hash="{B4353F25-F63D-AADA-2F17-7F3DCC90D537}">
+			<ObjectPath>Room_1</ObjectPath>
+			<ShortName>Room_1</ShortName>
+			<Path>Bus/Room_1.bnk</Path>
+			<Media>
+				<File Id="844479567" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>B-39 Black Widow Submarine Engine Room.wav</ShortName>
+					<Path>Media/844479567.wem</Path>
+					<CachePath>0C/{0CB4B591-FDB1-E06A-D87F-28D2DB03D6CB}.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="395674233" Name="Room_Medium_Tiled (Custom)" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Room_1\[Effect Slot [0]: (RoomVerb)]\Room_Medium_Tiled (Custom)" GUID="{7A55C4A3-B8DC-4FCF-B866-BC3B7FDBFBB3}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</Custom>
+				<ShareSets>
+					<Plugin Id="361056738" Name="New_iZotope_Hybrid_Reverb" ObjectPath="\Effects\Custom Effects\New_iZotope_Hybrid_Reverb" GUID="{CAA746A6-834D-4263-8927-DBA3B37BF221}" LibName="iZotope Hybrid Reverb" LibId="135219">
+						<MediaRefs>
+							<MediaRef Id="844479567"/>
+						</MediaRefs>
+					</Plugin>
+				</ShareSets>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="1941896084" Name="Room_1" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Room_1" GUID="{AAABB9A5-EAF0-4E3B-9B0C-AEB2C80ACF63}" Color="21">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="395674233"/>
+						</Custom>
+						<ShareSets>
+							<PluginRef Id="361056738"/>
+						</ShareSets>
+					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="849258820" Name="EarlyReflections" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\EarlyReflections" GUID="{1ED24EFF-7068-41B0-950A-F7774D2A9E63}" Color="21"/>
+					</AuxBusRefs>
+				</AuxBus>
+			</AuxBusses>
+		</SoundBank>
+		<SoundBank Id="2786758029" Type="Bus" GUID="{B95D4422-E9F1-43DC-A79A-E98295DA9CF4}" Language="SFX" Hash="{3C639F37-5344-94D2-4B3E-0A5E108A88FB}">
+			<ObjectPath>MainDeck</ObjectPath>
+			<ShortName>MainDeck</ShortName>
+			<Path>Bus/MainDeck.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="730688266" Name="Wwise_RoomVerb_(Custom)" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\MainDeck\[Effect Slot [0]: (RoomVerb)]\Wwise_RoomVerb_(Custom)" GUID="{A31F8306-1453-4012-92A4-AE974D0066E5}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</Custom>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="2786758029" Name="MainDeck" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\MainDeck" GUID="{B95D4422-E9F1-43DC-A79A-E98295DA9CF4}" Color="21">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="730688266"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+		</SoundBank>
+		<SoundBank Id="3705378287" Type="Bus" GUID="{47C113E2-8AAC-4A0A-9DE6-B0DB144722EC}" Language="SFX" Hash="{1B067493-0C29-95D5-6D36-51FB80F3FB69}">
+			<ObjectPath>Elevator</ObjectPath>
+			<ShortName>Elevator</ShortName>
+			<Path>Bus/Elevator.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="438002550" Name="Metal_Hangar (Custom)" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Elevator\[Effect Slot [0]: (RoomVerb)]\Metal_Hangar (Custom)" GUID="{C38E2746-37DC-47D9-9732-7CC4D839170C}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</Custom>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="3705378287" Name="Elevator" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Elevator" GUID="{47C113E2-8AAC-4A0A-9DE6-B0DB144722EC}" Color="21">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="438002550"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+		</SoundBank>
+		<SoundBank Id="3991942870" Type="User" GUID="{62351333-A9A4-471D-80F6-F4A27C7A2FD4}" Language="SFX" Hash="{1C8F55F9-5E0D-9995-3029-27F944E48B6C}">
+			<ObjectPath>\SoundBanks\Soundbanks\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<Media>
+				<File Id="99267492" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>spc_mus_mainMenu_synthMist_4-4_C2-Bb2_92.wav</ShortName>
+					<CachePath>03/{030D4A35-73D5-6F61-A8D4-664264AE3EDD}.wem</CachePath>
+				</File>
+				<File Id="175004890" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>spc_mus_mainMenu_synthMist_4-4_Dis2-G2_92.wav</ShortName>
+					<CachePath>A5/{A50BC6B1-F1FF-BF46-4CAA-F8E7351688DD}.wem</CachePath>
+				</File>
+				<File Id="226536422" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>spc_mus_mainMenu_strings_4-4_Amin_92.wav</ShortName>
+					<CachePath>04/{0435B848-72CF-6F21-C110-1964E412EB90}.wem</CachePath>
+				</File>
+				<File Id="345883505" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>spc_mus_mainMenu_backPad_4-4_Dm_92_lp.wav</ShortName>
+					<CachePath>1E/{1EDCA583-79E7-AF63-803D-292F30B52DF8}.wem</CachePath>
+				</File>
+				<File Id="672927643" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>spc_mus_mainMenu_synthMist_4-4_E2-G2_92.wav</ShortName>
+					<CachePath>B8/{B8CD2C81-C5D2-ABD0-FCDF-042ACC03619F}.wem</CachePath>
+				</File>
+				<File Id="812432388" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>spc_mus_mainMenu_strings_4-4_F-Bb-E_92.wav</ShortName>
+					<CachePath>18/{182B4746-6BFF-CF13-B2DC-4A7D0EBFE549}.wem</CachePath>
+				</File>
+				<File Id="900973150" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>spc_mus_mainMenu_strings_4-4_Amin11no35_92.wav</ShortName>
+					<CachePath>11/{1198A408-EB81-58C1-4564-9789062BA9FD}.wem</CachePath>
+				</File>
+				<File Id="992080249" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>spc_mus_mainMenu_cosmicBackground.wav</ShortName>
+					<CachePath>6D/{6DBCC841-2EAA-7DD1-4DFE-366812EA29F8}.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="2098638826" Name="Underground_Parking1" ObjectPath="\Effects\Factory Effects\Matrix Reverb\Underground_Parking1" GUID="{8DA66AA3-6CA0-41A0-B7A2-BB6FCABFCDA8}" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+				</ShareSets>
+			</Plugins>
+			<Events>
+				<Event Id="2480461419" Name="mus_Play_Music" ObjectPath="\Events\Music\mus_Play_Music" GUID="{CA3F6233-AD77-4F70-8EE5-C2194B654DBE}" Color="18" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="4091656514" Id="3604647259" GUID="{6002BEA1-5A6C-4A7F-88D9-BBD60DBDBBD8}"/>
+							<MediaRefs>
+								<MediaRef Id="99267492"/>
+								<MediaRef Id="175004890"/>
+								<MediaRef Id="226536422"/>
+								<MediaRef Id="345883505"/>
+								<MediaRef Id="672927643"/>
+								<MediaRef Id="812432388"/>
+								<MediaRef Id="900973150"/>
+								<MediaRef Id="992080249"/>
+							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="2098638826"/>
+								</ShareSets>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="4091656514" Id="702482391" GUID="{22669760-FDD6-4A40-81FA-129627D8552D}"/>
+							<Children/>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1074417302" Name="stg_Trigger_EnterGame_Loading" ObjectPath="\Events\Music\stg_Trigger_EnterGame_Loading" GUID="{3F5656B1-2525-4FB2-B7AE-41DFC4D92C45}" Color="18" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="4091656514" Id="3573931707" Name="Loading" ObjectPath="\States\Default Work Unit\GameState\Loading" GUID="{D4E686B1-CF6E-41E3-862C-C55D4980A1AF}"/>
+					</ActionSetState>
+					<ActionTrigger>
+						<ActionTriggerEntry Id="4117021394" Name="Enter_Game" ObjectPath="\Triggers\Music\Enter_Game" GUID="{CADFA110-7DEC-486D-9E3A-FB51BAF84D6D}"/>
+					</ActionTrigger>
+				</Event>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="984691642" Name="InGame" ObjectPath="\States\Default Work Unit\InGame" GUID="{288C5B4D-B42A-43E0-815A-193CE3C95521}">
+					<States>
+						<State Id="268529915" Name="Engine" ObjectPath="\States\Default Work Unit\InGame\Engine" GUID="{D48FFE7D-DC64-4B7D-A0DF-07965191FC74}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\InGame\None" GUID="{202424F4-00CC-4D1B-9F50-58132AAE0FE1}"/>
+						<State Id="1359360137" Name="Room1" ObjectPath="\States\Default Work Unit\InGame\Room1" GUID="{654187F4-4275-4526-8913-E61C70364BA8}"/>
+						<State Id="1938385784" Name="Corridor1" ObjectPath="\States\Default Work Unit\InGame\Corridor1" GUID="{B0BFE2FF-695B-41D6-996C-ED11EE83D67E}"/>
+						<State Id="1938385787" Name="Corridor2" ObjectPath="\States\Default Work Unit\InGame\Corridor2" GUID="{D9D02474-D031-4CD3-BB52-38A59F94599F}"/>
+						<State Id="2786758029" Name="MainDeck" ObjectPath="\States\Default Work Unit\InGame\MainDeck" GUID="{DAD6B814-710F-4D84-A6BF-49B2BB15903A}"/>
+						<State Id="3705378287" Name="Elevator" ObjectPath="\States\Default Work Unit\InGame\Elevator" GUID="{0695D323-3B27-4D91-87E4-CFB70C5AD7C7}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="4091656514" Name="GameState" ObjectPath="\States\Default Work Unit\GameState" GUID="{5AD9C958-00DE-4576-931A-57C9054DF4AA}">
+					<States>
+						<State Id="702482391" Name="Game" ObjectPath="\States\Default Work Unit\GameState\Game" GUID="{22669760-FDD6-4A40-81FA-129627D8552D}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\GameState\None" GUID="{C91F06AE-2BEB-4D57-A663-90D879CE5BCD}"/>
+						<State Id="3092587493" Name="Pause" ObjectPath="\States\Default Work Unit\GameState\Pause" GUID="{53A57DB7-75F7-4DBF-B87F-19D769EC84DB}"/>
+						<State Id="3573931707" Name="Loading" ObjectPath="\States\Default Work Unit\GameState\Loading" GUID="{D4E686B1-CF6E-41E3-862C-C55D4980A1AF}"/>
+						<State Id="3604647259" Name="MainMenu" ObjectPath="\States\Default Work Unit\GameState\MainMenu" GUID="{6002BEA1-5A6C-4A7F-88D9-BBD60DBDBBD8}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<Triggers>
+				<Trigger Id="4117021394" Name="Enter_Game" ObjectPath="\Triggers\Music\Enter_Game" GUID="{CADFA110-7DEC-486D-9E3A-FB51BAF84D6D}"/>
+			</Triggers>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{B4F212E0-741B-ED24-9568-311135A60062}</FileHash>
+</SoundBanksInfo>

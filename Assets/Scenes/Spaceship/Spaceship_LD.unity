@@ -2711,7 +2711,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_PropertySheet.m_NamedObject.m_Array.Array.data[0].m_Value
       value: 
-      objectReference: {fileID: 1836340064}
+      objectReference: {fileID: 1091903135}
     - target: {fileID: 593440673147150076, guid: 95448add53bea424488f76b5151e9a58,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -2916,7 +2916,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_PropertySheet.m_NamedObject.m_Array.Array.data[0].m_Value
       value: 
-      objectReference: {fileID: 1262359004}
+      objectReference: {fileID: 818206322}
     - target: {fileID: 6441738352531483420, guid: 95448add53bea424488f76b5151e9a58,
         type: 3}
       propertyPath: m_Name
@@ -4277,7 +4277,7 @@ MonoBehaviour:
   m_AreaLightEmissiveMeshShadowCastingMode: 0
   m_AreaLightEmissiveMeshMotionVectorGenerationMode: 0
   m_AreaLightEmissiveMeshLayer: -1
-  m_Version: 9
+  m_Version: 11
   m_ObsoleteShadowResolutionTier: 1
   m_ObsoleteUseShadowQualitySettings: 0
   m_ObsoleteCustomShadowResolution: 512
@@ -4504,6 +4504,74 @@ MonoBehaviour:
   OnEnableEvent:
   - {fileID: 250755070}
   OnDisableEvent: []
+--- !u!1001 &266488052
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1755164140}
+    m_Modifications:
+    - target: {fileID: 3877465959990138052, guid: d66d012bfef125149ad424c1fdacb3ff,
+        type: 3}
+      propertyPath: m_Name
+      value: Wwise_SFX_elevatorStop
+      objectReference: {fileID: 0}
+    - target: {fileID: 6227798898543475850, guid: d66d012bfef125149ad424c1fdacb3ff,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.036627058
+      objectReference: {fileID: 0}
+    - target: {fileID: 6227798898543475850, guid: d66d012bfef125149ad424c1fdacb3ff,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.18432015
+      objectReference: {fileID: 0}
+    - target: {fileID: 6227798898543475850, guid: d66d012bfef125149ad424c1fdacb3ff,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.108208
+      objectReference: {fileID: 0}
+    - target: {fileID: 6227798898543475850, guid: d66d012bfef125149ad424c1fdacb3ff,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6227798898543475850, guid: d66d012bfef125149ad424c1fdacb3ff,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6227798898543475850, guid: d66d012bfef125149ad424c1fdacb3ff,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6227798898543475850, guid: d66d012bfef125149ad424c1fdacb3ff,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6227798898543475850, guid: d66d012bfef125149ad424c1fdacb3ff,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6227798898543475850, guid: d66d012bfef125149ad424c1fdacb3ff,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6227798898543475850, guid: d66d012bfef125149ad424c1fdacb3ff,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d66d012bfef125149ad424c1fdacb3ff, type: 3}
 --- !u!114 &267778930 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6914343066302940132, guid: eae930db8733cb94faece5e5e28a6971,
@@ -4516,54 +4584,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0e98867b2173494983582dfb1a01d0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!28 &279728905
-Texture2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: FallingCable01_PositionMap
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 2
-  m_Width: 4
-  m_Height: 1
-  m_CompleteImageSize: 64
-  m_MipsStripped: 0
-  m_TextureFormat: 20
-  m_MipCount: 1
-  m_IsReadable: 1
-  m_IsPreProcessed: 0
-  m_IgnoreMipmapLimit: 0
-  m_MipmapLimitGroupName: 
-  m_StreamingMipmaps: 0
-  m_StreamingMipmapsPriority: 0
-  m_VTOnly: 0
-  m_AlphaIsTransparency: 0
-  m_ImageCount: 1
-  m_TextureDimension: 2
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 0
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 0
-    m_WrapV: 0
-    m_WrapW: 0
-  m_LightmapFormat: 0
-  m_ColorSpace: 1
-  m_PlatformBlob: 
-  image data: 64
-  _typelessdata: fe32ca4029fd9b40c140c8bf0000803f2a76964029fd9b40e940c8bf0000803fac72454029fd9b401141c8bf0000803f0af2bb3f29fd9b403941c8bf0000803f
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &282378680
 GameObject:
   m_ObjectHideFlags: 0
@@ -5155,6 +5175,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 313f9593d35b2c740928abbd82069aa0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!28 &356661222
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FallingCable01_PositionMap
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 2
+  m_Width: 4
+  m_Height: 1
+  m_CompleteImageSize: 64
+  m_MipsStripped: 0
+  m_TextureFormat: 20
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 0
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 0
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 64
+  _typelessdata: b05e0a40acbd8640ac393b410000803f975e0a40acbd8640ac394b410000803f7e5e0a40acbd8640ac395b410000803f665e0a40acbd8640ac396b410000803f
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &392464339
 GameObject:
   m_ObjectHideFlags: 0
@@ -5564,6 +5632,54 @@ CapsuleCollider:
   m_Height: 1.5
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!28 &417238693
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FallingCable02_PositionMap
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 2
+  m_Width: 4
+  m_Height: 1
+  m_CompleteImageSize: 64
+  m_MipsStripped: 0
+  m_TextureFormat: 20
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 0
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 0
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 64
+  _typelessdata: a1a24ec029fd9b40aa41c8bf0000803ff651cebf29fd9b40403fc8bf0000803f0058a13b29fd9b40d63cc8bf0000803fa694cf3f29fd9b406e3ac8bf0000803f
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1001 &421008118
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6285,7 +6401,7 @@ MonoBehaviour:
   m_AreaLightEmissiveMeshShadowCastingMode: 0
   m_AreaLightEmissiveMeshMotionVectorGenerationMode: 0
   m_AreaLightEmissiveMeshLayer: -1
-  m_Version: 9
+  m_Version: 11
   m_ObsoleteShadowResolutionTier: 1
   m_ObsoleteUseShadowQualitySettings: 0
   m_ObsoleteCustomShadowResolution: 512
@@ -6868,54 +6984,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 458340509}
   m_PrefabAsset: {fileID: 0}
---- !u!28 &458408056
-Texture2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: FallingCable02_PositionMap
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 2
-  m_Width: 4
-  m_Height: 1
-  m_CompleteImageSize: 64
-  m_MipsStripped: 0
-  m_TextureFormat: 20
-  m_MipCount: 1
-  m_IsReadable: 1
-  m_IsPreProcessed: 0
-  m_IgnoreMipmapLimit: 0
-  m_MipmapLimitGroupName: 
-  m_StreamingMipmaps: 0
-  m_StreamingMipmapsPriority: 0
-  m_VTOnly: 0
-  m_AlphaIsTransparency: 0
-  m_ImageCount: 1
-  m_TextureDimension: 2
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 0
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 0
-    m_WrapV: 0
-    m_WrapW: 0
-  m_LightmapFormat: 0
-  m_ColorSpace: 1
-  m_PlatformBlob: 
-  image data: 64
-  _typelessdata: f21864bfe67193401a4bd9c00000803fc21564bfe67193401a4bf9c00000803f961264bfe67193408da50cc10000803f680f64bfe67193408da51cc10000803f
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &465552587
 GameObject:
   m_ObjectHideFlags: 0
@@ -7128,6 +7196,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0aced9b4eba4d7645a05712c9ac166a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!28 &478733612
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FallingCable02_PositionMap
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 2
+  m_Width: 4
+  m_Height: 1
+  m_CompleteImageSize: 64
+  m_MipsStripped: 0
+  m_TextureFormat: 20
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 0
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 0
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 64
+  _typelessdata: 1d5e0a40acbd864048da8c410000803fe95e0a40acbd864048da84410000803fb45f0a40acbd864090b479410000803f80600a40acbd864090b469410000803f
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &493632545
 GameObject:
   m_ObjectHideFlags: 0
@@ -7804,54 +7920,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 68.26501, z: 0}
---- !u!28 &551129663
-Texture2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: FallingCable01_PositionMap
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 2
-  m_Width: 4
-  m_Height: 1
-  m_CompleteImageSize: 64
-  m_MipsStripped: 0
-  m_TextureFormat: 20
-  m_MipCount: 1
-  m_IsReadable: 1
-  m_IsPreProcessed: 0
-  m_IgnoreMipmapLimit: 0
-  m_MipmapLimitGroupName: 
-  m_StreamingMipmaps: 0
-  m_StreamingMipmapsPriority: 0
-  m_VTOnly: 0
-  m_AlphaIsTransparency: 0
-  m_ImageCount: 1
-  m_TextureDimension: 2
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 0
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 0
-    m_WrapV: 0
-    m_WrapW: 0
-  m_LightmapFormat: 0
-  m_ColorSpace: 1
-  m_PlatformBlob: 
-  image data: 64
-  _typelessdata: a81664bfe671934071204bc10000803f0a1764bfe671934071203bc10000803f6e1764bfe671934071202bc10000803fd01764bfe671934071201bc10000803f
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &551920148
 GameObject:
   m_ObjectHideFlags: 0
@@ -8230,54 +8298,80 @@ MonoBehaviour:
   - {fileID: 20369623}
   - {fileID: 1739751818}
   - {fileID: 424790854}
---- !u!28 &566688713
-Texture2D:
+--- !u!1001 &569190927
+PrefabInstance:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: FallingCable02_PositionMap
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
   serializedVersion: 2
-  m_Width: 4
-  m_Height: 1
-  m_CompleteImageSize: 64
-  m_MipsStripped: 0
-  m_TextureFormat: 20
-  m_MipCount: 1
-  m_IsReadable: 1
-  m_IsPreProcessed: 0
-  m_IgnoreMipmapLimit: 0
-  m_MipmapLimitGroupName: 
-  m_StreamingMipmaps: 0
-  m_StreamingMipmapsPriority: 0
-  m_VTOnly: 0
-  m_AlphaIsTransparency: 0
-  m_ImageCount: 1
-  m_TextureDimension: 2
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 0
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 0
-    m_WrapV: 0
-    m_WrapW: 0
-  m_LightmapFormat: 0
-  m_ColorSpace: 1
-  m_PlatformBlob: 
-  image data: 64
-  _typelessdata: 1d5e0a40acbd864048da8c410000803fe95e0a40acbd864048da84410000803fb45f0a40acbd864090b479410000803f80600a40acbd864090b469410000803f
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1959744592424832193, guid: e065f0f214f550c49ba92797f0ccd437,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.8412795
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959744592424832193, guid: e065f0f214f550c49ba92797f0ccd437,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.1097283
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959744592424832193, guid: e065f0f214f550c49ba92797f0ccd437,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.386787
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959744592424832193, guid: e065f0f214f550c49ba92797f0ccd437,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959744592424832193, guid: e065f0f214f550c49ba92797f0ccd437,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959744592424832193, guid: e065f0f214f550c49ba92797f0ccd437,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959744592424832193, guid: e065f0f214f550c49ba92797f0ccd437,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959744592424832193, guid: e065f0f214f550c49ba92797f0ccd437,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959744592424832193, guid: e065f0f214f550c49ba92797f0ccd437,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959744592424832193, guid: e065f0f214f550c49ba92797f0ccd437,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7397243542587146620, guid: e065f0f214f550c49ba92797f0ccd437,
+        type: 3}
+      propertyPath: m_Name
+      value: Wwise_AudioManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 7397243542587146620, guid: e065f0f214f550c49ba92797f0ccd437,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6204725166573927351, guid: e065f0f214f550c49ba92797f0ccd437, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e065f0f214f550c49ba92797f0ccd437, type: 3}
 --- !u!4 &571105261 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6243552069747647117, guid: 9727efa378ed284408000117cdec8721,
@@ -8425,6 +8519,54 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!28 &588597977
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FallingCable01_PositionMap
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 2
+  m_Width: 4
+  m_Height: 1
+  m_CompleteImageSize: 64
+  m_MipsStripped: 0
+  m_TextureFormat: 20
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 0
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 0
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 64
+  _typelessdata: 3ab28d412f7e8d4078b695400000803fd34b87412f7e8d4073b695400000803f6de580412f7e8d406eb695400000803f0cfe74412f7e8d4069b695400000803f
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &593816500
 GameObject:
   m_ObjectHideFlags: 0
@@ -8959,7 +9101,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_PropertySheet.m_NamedObject.m_Array.Array.data[0].m_Value
       value: 
-      objectReference: {fileID: 566688713}
+      objectReference: {fileID: 478733612}
     - target: {fileID: 593440673147150076, guid: 95448add53bea424488f76b5151e9a58,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9134,7 +9276,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_PropertySheet.m_NamedObject.m_Array.Array.data[0].m_Value
       value: 
-      objectReference: {fileID: 1425172181}
+      objectReference: {fileID: 356661222}
     - target: {fileID: 6441738352531483420, guid: 95448add53bea424488f76b5151e9a58,
         type: 3}
       propertyPath: m_Name
@@ -10011,6 +10153,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 313f9593d35b2c740928abbd82069aa0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!28 &715333240
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FallingCable01_PositionMap
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 2
+  m_Width: 4
+  m_Height: 1
+  m_CompleteImageSize: 64
+  m_MipsStripped: 0
+  m_TextureFormat: 20
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 0
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 0
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 64
+  _typelessdata: fe32ca4029fd9b40c140c8bf0000803f2a76964029fd9b40e940c8bf0000803fac72454029fd9b401141c8bf0000803f0af2bb3f29fd9b403941c8bf0000803f
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &740406987
 GameObject:
   m_ObjectHideFlags: 0
@@ -10249,6 +10439,107 @@ VFXRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!1001 &767179188
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1755164140}
+    m_Modifications:
+    - target: {fileID: 1583339751779960092, guid: d66d012bfef125149ad424c1fdacb3ff,
+        type: 3}
+      propertyPath: soundEmitterObject
+      value: 
+      objectReference: {fileID: 767179190}
+    - target: {fileID: 1583339751779960092, guid: d66d012bfef125149ad424c1fdacb3ff,
+        type: 3}
+      propertyPath: triggerList.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1583339751779960092, guid: d66d012bfef125149ad424c1fdacb3ff,
+        type: 3}
+      propertyPath: data.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 35f8da9c5616a5546abbd6baacf93d9d,
+        type: 2}
+    - target: {fileID: 1583339751779960092, guid: d66d012bfef125149ad424c1fdacb3ff,
+        type: 3}
+      propertyPath: triggerList.Array.data[0]
+      value: -320808462
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877465959990138052, guid: d66d012bfef125149ad424c1fdacb3ff,
+        type: 3}
+      propertyPath: m_Name
+      value: Wwise_SFX_doorOpening
+      objectReference: {fileID: 0}
+    - target: {fileID: 6227798898543475850, guid: d66d012bfef125149ad424c1fdacb3ff,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 6227798898543475850, guid: d66d012bfef125149ad424c1fdacb3ff,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.465
+      objectReference: {fileID: 0}
+    - target: {fileID: 6227798898543475850, guid: d66d012bfef125149ad424c1fdacb3ff,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.697
+      objectReference: {fileID: 0}
+    - target: {fileID: 6227798898543475850, guid: d66d012bfef125149ad424c1fdacb3ff,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6227798898543475850, guid: d66d012bfef125149ad424c1fdacb3ff,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6227798898543475850, guid: d66d012bfef125149ad424c1fdacb3ff,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6227798898543475850, guid: d66d012bfef125149ad424c1fdacb3ff,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6227798898543475850, guid: d66d012bfef125149ad424c1fdacb3ff,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6227798898543475850, guid: d66d012bfef125149ad424c1fdacb3ff,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6227798898543475850, guid: d66d012bfef125149ad424c1fdacb3ff,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d66d012bfef125149ad424c1fdacb3ff, type: 3}
+--- !u!4 &767179189 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6227798898543475850, guid: d66d012bfef125149ad424c1fdacb3ff,
+    type: 3}
+  m_PrefabInstance: {fileID: 767179188}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &767179190 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3877465959990138052, guid: d66d012bfef125149ad424c1fdacb3ff,
+    type: 3}
+  m_PrefabInstance: {fileID: 767179188}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &770664555
 GameObject:
   m_ObjectHideFlags: 0
@@ -10548,6 +10839,54 @@ MonoBehaviour:
   MessageName: ALERT
   OnMessageRecieved:
   - {fileID: 806561329}
+--- !u!28 &818206322
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FallingCable01_PositionMap
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 2
+  m_Width: 4
+  m_Height: 1
+  m_CompleteImageSize: 64
+  m_MipsStripped: 0
+  m_TextureFormat: 20
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 0
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 0
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 64
+  _typelessdata: 38642bc113c5694060e7783f0000803f3e642bc113c56940b073fc3f0000803f45642bc113c56940d9393e400000803f4b642bc113c56940da397e400000803f
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &822858245
 GameObject:
   m_ObjectHideFlags: 0
@@ -10595,6 +10934,54 @@ MonoBehaviour:
   MessageName: CORE_17
   OnMessageRecieved:
   - {fileID: 1156181338}
+--- !u!28 &827401574
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FallingCable02_PositionMap
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 2
+  m_Width: 4
+  m_Height: 1
+  m_CompleteImageSize: 64
+  m_MipsStripped: 0
+  m_TextureFormat: 20
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 0
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 0
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 64
+  _typelessdata: c62d41c129fd9b40b74909410000803f5d4f27c129fd9b40044a09410000803ff3700dc129fd9b40514a09410000803f1325e7c029fd9b409e4a09410000803f
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1001 &831396328
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11445,6 +11832,54 @@ MonoBehaviour:
   Name: Play Security Timeline
   director: {fileID: 1872206187}
   mode: 0
+--- !u!28 &900258221
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FallingCable01_PositionMap
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 2
+  m_Width: 4
+  m_Height: 1
+  m_CompleteImageSize: 64
+  m_MipsStripped: 0
+  m_TextureFormat: 20
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 0
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 0
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 64
+  _typelessdata: 7eae21c029fd9b40d44909410000803f139484c029fd9b40cf4909410000803fe650b8c029fd9b40ca4909410000803fba0decc029fd9b40c54909410000803f
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &903704807
 GameObject:
   m_ObjectHideFlags: 0
@@ -11595,54 +12030,6 @@ MonoBehaviour:
   InitialTime: 0
   UnscaledGameTime: 1
   wrapMode: 0
---- !u!28 &911682910
-Texture2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: FallingCable02_PositionMap
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 2
-  m_Width: 4
-  m_Height: 1
-  m_CompleteImageSize: 64
-  m_MipsStripped: 0
-  m_TextureFormat: 20
-  m_MipCount: 1
-  m_IsReadable: 1
-  m_IsPreProcessed: 0
-  m_IgnoreMipmapLimit: 0
-  m_MipmapLimitGroupName: 
-  m_StreamingMipmaps: 0
-  m_StreamingMipmapsPriority: 0
-  m_VTOnly: 0
-  m_AlphaIsTransparency: 0
-  m_ImageCount: 1
-  m_TextureDimension: 2
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 0
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 0
-    m_WrapV: 0
-    m_WrapW: 0
-  m_LightmapFormat: 0
-  m_ColorSpace: 1
-  m_PlatformBlob: 
-  image data: 64
-  _typelessdata: c62d41c129fd9b40b74909410000803f5d4f27c129fd9b40044a09410000803ff3700dc129fd9b40514a09410000803f1325e7c029fd9b409e4a09410000803f
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &919076955
 GameObject:
   m_ObjectHideFlags: 0
@@ -12359,54 +12746,6 @@ MonoBehaviour:
   MessageName: HIT_STRONG
   OnMessageRecieved:
   - {fileID: 1021664367}
---- !u!28 &1029372179
-Texture2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: FallingCable02_PositionMap
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 2
-  m_Width: 4
-  m_Height: 1
-  m_CompleteImageSize: 64
-  m_MipsStripped: 0
-  m_TextureFormat: 20
-  m_MipCount: 1
-  m_IsReadable: 1
-  m_IsPreProcessed: 0
-  m_IgnoreMipmapLimit: 0
-  m_MipmapLimitGroupName: 
-  m_StreamingMipmaps: 0
-  m_StreamingMipmapsPriority: 0
-  m_VTOnly: 0
-  m_AlphaIsTransparency: 0
-  m_ImageCount: 1
-  m_TextureDimension: 2
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 0
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 0
-    m_WrapV: 0
-    m_WrapW: 0
-  m_LightmapFormat: 0
-  m_ColorSpace: 1
-  m_PlatformBlob: 
-  image data: 64
-  _typelessdata: 0bd34b412f7e8d403db695400000803fd89f58412f7e8d408ab695400000803fa46c65412f7e8d40d6b695400000803f713972412f7e8d4022b795400000803f
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &1038783468
 GameObject:
   m_ObjectHideFlags: 0
@@ -13049,54 +13388,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!28 &1074178284
-Texture2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: FallingCable01_PositionMap
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 2
-  m_Width: 4
-  m_Height: 1
-  m_CompleteImageSize: 64
-  m_MipsStripped: 0
-  m_TextureFormat: 20
-  m_MipCount: 1
-  m_IsReadable: 1
-  m_IsPreProcessed: 0
-  m_IgnoreMipmapLimit: 0
-  m_MipmapLimitGroupName: 
-  m_StreamingMipmaps: 0
-  m_StreamingMipmapsPriority: 0
-  m_VTOnly: 0
-  m_AlphaIsTransparency: 0
-  m_ImageCount: 1
-  m_TextureDimension: 2
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 0
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 0
-    m_WrapV: 0
-    m_WrapW: 0
-  m_LightmapFormat: 0
-  m_ColorSpace: 1
-  m_PlatformBlob: 
-  image data: 64
-  _typelessdata: 3ab28d412f7e8d4078b695400000803fd34b87412f7e8d4073b695400000803f6de580412f7e8d406eb695400000803f0cfe74412f7e8d4069b695400000803f
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &1079244536
 GameObject:
   m_ObjectHideFlags: 0
@@ -13360,6 +13651,54 @@ MonoBehaviour:
   OnEnableEvent:
   - {fileID: 1091661645}
   OnDisableEvent: []
+--- !u!28 &1091903135
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FallingCable02_PositionMap
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 2
+  m_Width: 4
+  m_Height: 1
+  m_CompleteImageSize: 64
+  m_MipsStripped: 0
+  m_TextureFormat: 20
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 0
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 0
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 64
+  _typelessdata: 51642bc113c56940e0b90d410000803f0d642bc113c5694028b8f0400000803fc9632bc113c5694090fcc5400000803f85632bc113c56940f8409b400000803f
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &1103111085
 GameObject:
   m_ObjectHideFlags: 0
@@ -14650,8 +14989,6 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: 2151746062346604220, guid: aff85b061b792dd459c7852dc150feae, type: 2}
     value: {fileID: 1215627720}
-  - key: {fileID: -6110617250700196974, guid: aff85b061b792dd459c7852dc150feae, type: 2}
-    value: {fileID: 0}
   - key: {fileID: 5736902135877698706, guid: aff85b061b792dd459c7852dc150feae, type: 2}
     value: {fileID: 1639814694}
   - key: {fileID: -6754089470996761856, guid: aff85b061b792dd459c7852dc150feae, type: 2}
@@ -14662,16 +14999,14 @@ PlayableDirector:
     value: {fileID: 1552487551}
   - key: {fileID: -4627235040378297463, guid: aff85b061b792dd459c7852dc150feae, type: 2}
     value: {fileID: 1825810745}
-  - key: {fileID: -8639545661260266961, guid: aff85b061b792dd459c7852dc150feae, type: 2}
-    value: {fileID: 0}
   - key: {fileID: -3896936338605152179, guid: aff85b061b792dd459c7852dc150feae, type: 2}
     value: {fileID: 1581924385}
   - key: {fileID: -135642060238374094, guid: aff85b061b792dd459c7852dc150feae, type: 2}
     value: {fileID: 2032174793096019074}
   - key: {fileID: 7177840517387345255, guid: aff85b061b792dd459c7852dc150feae, type: 2}
     value: {fileID: 571816289}
-  - key: {fileID: -43613969188739844, guid: aff85b061b792dd459c7852dc150feae, type: 2}
-    value: {fileID: 0}
+  - key: {fileID: -9062620900167079853, guid: aff85b061b792dd459c7852dc150feae, type: 2}
+    value: {fileID: 767179190}
   m_ExposedReferences:
     m_References:
     - fe5d576be0aacc640861321703294417: {fileID: 2032174793096019074}
@@ -15507,54 +15842,6 @@ MonoBehaviour:
     Actions:
     - Description: 'Next State : Landing Site'
       Target: {fileID: 1846261233}
---- !u!28 &1262359004
-Texture2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: FallingCable01_PositionMap
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 2
-  m_Width: 4
-  m_Height: 1
-  m_CompleteImageSize: 64
-  m_MipsStripped: 0
-  m_TextureFormat: 20
-  m_MipCount: 1
-  m_IsReadable: 1
-  m_IsPreProcessed: 0
-  m_IgnoreMipmapLimit: 0
-  m_MipmapLimitGroupName: 
-  m_StreamingMipmaps: 0
-  m_StreamingMipmapsPriority: 0
-  m_VTOnly: 0
-  m_AlphaIsTransparency: 0
-  m_ImageCount: 1
-  m_TextureDimension: 2
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 0
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 0
-    m_WrapV: 0
-    m_WrapW: 0
-  m_LightmapFormat: 0
-  m_ColorSpace: 1
-  m_PlatformBlob: 
-  image data: 64
-  _typelessdata: 38642bc113c5694060e7783f0000803f3e642bc113c56940b073fc3f0000803f45642bc113c56940d9393e400000803f4b642bc113c56940da397e400000803f
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &1265764030
 GameObject:
   m_ObjectHideFlags: 0
@@ -16480,6 +16767,60 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1301148845}
   m_PrefabAsset: {fileID: 0}
+--- !u!28 &1317817747
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FallingCable02_PositionMap
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 2
+  m_Width: 4
+  m_Height: 1
+  m_CompleteImageSize: 64
+  m_MipsStripped: 0
+  m_TextureFormat: 20
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 0
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 0
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 64
+  _typelessdata: 0bd34b412f7e8d403db695400000803fd89f58412f7e8d408ab695400000803fa46c65412f7e8d40d6b695400000803f713972412f7e8d4022b795400000803f
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+--- !u!4 &1317817748 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6227798898543475850, guid: d66d012bfef125149ad424c1fdacb3ff,
+    type: 3}
+  m_PrefabInstance: {fileID: 266488052}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1345235666 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8835803652683809972, guid: eae930db8733cb94faece5e5e28a6971,
@@ -17310,7 +17651,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_PropertySheet.m_NamedObject.m_Array.Array.data[0].m_Value
       value: 
-      objectReference: {fileID: 1029372179}
+      objectReference: {fileID: 1317817747}
     - target: {fileID: 593440673147150076, guid: 95448add53bea424488f76b5151e9a58,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -17520,7 +17861,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_PropertySheet.m_NamedObject.m_Array.Array.data[0].m_Value
       value: 
-      objectReference: {fileID: 1074178284}
+      objectReference: {fileID: 588597977}
     - target: {fileID: 6441738352531483420, guid: 95448add53bea424488f76b5151e9a58,
         type: 3}
       propertyPath: m_Name
@@ -17764,7 +18105,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_PropertySheet.m_NamedObject.m_Array.Array.data[0].m_Value
       value: 
-      objectReference: {fileID: 911682910}
+      objectReference: {fileID: 827401574}
     - target: {fileID: 593440673147150076, guid: 95448add53bea424488f76b5151e9a58,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -17974,7 +18315,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_PropertySheet.m_NamedObject.m_Array.Array.data[0].m_Value
       value: 
-      objectReference: {fileID: 1909727631}
+      objectReference: {fileID: 900258221}
     - target: {fileID: 6441738352531483420, guid: 95448add53bea424488f76b5151e9a58,
         type: 3}
       propertyPath: m_Name
@@ -18162,54 +18503,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 250755069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!28 &1425172181
-Texture2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: FallingCable01_PositionMap
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 2
-  m_Width: 4
-  m_Height: 1
-  m_CompleteImageSize: 64
-  m_MipsStripped: 0
-  m_TextureFormat: 20
-  m_MipCount: 1
-  m_IsReadable: 1
-  m_IsPreProcessed: 0
-  m_IgnoreMipmapLimit: 0
-  m_MipmapLimitGroupName: 
-  m_StreamingMipmaps: 0
-  m_StreamingMipmapsPriority: 0
-  m_VTOnly: 0
-  m_AlphaIsTransparency: 0
-  m_ImageCount: 1
-  m_TextureDimension: 2
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 0
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 0
-    m_WrapV: 0
-    m_WrapW: 0
-  m_LightmapFormat: 0
-  m_ColorSpace: 1
-  m_PlatformBlob: 
-  image data: 64
-  _typelessdata: b05e0a40acbd8640ac393b410000803f975e0a40acbd8640ac394b410000803f7e5e0a40acbd8640ac395b410000803f665e0a40acbd8640ac396b410000803f
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1001 &1442774436
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21783,7 +22076,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_PropertySheet.m_NamedObject.m_Array.Array.data[0].m_Value
       value: 
-      objectReference: {fileID: 458408056}
+      objectReference: {fileID: 2085237303}
     - target: {fileID: 593440673147150076, guid: 95448add53bea424488f76b5151e9a58,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21958,7 +22251,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_PropertySheet.m_NamedObject.m_Array.Array.data[0].m_Value
       value: 
-      objectReference: {fileID: 551129663}
+      objectReference: {fileID: 1781210250}
     - target: {fileID: 6441738352531483420, guid: 95448add53bea424488f76b5151e9a58,
         type: 3}
       propertyPath: m_Name
@@ -22388,6 +22681,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 767179189}
+  - {fileID: 1317817748}
   - {fileID: 1215627719}
   - {fileID: 9095805595553390166}
   - {fileID: 67536077}
@@ -22664,6 +22959,54 @@ Transform:
   - {fileID: 1603282044}
   m_Father: {fileID: 1606319726}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!28 &1781210250
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FallingCable01_PositionMap
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 2
+  m_Width: 4
+  m_Height: 1
+  m_CompleteImageSize: 64
+  m_MipsStripped: 0
+  m_TextureFormat: 20
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 0
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 0
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 64
+  _typelessdata: a81664bfe671934071204bc10000803f0a1764bfe671934071203bc10000803f6e1764bfe671934071202bc10000803fd01764bfe671934071201bc10000803f
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &1783807459
 GameObject:
   m_ObjectHideFlags: 0
@@ -23134,54 +23477,6 @@ Transform:
   - {fileID: 442930286}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!28 &1836340064
-Texture2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: FallingCable02_PositionMap
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 2
-  m_Width: 4
-  m_Height: 1
-  m_CompleteImageSize: 64
-  m_MipsStripped: 0
-  m_TextureFormat: 20
-  m_MipCount: 1
-  m_IsReadable: 1
-  m_IsPreProcessed: 0
-  m_IgnoreMipmapLimit: 0
-  m_MipmapLimitGroupName: 
-  m_StreamingMipmaps: 0
-  m_StreamingMipmapsPriority: 0
-  m_VTOnly: 0
-  m_AlphaIsTransparency: 0
-  m_ImageCount: 1
-  m_TextureDimension: 2
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 0
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 0
-    m_WrapV: 0
-    m_WrapW: 0
-  m_LightmapFormat: 0
-  m_ColorSpace: 1
-  m_PlatformBlob: 
-  image data: 64
-  _typelessdata: 51642bc113c56940e0b90d410000803f0d642bc113c5694028b8f0400000803fc9632bc113c5694090fcc5400000803f85632bc113c56940f8409b400000803f
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &1840947100
 GameObject:
   m_ObjectHideFlags: 0
@@ -24075,54 +24370,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 883443860}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!28 &1909727631
-Texture2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: FallingCable01_PositionMap
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 2
-  m_Width: 4
-  m_Height: 1
-  m_CompleteImageSize: 64
-  m_MipsStripped: 0
-  m_TextureFormat: 20
-  m_MipCount: 1
-  m_IsReadable: 1
-  m_IsPreProcessed: 0
-  m_IgnoreMipmapLimit: 0
-  m_MipmapLimitGroupName: 
-  m_StreamingMipmaps: 0
-  m_StreamingMipmapsPriority: 0
-  m_VTOnly: 0
-  m_AlphaIsTransparency: 0
-  m_ImageCount: 1
-  m_TextureDimension: 2
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 0
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 0
-    m_WrapV: 0
-    m_WrapW: 0
-  m_LightmapFormat: 0
-  m_ColorSpace: 1
-  m_PlatformBlob: 
-  image data: 64
-  _typelessdata: 7eae21c029fd9b40d44909410000803f139484c029fd9b40cf4909410000803fe650b8c029fd9b40ca4909410000803fba0decc029fd9b40c54909410000803f
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!4 &1910510401 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8727324851264915209, guid: ae53000b7c0f4a640be47de838f7f3db,
@@ -25158,7 +25405,7 @@ MonoBehaviour:
   m_AreaLightEmissiveMeshShadowCastingMode: 0
   m_AreaLightEmissiveMeshMotionVectorGenerationMode: 0
   m_AreaLightEmissiveMeshLayer: -1
-  m_Version: 9
+  m_Version: 11
   m_ObsoleteShadowResolutionTier: 1
   m_ObsoleteUseShadowQualitySettings: 0
   m_ObsoleteCustomShadowResolution: 512
@@ -25228,6 +25475,54 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!28 &2085237303
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FallingCable02_PositionMap
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 2
+  m_Width: 4
+  m_Height: 1
+  m_CompleteImageSize: 64
+  m_MipsStripped: 0
+  m_TextureFormat: 20
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 0
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 0
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 64
+  _typelessdata: f21864bfe67193401a4bd9c00000803fc21564bfe67193401a4bf9c00000803f961264bfe67193408da50cc10000803f680f64bfe67193408da51cc10000803f
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &2085938645
 GameObject:
   m_ObjectHideFlags: 0
@@ -25291,54 +25586,6 @@ MonoBehaviour:
   MessageName: HIT_STRONG
   OnMessageRecieved:
   - {fileID: 2085938647}
---- !u!28 &2089320141
-Texture2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: FallingCable02_PositionMap
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 2
-  m_Width: 4
-  m_Height: 1
-  m_CompleteImageSize: 64
-  m_MipsStripped: 0
-  m_TextureFormat: 20
-  m_MipCount: 1
-  m_IsReadable: 1
-  m_IsPreProcessed: 0
-  m_IgnoreMipmapLimit: 0
-  m_MipmapLimitGroupName: 
-  m_StreamingMipmaps: 0
-  m_StreamingMipmapsPriority: 0
-  m_VTOnly: 0
-  m_AlphaIsTransparency: 0
-  m_ImageCount: 1
-  m_TextureDimension: 2
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 0
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 0
-    m_WrapV: 0
-    m_WrapW: 0
-  m_LightmapFormat: 0
-  m_ColorSpace: 1
-  m_PlatformBlob: 
-  image data: 64
-  _typelessdata: a1a24ec029fd9b40aa41c8bf0000803ff651cebf29fd9b40403fc8bf0000803f0058a13b29fd9b40d63cc8bf0000803fa694cf3f29fd9b406e3ac8bf0000803f
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &2113357907
 GameObject:
   m_ObjectHideFlags: 0
@@ -25841,6 +26088,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 885013419228036671, guid: c4aad5b023b2f664ba40df6c346c10ff,
         type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 885013419228036671, guid: c4aad5b023b2f664ba40df6c346c10ff,
+        type: 3}
       propertyPath: m_LightProbeUsage
       value: 1
       objectReference: {fileID: 0}
@@ -25961,6 +26213,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Door_Generic
+      objectReference: {fileID: 0}
+    - target: {fileID: 885013420266887428, guid: c4aad5b023b2f664ba40df6c346c10ff,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 885013420266887428, guid: c4aad5b023b2f664ba40df6c346c10ff,
         type: 3}
@@ -26592,6 +26849,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CollisionWorld
       objectReference: {fileID: 0}
+    - target: {fileID: 2687787436238368792, guid: b24669ea8d4738547947474e92c630a7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2687787436238368799, guid: b24669ea8d4738547947474e92c630a7,
         type: 3}
       propertyPath: m_RootOrder
@@ -27053,9 +27315,29 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 4491288562856828603, guid: 217d2408b2d414746963e5a4fda23bee,
         type: 3}
+      propertyPath: m_SceneBindings.Array.data[10].key
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491288562856828603, guid: 217d2408b2d414746963e5a4fda23bee,
+        type: 3}
+      propertyPath: m_SceneBindings.Array.data[11].key
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491288562856828603, guid: 217d2408b2d414746963e5a4fda23bee,
+        type: 3}
       propertyPath: m_SceneBindings.Array.data[9].value
       value: 
       objectReference: {fileID: 4491288562871868899}
+    - target: {fileID: 4491288562856828603, guid: 217d2408b2d414746963e5a4fda23bee,
+        type: 3}
+      propertyPath: m_SceneBindings.Array.data[10].value
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491288562856828603, guid: 217d2408b2d414746963e5a4fda23bee,
+        type: 3}
+      propertyPath: m_SceneBindings.Array.data[11].value
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4491288562913473577, guid: 217d2408b2d414746963e5a4fda23bee,
         type: 3}
       propertyPath: m_Enabled
@@ -27101,6 +27383,11 @@ PrefabInstance:
       propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[0].m_Value.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5420951284149823051, guid: 217d2408b2d414746963e5a4fda23bee,
+        type: 3}
+      propertyPath: soundEmitterObject
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4491288562983873915, guid: 217d2408b2d414746963e5a4fda23bee, type: 3}
     m_RemovedGameObjects: []
@@ -27110,6 +27397,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 4491288562871868903}
+    - targetCorrespondingSourceObject: {fileID: 4491288562983873909, guid: 217d2408b2d414746963e5a4fda23bee,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4491288562871868904}
   m_SourcePrefab: {fileID: 100100000, guid: 217d2408b2d414746963e5a4fda23bee, type: 3}
 --- !u!82 &4491288562871868899 stripped
 AudioSource:
@@ -27143,6 +27434,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PauseMessage: PAUSE
   UnPauseMessage: UNPAUSE
+--- !u!114 &4491288562871868904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4491288562871868902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f98b87ef84e6c04ea2b89b03800bc5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  usePositionOffsetData: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  scalingFactor: 1
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!4 &4621624834313966343
 Transform:
   m_ObjectHideFlags: 0
@@ -29114,7 +29429,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_PropertySheet.m_NamedObject.m_Array.Array.data[0].m_Value
       value: 
-      objectReference: {fileID: 2089320141}
+      objectReference: {fileID: 417238693}
     - target: {fileID: 593440673147150076, guid: 95448add53bea424488f76b5151e9a58,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -29324,7 +29639,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_PropertySheet.m_NamedObject.m_Array.Array.data[0].m_Value
       value: 
-      objectReference: {fileID: 279728905}
+      objectReference: {fileID: 715333240}
     - target: {fileID: 6441738352531483420, guid: 95448add53bea424488f76b5151e9a58,
         type: 3}
       propertyPath: m_Name
@@ -31481,3 +31796,4 @@ SceneRoots:
   - {fileID: 1547895744}
   - {fileID: 893810447}
   - {fileID: 241389592}
+  - {fileID: 569190927}

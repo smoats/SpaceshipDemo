@@ -15,3 +15,4 @@ MonoBehaviour:
   objectName: TestEvents
   id: 155015370
   guid: 3E00C3E0-C090-461E-83B2-95321957B4D7
+  bank: {fileID: 11400000, guid: a162ded1c8c7a7a48bec8827573f9c32, type: 2}

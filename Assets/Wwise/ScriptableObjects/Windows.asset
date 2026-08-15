@@ -58,7 +58,6 @@ MonoBehaviour:
   - AdvancedSettings.m_MaximumHardwareTimeoutMs
   - AdvancedSettings.m_SpatialAudioSettings.m_DiffractionShadowAttenuationFactor
   - AdvancedSettings.m_SpatialAudioSettings.m_DiffractionShadowDegrees
-  - AdvancedSettings.m_SuspendAudioDuringFocusLoss
   - AdvancedSettings.m_RenderDuringFocusLoss
   - AdvancedSettings.m_SoundBankPersistentDataPath
   - AdvancedSettings.m_DebugOutOfRangeCheckEnabled
@@ -74,6 +73,7 @@ MonoBehaviour:
   - AdvancedSettings.m_MemoryMediaReservedLimit
   - AdvancedSettings.m_MemoryMediaAllocSizeHuge
   - AdvancedSettings.m_MemoryDebugLevel
+  - AdvancedSettings.m_SuspendAudioDuringFocusLoss
   UserSettings:
     m_BasePath: Audio\GeneratedSoundBanks
     m_StartupLanguage: English(US)
@@ -99,7 +99,7 @@ MonoBehaviour:
       m_MaxSoundPropagationDepth: 8
       m_MovementThreshold: 0.25
       m_NumberOfPrimaryRays: 35
-      m_MaxReflectionOrder: 2
+      m_MaxReflectionOrder: 4
       m_MaxDiffractionOrder: 4
       m_DiffractionOnReflectionsOrder: 2
       m_MaxEmitterRoomAuxSends: 3
@@ -113,11 +113,14 @@ MonoBehaviour:
       m_MaxDiffractionAngleDegrees: 180
       m_SmoothingConstantMs: 0
       m_TransmissionOperation: 2
+      m_ClusteringMinPoints: 0
+      m_ClusteringMaxDistance: 5
+      m_ClusteringDeadZoneDistance: 10
   AdvancedSettings:
     m_IOMemorySize: 2097152
     m_TargetAutoStreamBufferLengthMs: 380
     m_UseStreamCache: 0
-    m_LoadBankAsynchronously: 0
+    m_LoadBankAsynchronously: 1
     m_MaximumPinnedBytesInCache: 4294967295
     m_EnableGameSyncPreparation: 0
     m_ContinuousPlaybackLookAhead: 1
@@ -125,7 +128,7 @@ MonoBehaviour:
     m_MaximumHardwareTimeoutMs: 1000
     m_DebugOutOfRangeCheckEnabled: 0
     m_DebugOutOfRangeLimit: 16
-    m_SuspendAudioDuringFocusLoss: 1
+    m_SuspendAudioDuringFocusLoss: 0
     m_RenderDuringFocusLoss: 0
     m_SoundBankPersistentDataPath: 
     m_UseSubFoldersForGeneratedFiles: 0

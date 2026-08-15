@@ -1,0 +1,47 @@
+{
+ "PluginInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "PluginLibs": [
+   {
+    "LibName": "iZotope Hybrid Reverb",
+    "LibId": "135219",
+    "Type": "Effect",
+    "DLL": "iZotope",
+    "StaticLib": "iZHybridReverbFX"
+   },
+   {
+    "LibName": "Wwise Matrix Reverb",
+    "LibId": "7536643",
+    "Type": "Effect",
+    "DLL": "AkMatrixReverb",
+    "StaticLib": "AkMatrixReverbFX"
+   },
+   {
+    "LibName": "Wwise RoomVerb",
+    "LibId": "7733251",
+    "Type": "Effect",
+    "DLL": "AkRoomVerb",
+    "StaticLib": "AkRoomVerbFX"
+   },
+   {
+    "LibName": "Wwise Reflect",
+    "LibId": "11206659",
+    "Type": "Effect",
+    "DLL": "AkReflect",
+    "StaticLib": "AkReflectFX"
+   },
+   {
+    "LibName": "System",
+    "LibId": "11403271",
+    "Type": "AudioDevice"
+   },
+   {
+    "LibName": "No Output",
+    "LibId": "11862023",
+    "Type": "AudioDevice"
+   }
+  ],
+  "FileHash": "{4A31C501-0681-673D-EB30-18E275D5DE45}"
+ }
+}

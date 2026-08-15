@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "849258820",
+    "Type": "Bus",
+    "GUID": "{1ED24EFF-7068-41B0-950A-F7774D2A9E63}",
+    "Language": "SFX",
+    "Hash": "{9345AE95-E08D-F887-0514-8B7F12026FAB}",
+    "ObjectPath": "EarlyReflections",
+    "ShortName": "EarlyReflections",
+    "Path": "Bus/EarlyReflections.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "3399505373",
+       "Name": "Reflect_Physically_Based",
+       "ObjectPath": "\\Effects\\Factory Reflect Physically-Based\\Reflect_Physically_Based",
+       "GUID": "{C69F5865-C206-4B45-BC40-315F3F39151A}",
+       "LibName": "Wwise Reflect",
+       "LibId": "11206659"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "849258820",
+      "Name": "EarlyReflections",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\AUXs\\EarlyReflections",
+      "GUID": "{1ED24EFF-7068-41B0-950A-F7774D2A9E63}",
+      "Color": "21",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3399505373"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{591D8C8A-36F3-FEBF-4C32-F9A60252D987}"
+ }
+}

@@ -1,0 +1,27 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1116795697	env_Play_Spark			\Environment\env_Play_Spark	
+	2077017211	env_Play_elevator_stop			\Environment\env_Play_elevator_stop	
+	2371890402	env_Play_Steam			\Environment\env_Play_Steam	
+	2720011068	enc_Play_elevator_door			\Environment\enc_Play_elevator_door	
+	3082617436	plr_Play_fs			\Player\plr_Play_fs	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	54077337	spc_sfx_sparks_var04	.cache\54\{544A3F29-F5F7-71ED-D6FD-EB22D16A73D8}.wem		\Containers\Environment\Inside\Sparks\spc_sfx_sparks_var04		78688
+	59608555	fs_03	.cache\16\{1626CC55-BA5A-9D41-197A-47AE6ED80AC9}.wem		\Containers\Player\Locomotion\Footsteps\fs_03		67362
+	162699505	spc_sfx_elevator_door	.cache\E8\{E894108C-D178-9B0B-EFE1-F995FF525F2B}.wem		\Containers\Environment\Inside\Elevator\spc_sfx_elevator_door		1301868
+	212066122	fs_09	.cache\F6\{F6736F78-E016-3419-B817-EA2E6510B607}.wem		\Containers\Player\Locomotion\Footsteps\fs_09		58626
+	216606426	fs_11	.cache\78\{78B57CBD-C488-7CC9-C0A2-A709B0E6B010}.wem		\Containers\Player\Locomotion\Footsteps\fs_11		61684
+	412105135	spc_sfx_elevator_stop	.cache\38\{384E4DB7-7B31-0C3E-1D80-E6CB64FB6DB5}.wem		\Containers\Environment\Inside\Elevator\spc_sfx_elevator_stop		1027300
+	498415207	fs_10	.cache\F3\{F3595E3F-C6A2-1850-1FAF-394E868A1176}.wem		\Containers\Player\Locomotion\Footsteps\fs_10		53822
+	523394628	fs_06	.cache\02\{02D61E11-4ADB-EC79-6CC6-B6D75FBF98DD}.wem		\Containers\Player\Locomotion\Footsteps\fs_06		75374
+	549415802	fs_04	.cache\4E\{4EF25F6B-F874-51F0-17F7-574E57813CF7}.wem		\Containers\Player\Locomotion\Footsteps\fs_04		68672
+	570580501	fs_02	.cache\36\{36B47A32-6F6A-485C-3063-C00F68762158}.wem		\Containers\Player\Locomotion\Footsteps\fs_02		69766
+	578388388	fs_05	.cache\0D\{0D33FB17-1936-1B6D-D3F7-19031A601F50}.wem		\Containers\Player\Locomotion\Footsteps\fs_05		43338
+	638280477	Steam	.cache\A2\{A2242A64-D29F-323A-C74E-A9355C50CBBB}.wem		\Containers\Environment\Inside\Steam		2880152
+	662297845	fs_08	.cache\64\{64195F9E-73A4-FB7E-0930-AC124F1C6F99}.wem		\Containers\Player\Locomotion\Footsteps\fs_08		72604
+	841163289	spc_sfx_sparks_var01	.cache\D0\{D0DD645F-69AB-65A5-1A86-F6C1B457810E}.wem		\Containers\Environment\Inside\Sparks\spc_sfx_sparks_var01		71096
+	852197693	spc_sfx_sparks_var02	.cache\0B\{0B8105A8-602A-F1E0-D49C-2E9BAA2E52D6}.wem		\Containers\Environment\Inside\Sparks\spc_sfx_sparks_var02		114732
+	885820701	spc_sfx_sparks_var03	.cache\A1\{A1C45714-715A-761D-92CF-E02969943FEE}.wem		\Containers\Environment\Inside\Sparks\spc_sfx_sparks_var03		91844
+	971699724	fs_07	.cache\E5\{E5D10E3C-1278-6BB9-C677-FD9BD83E7A93}.wem		\Containers\Player\Locomotion\Footsteps\fs_07		53384
+	999192872	fs_01	.cache\7F\{7FEBEA05-8037-BE87-1DA5-F7878BB5D25A}.wem		\Containers\Player\Locomotion\Footsteps\fs_01		48602
+

@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: WwiseData_Windows
+  m_EditorClassIdentifier: 
+  m_GroupName: WwiseData_Windows
+  m_GUID: b44754cd86538f9498ca6a499aabaa66
+  m_SerializeEntries:
+  - m_GUID: 0fce79daa21356347a84927fead363c8
+    m_Address: Assets/WwiseData/Bank/Windows/UI.bnk
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d0dc8489d86dd649b66e5bcdbb304d3
+    m_Address: Assets/WwiseData/Bank/Windows/TestEvents.bnk
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 603df10eb4c15c441bb9d9787e43d94d
+    m_Address: Assets/WwiseData/Bank/Windows/SFX.bnk
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 841281c8378eadb4bb89452cbd18b500
+    m_Address: Assets/WwiseData/Bank/Windows/Music.bnk
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 852de4d69fd646646a48658c758571f4
+    m_Address: Assets/WwiseData/Bank/Windows/Bus/Room_1.bnk
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 897a056b78972814a82e2802a3b95b44
+    m_Address: Assets/WwiseData/Bank/Windows/Bus/Corridors.bnk
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f90cbf0c05cc8441b65efe4697f9c8c
+    m_Address: Assets/WwiseData/Bank/Windows/Media/844479567.wem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0aeafc90c0553648933f7eebc707117
+    m_Address: Assets/WwiseData/Bank/Windows/Event/tst_Play_880Hz_3D_beep.bnk
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af0f7b33c552549459b967905ec0b1c1
+    m_Address: Assets/WwiseData/Bank/Windows/Bus/EarlyReflections.bnk
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: ee16fe13e1077dc41b67d3cc60b758b1, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f4e24830fc54c9b4892a4524a692f3c6, type: 2}

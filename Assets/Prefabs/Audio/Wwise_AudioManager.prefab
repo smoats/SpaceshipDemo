@@ -9,12 +9,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1959744592424832193}
-  - component: {fileID: 9023876647532740794}
-  - component: {fileID: 1247851367240522586}
+  - component: {fileID: 6204725166573927351}
+  - component: {fileID: 2983079477804290024}
   - component: {fileID: 2578065051004178515}
   - component: {fileID: 3400143031095010086}
   - component: {fileID: 7721921503906444559}
   - component: {fileID: 3303049241274824263}
+  - component: {fileID: 1247851367240522586}
   m_Layer: 0
   m_Name: Wwise_AudioManager
   m_TagString: Untagged
@@ -30,14 +31,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7397243542587146620}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 6.8412795, y: 5.1097283, z: -11.386787}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &9023876647532740794
+--- !u!114 &6204725166573927351
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -63,7 +64,7 @@ MonoBehaviour:
   spatialAudioPoolSize: 0
   maxSoundPropagationDepth: 0
   engineLogging: 0
---- !u!114 &1247851367240522586
+--- !u!114 &2983079477804290024
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -72,14 +73,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 7397243542587146620}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94f60a1c0ab8ee64c98163738035347a, type: 3}
+  m_Script: {fileID: 11500000, guid: ed39f2b237e573f4f85990bb5d1440ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicEvent:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 3609c31129c7fe2479b19c08057a8b8d,
-      type: 2}
+  InitBank: {fileID: 11400000, guid: 7c57e11f56a5c694c887b6a4ae8f9d5f, type: 2}
 --- !u!114 &2578065051004178515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -184,3 +181,20 @@ MonoBehaviour:
   unloadTriggerList: 958ca0ea
   bankNameInternal: 
   valueGuidInternal: 
+--- !u!114 &1247851367240522586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7397243542587146620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94f60a1c0ab8ee64c98163738035347a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 3609c31129c7fe2479b19c08057a8b8d,
+      type: 2}

@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "1099549313",
+    "Type": "Event",
+    "GUID": "{AFDD0470-8F80-46AD-BB5A-B206013D8558}",
+    "Language": "SFX",
+    "Hash": "{6A2E944A-8B78-629D-5796-6FD240503C81}",
+    "ObjectPath": "tst_Play_880Hz_3D_beep",
+    "ShortName": "tst_Play_880Hz_3D_beep",
+    "Path": "Event/tst_Play_880Hz_3D_beep.bnk",
+    "Media": [
+     {
+      "Id": "986699865",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "utility_48k_sine_880Hz_a_10s_-12TP_mono.wav",
+      "Path": "Media/986699865.wem",
+      "CachePath": "13/{13722A85-AC84-08F2-0785-FC7E90AE5F7B}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1099549313",
+      "Name": "tst_Play_880Hz_3D_beep",
+      "ObjectPath": "\\Events\\TestEvents\\tst_Play_880Hz_3D_beep",
+      "GUID": "{AFDD0470-8F80-46AD-BB5A-B206013D8558}",
+      "MaxAttenuation": "40",
+      "DurationType": "OneShot",
+      "DurationMin": "0.6037019",
+      "DurationMax": "0.6037019",
+      "MediaRefs": [
+       {
+        "Id": "986699865"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{9065C630-9BA4-7A08-5AC6-440C46801BA1}"
+ }
+}

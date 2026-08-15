@@ -15,3 +15,4 @@ MonoBehaviour:
   objectName: Music
   id: 3991942870
   guid: 62351333-A9A4-471D-80F6-F4A27C7A2FD4
+  bank: {fileID: 11400000, guid: 4ed5317d144131b40a1b53ed2b8231ed, type: 2}

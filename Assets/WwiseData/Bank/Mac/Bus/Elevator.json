@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "3705378287",
+    "Type": "Bus",
+    "GUID": "{47C113E2-8AAC-4A0A-9DE6-B0DB144722EC}",
+    "Language": "SFX",
+    "Hash": "{1B067493-0C29-95D5-6D36-51FB80F3FB69}",
+    "ObjectPath": "Elevator",
+    "ShortName": "Elevator",
+    "Path": "Bus/Elevator.bnk",
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "438002550",
+       "Name": "Metal_Hangar (Custom)",
+       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\AUXs\\Rooms\\Elevator\\[Effect Slot [0]: (RoomVerb)]\\Metal_Hangar (Custom)",
+       "GUID": "{C38E2746-37DC-47D9-9732-7CC4D839170C}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "3705378287",
+      "Name": "Elevator",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\AUXs\\Rooms\\Elevator",
+      "GUID": "{47C113E2-8AAC-4A0A-9DE6-B0DB144722EC}",
+      "Color": "21",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "438002550"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{C8AA1FCE-DFC9-ECC7-F522-EC52AAC4DC06}"
+ }
+}

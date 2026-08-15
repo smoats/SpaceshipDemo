@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="1941896084" Type="Bus" GUID="{AAABB9A5-EAF0-4E3B-9B0C-AEB2C80ACF63}" Language="SFX" Hash="{B4353F25-F63D-AADA-2F17-7F3DCC90D537}">
+			<ObjectPath>Room_1</ObjectPath>
+			<ShortName>Room_1</ShortName>
+			<Path>Bus/Room_1.bnk</Path>
+			<Media>
+				<File Id="844479567" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>B-39 Black Widow Submarine Engine Room.wav</ShortName>
+					<Path>Media/844479567.wem</Path>
+					<CachePath>0C/{0CB4B591-FDB1-E06A-D87F-28D2DB03D6CB}.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="395674233" Name="Room_Medium_Tiled (Custom)" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Room_1\[Effect Slot [0]: (RoomVerb)]\Room_Medium_Tiled (Custom)" GUID="{7A55C4A3-B8DC-4FCF-B866-BC3B7FDBFBB3}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</Custom>
+				<ShareSets>
+					<Plugin Id="361056738" Name="New_iZotope_Hybrid_Reverb" ObjectPath="\Effects\Custom Effects\New_iZotope_Hybrid_Reverb" GUID="{CAA746A6-834D-4263-8927-DBA3B37BF221}" LibName="iZotope Hybrid Reverb" LibId="135219">
+						<MediaRefs>
+							<MediaRef Id="844479567"/>
+						</MediaRefs>
+					</Plugin>
+				</ShareSets>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="1941896084" Name="Room_1" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Room_1" GUID="{AAABB9A5-EAF0-4E3B-9B0C-AEB2C80ACF63}" Color="21">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="395674233"/>
+						</Custom>
+						<ShareSets>
+							<PluginRef Id="361056738"/>
+						</ShareSets>
+					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="849258820" Name="EarlyReflections" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\EarlyReflections" GUID="{1ED24EFF-7068-41B0-950A-F7774D2A9E63}" Color="21"/>
+					</AuxBusRefs>
+				</AuxBus>
+			</AuxBusses>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{C8B21AF7-ADB8-11EF-8729-C15B11617A74}</FileHash>
+</SoundBanksInfo>

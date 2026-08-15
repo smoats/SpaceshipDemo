@@ -1,0 +1,89 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "1941896084",
+    "Type": "Bus",
+    "GUID": "{AAABB9A5-EAF0-4E3B-9B0C-AEB2C80ACF63}",
+    "Language": "SFX",
+    "Hash": "{B4353F25-F63D-AADA-2F17-7F3DCC90D537}",
+    "ObjectPath": "Room_1",
+    "ShortName": "Room_1",
+    "Path": "Bus/Room_1.bnk",
+    "Media": [
+     {
+      "Id": "844479567",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "B-39 Black Widow Submarine Engine Room.wav",
+      "Path": "Media/844479567.wem",
+      "CachePath": "7C/{7C9D2B6E-981E-CC5B-3318-C97D9268FDFC}.wem"
+     }
+    ],
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "395674233",
+       "Name": "Room_Medium_Tiled (Custom)",
+       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\AUXs\\Rooms\\Room_1\\[Effect Slot [0]: (RoomVerb)]\\Room_Medium_Tiled (Custom)",
+       "GUID": "{7A55C4A3-B8DC-4FCF-B866-BC3B7FDBFBB3}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ],
+     "ShareSets": [
+      {
+       "Id": "361056738",
+       "Name": "New_iZotope_Hybrid_Reverb",
+       "ObjectPath": "\\Effects\\Custom Effects\\New_iZotope_Hybrid_Reverb",
+       "GUID": "{CAA746A6-834D-4263-8927-DBA3B37BF221}",
+       "LibName": "iZotope Hybrid Reverb",
+       "LibId": "135219",
+       "MediaRefs": [
+        {
+         "Id": "844479567"
+        }
+       ]
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "1941896084",
+      "Name": "Room_1",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\AUXs\\Rooms\\Room_1",
+      "GUID": "{AAABB9A5-EAF0-4E3B-9B0C-AEB2C80ACF63}",
+      "Color": "21",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "395674233"
+        }
+       ],
+       "ShareSets": [
+        {
+         "Id": "361056738"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "849258820",
+        "Name": "EarlyReflections",
+        "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\AUXs\\EarlyReflections",
+        "GUID": "{1ED24EFF-7068-41B0-950A-F7774D2A9E63}",
+        "Color": "21"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{A1752B83-B32A-DC41-53C9-DCFA8FEBBE10}"
+ }
+}

@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2036962697	tst_Play_Supersonic			\TestEvents\tst_Play_Supersonic	
+	3379435718	tst_Play_880Hz_lp_Stop			\TestEvents\tst_Play_880Hz_lp_Stop	
+	4230237515	tst_Play_880Hz_lp			\TestEvents\tst_Play_880Hz_lp	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	269277191	880Hz_3D_lp	.cache\F8\{F82E9239-F62F-947A-2798-B35B8A16A82F}.wem		\Containers\_utility\test_signals_3D\880Hz_3D_lp		960096
+	431370555	test_Supersonic - Skrillex_01	.cache\4B\{4B595E89-1EDD-ECAF-847C-3C224E62FFA6}.wem		\Containers\_utility\test_signals_3D\test_Supersonic - Skrillex_01		32558528
+
