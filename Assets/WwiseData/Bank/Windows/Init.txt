@@ -21,36 +21,39 @@ State	ID	Name	State Group			Notes
 	3604647259	MainMenu	GameState			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
-	82043516	Ambience3D			\Default Work Unit\Master Audio Bus\SFX\Ambience\Ambience3D	
 	85412153	Ambience			\Default Work Unit\Master Audio Bus\SFX\Ambience	
-	98821071	Ambience2D			\Default Work Unit\Master Audio Bus\SFX\Ambience\Ambience2D	
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
 	429132440	_utility			\Default Work Unit\Master Audio Bus\_utility	
-	438105790	Outside			\Default Work Unit\Master Audio Bus\SFX\Environment\Outside	
 	1069431850	Player			\Default Work Unit\Master Audio Bus\SFX\Player	
 	1229948536	Environment			\Default Work Unit\Master Audio Bus\SFX\Environment	
 	1359360203	Rooms			\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms	
 	1551306167	UI			\Default Work Unit\Master Audio Bus\UI	
+	3164629225	Holo			\Default Work Unit\Master Audio Bus\SFX\Holo	
+	3170124113	Voice			\Default Work Unit\Master Audio Bus\Voice	
 	3368497452	AUXs			\Default Work Unit\Master Audio Bus\SFX\AUXs	
-	3553349781	Inside			\Default Work Unit\Master Audio Bus\SFX\Environment\Inside	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+	4021644157	Burned			\Default Work Unit\Master Audio Bus\SFX\Burned	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	268529915	Engine			\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Engine	
+	414380065	Terminal			\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Terminal	
 	849258820	EarlyReflections			\Default Work Unit\Master Audio Bus\SFX\AUXs\EarlyReflections	
-	1938385722	Corridors			\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Corridors	
-	1941896084	Room_1			\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Room_1	
+	1575916026	MusicReverb			\Default Work Unit\Master Audio Bus\Music\MusicReverb	
 	2786758029	MainDeck			\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\MainDeck	
 	3705378287	Elevator			\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Elevator	
+	4149449619	Corridor_1			\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Corridor_1	
 
 Effect plug-ins	ID	Name	Type				Notes
 	23000714	Metal_Hangar (Custom)	Wwise RoomVerb			
-	361056738	New_iZotope_Hybrid_Reverb	iZotope Hybrid Reverb			
-	395674233	Room_Medium_Tiled (Custom)	Wwise RoomVerb			
-	438002550	Metal_Hangar (Custom)	Wwise RoomVerb			
-	580668364	Aluminium_Tank (Custom)	Wwise RoomVerb			
+	146556776	Meter (Custom)	Wwise Meter			
+	235539008	Meter (Custom)	Wwise Meter			
+	526522748	Room_Medium_Tiled (Custom)	Wwise RoomVerb			
 	730688266	Wwise_RoomVerb_(Custom)	Wwise RoomVerb			
+	780014612	Meter (Custom)	Wwise Meter			
+	793376829	AK Convolution Reverb (Custom)	Wwise Convolution Reverb			
+	1222575028	AK_Convolution_Reverb_Terminal	Wwise Convolution Reverb			
+	2589999434	AK_Convolution_Reverb_Corridor	Wwise Convolution Reverb			
 	3399505373	Reflect_Physically_Based	Wwise Reflect			
 
 Audio Devices	ID	Name	Type				Notes

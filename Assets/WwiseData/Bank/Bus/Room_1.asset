@@ -14,63 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_dataPerPlatformList:
   - WwisePlatform: Mac
-    LocalizedBankKeys:
-    - SFX
-    LocalizedBanksValues:
-    - m_AssetGUID: 148e4e9c347636b40888555efba983c8
-      m_SubObjectName: 
-      m_SubObjectType: 
-      m_SubObjectGUID: 
-      m_EditorAssetChanged: 0
+    LocalizedBankKeys: []
+    LocalizedBanksValues: []
     LocalizedStreamingMediaKeys:
     - SFX
     LocalizedStreamingMediaValues:
       localizedMediaList:
-      - media:
-        - m_AssetGUID: 999e74888f447404d8f255b361f075d6
-          m_SubObjectName: 
-          m_SubObjectType: 
-          m_SubObjectGUID: 
-          m_EditorAssetChanged: 0
-          id: 844479567
+      - media: []
   - WwisePlatform: Windows
-    LocalizedBankKeys:
-    - SFX
-    LocalizedBanksValues:
-    - m_AssetGUID: 852de4d69fd646646a48658c758571f4
-      m_SubObjectName: 
-      m_SubObjectType: 
-      m_SubObjectGUID: 
-      m_EditorAssetChanged: 0
+    LocalizedBankKeys: []
+    LocalizedBanksValues: []
     LocalizedStreamingMediaKeys:
     - SFX
     LocalizedStreamingMediaValues:
       localizedMediaList:
-      - media:
-        - m_AssetGUID: 9f90cbf0c05cc8441b65efe4697f9c8c
-          m_SubObjectName: 
-          m_SubObjectType: 
-          m_SubObjectGUID: 
-          m_EditorAssetChanged: 0
-          id: 844479567
+      - media: []
   currentPlatformAssets:
     WwisePlatform: Windows
-    LocalizedBankKeys:
-    - SFX
-    LocalizedBanksValues:
-    - m_AssetGUID: 852de4d69fd646646a48658c758571f4
-      m_SubObjectName: 
-      m_SubObjectType: 
-      m_SubObjectGUID: 
-      m_EditorAssetChanged: 0
+    LocalizedBankKeys: []
+    LocalizedBanksValues: []
     LocalizedStreamingMediaKeys:
     - SFX
     LocalizedStreamingMediaValues:
       localizedMediaList:
-      - media:
-        - m_AssetGUID: 9f90cbf0c05cc8441b65efe4697f9c8c
-          m_SubObjectName: 
-          m_SubObjectType: 
-          m_SubObjectGUID: 
-          m_EditorAssetChanged: 0
-          id: 844479567
+      - media: []

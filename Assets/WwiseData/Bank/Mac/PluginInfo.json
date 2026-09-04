@@ -4,11 +4,11 @@
   "BasePlatform": "Mac",
   "PluginLibs": [
    {
-    "LibName": "iZotope Hybrid Reverb",
-    "LibId": "135219",
+    "LibName": "Wwise Parametric EQ",
+    "LibId": "6881283",
     "Type": "Effect",
-    "DLL": "iZotope",
-    "StaticLib": "iZHybridReverbFX"
+    "DLL": "AkParametricEQ",
+    "StaticLib": "AkParametricEQFX"
    },
    {
     "LibName": "Wwise Matrix Reverb",
@@ -23,6 +23,20 @@
     "Type": "Effect",
     "DLL": "AkRoomVerb",
     "StaticLib": "AkRoomVerbFX"
+   },
+   {
+    "LibName": "Wwise Convolution Reverb",
+    "LibId": "8323075",
+    "Type": "Effect",
+    "DLL": "AkConvolutionReverb",
+    "StaticLib": "AkConvolutionReverbFX"
+   },
+   {
+    "LibName": "Wwise Meter",
+    "LibId": "8454147",
+    "Type": "Effect",
+    "DLL": "AkMeter",
+    "StaticLib": "AkMeterFX"
    },
    {
     "LibName": "Wwise Reflect",
@@ -42,6 +56,6 @@
     "Type": "AudioDevice"
    }
   ],
-  "FileHash": "{4A31C501-0681-673D-EB30-18E275D5DE45}"
+  "FileHash": "{8351AC68-81EE-6BD9-9B0D-EEFE9F1C4107}"
  }
 }

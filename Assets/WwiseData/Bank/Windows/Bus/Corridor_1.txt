@@ -1,0 +1,6 @@
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	4149449619	Corridor_1			\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Corridor_1	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2589999434	AK_Convolution_Reverb_Corridor	Wwise Convolution Reverb			
+

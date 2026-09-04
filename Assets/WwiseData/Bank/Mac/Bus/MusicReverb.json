@@ -1,0 +1,65 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "1575916026",
+    "Type": "Bus",
+    "GUID": "{0D720CA7-C912-4A8A-84E6-678DC6825428}",
+    "Language": "SFX",
+    "Hash": "{2E12D969-E1EC-8642-4E99-919B2F4BAFD3}",
+    "ObjectPath": "MusicReverb",
+    "ShortName": "MusicReverb",
+    "Path": "Bus/MusicReverb.bnk",
+    "Media": [
+     {
+      "Id": "487124878",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Factory Furnace Surround m-5.wav",
+      "Path": "Media/487124878.wem",
+      "CachePath": "6A/{6A015009-B0C3-5C17-9DD1-794482F48BFE}.wem"
+     }
+    ],
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "793376829",
+       "Name": "AK Convolution Reverb (Custom)",
+       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Music\\MusicReverb\\[Effect Slot [0]: (AK Convolution Reverb)]\\AK Convolution Reverb (Custom)",
+       "GUID": "{B3B02953-C945-440D-90FA-9191AD1DD1BB}",
+       "LibName": "Wwise Convolution Reverb",
+       "LibId": "8323075",
+       "MediaRefs": [
+        {
+         "Id": "487124878"
+        }
+       ]
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "1575916026",
+      "Name": "MusicReverb",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Music\\MusicReverb",
+      "GUID": "{0D720CA7-C912-4A8A-84E6-678DC6825428}",
+      "Color": "6",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "793376829"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{CB909912-DB39-E3EF-422D-85920EC0AB32}"
+ }
+}

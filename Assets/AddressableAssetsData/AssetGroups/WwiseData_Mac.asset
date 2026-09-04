@@ -20,8 +20,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 148e4e9c347636b40888555efba983c8
-    m_Address: Assets/WwiseData/Bank/Mac/Bus/Room_1.bnk
+  - m_GUID: 1d7c8f21a00246648914c15f4b6030aa
+    m_Address: Assets/WwiseData/Bank/Mac/Media/487124878.wem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2241760a6948b1942ada1020e006d7c4
+    m_Address: Assets/WwiseData/Bank/Mac/Bus/Corridor_1.bnk
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c3cade8bd9656a4aad02f33556107d3
+    m_Address: Assets/WwiseData/Bank/Mac/Media/402359572.wem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30593311f9c05794ea996e729f082733
+    m_Address: Assets/WwiseData/Bank/Mac/Bus/Elevator.bnk
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -30,8 +45,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 999e74888f447404d8f255b361f075d6
-    m_Address: Assets/WwiseData/Bank/Mac/Media/844479567.wem
+  - m_GUID: a4cc4040e4f87524c9975861bef79509
+    m_Address: Assets/WwiseData/Bank/Mac/Bus/MusicReverb.bnk
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -50,13 +65,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: e44eb15f99796bc4aabecb35b28763ab
-    m_Address: Assets/WwiseData/Bank/Mac/Bus/EarlyReflections.bnk
+  - m_GUID: ced5a4ec48fcb1e4b8c2bd991c1a2039
+    m_Address: Assets/WwiseData/Bank/Mac/Bus/Terminal.bnk
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: ed595b246e83b474097b23bea1bbc44f
-    m_Address: Assets/WwiseData/Bank/Mac/Bus/Corridors.bnk
+  - m_GUID: d8b21a237e4fe3f47a23b0855f309192
+    m_Address: Assets/WwiseData/Bank/Mac/Media/851596344.wem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e44eb15f99796bc4aabecb35b28763ab
+    m_Address: Assets/WwiseData/Bank/Mac/Bus/EarlyReflections.bnk
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

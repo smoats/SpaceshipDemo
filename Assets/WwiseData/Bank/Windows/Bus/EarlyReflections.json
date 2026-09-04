@@ -10,7 +10,7 @@
     "Type": "Bus",
     "GUID": "{1ED24EFF-7068-41B0-950A-F7774D2A9E63}",
     "Language": "SFX",
-    "Hash": "{9345AE95-E08D-F887-0514-8B7F12026FAB}",
+    "Hash": "{3A04AA39-52C2-1CCC-D309-9C0792AB5515}",
     "ObjectPath": "EarlyReflections",
     "ShortName": "EarlyReflections",
     "Path": "Bus/EarlyReflections.bnk",
@@ -33,6 +33,7 @@
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\AUXs\\EarlyReflections",
       "GUID": "{1ED24EFF-7068-41B0-950A-F7774D2A9E63}",
       "Color": "21",
+      "MaxAttenuation": "30",
       "PluginRefs": {
        "ShareSets": [
         {
@@ -44,6 +45,6 @@
     ]
    }
   ],
-  "FileHash": "{39710085-7991-EA73-91C9-9BE6C6D71A5B}"
+  "FileHash": "{421659D4-6A6D-DE0C-1CD8-F95023C4C7AB}"
  }
 }

@@ -10,19 +10,37 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{380FA4DE-CEC7-4C04-80F8-950DC1917CCE}",
+    "Hash": "{56E9D58B-AF21-7E6D-6950-368EA60102F2}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Media": [
      {
-      "Id": "844479567",
+      "Id": "402359572",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "B-39 Black Widow Submarine Aft Torpedo Room.wav",
+      "Path": "Media/402359572.wem",
+      "CachePath": "73/{736F6FAB-04F3-9BA4-DF65-77EEC7552336}.wem"
+     },
+     {
+      "Id": "487124878",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Factory Furnace Surround m-5.wav",
+      "Path": "Media/487124878.wem",
+      "CachePath": "6A/{6A015009-B0C3-5C17-9DD1-794482F48BFE}.wem"
+     },
+     {
+      "Id": "851596344",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
       "ShortName": "B-39 Black Widow Submarine Engine Room.wav",
-      "Path": "Media/844479567.wem",
-      "CachePath": "7C/{7C9D2B6E-981E-CC5B-3318-C97D9268FDFC}.wem"
+      "Path": "Media/851596344.wem",
+      "CachePath": "77/{77BCC9A5-D699-3668-54F1-C5639C549D0D}.wem"
      }
     ],
     "Plugins": {
@@ -36,26 +54,26 @@
        "LibId": "7733251"
       },
       {
-       "Id": "395674233",
+       "Id": "146556776",
+       "Name": "Meter (Custom)",
+       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\Environment\\[Effect Slot [0]: (Meter)]\\Meter (Custom)",
+       "GUID": "{B0562D30-9FDE-423F-BEE4-F5515E2A678E}",
+       "LibName": "Wwise Meter",
+       "LibId": "8454147"
+      },
+      {
+       "Id": "235539008",
+       "Name": "Meter (Custom)",
+       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\AUXs\\[Effect Slot [0]: (Meter)]\\Meter (Custom)",
+       "GUID": "{E7505C5B-D6E7-4CF2-998C-FC3D0C38990D}",
+       "LibName": "Wwise Meter",
+       "LibId": "8454147"
+      },
+      {
+       "Id": "526522748",
        "Name": "Room_Medium_Tiled (Custom)",
-       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\AUXs\\Rooms\\Room_1\\[Effect Slot [0]: (RoomVerb)]\\Room_Medium_Tiled (Custom)",
-       "GUID": "{7A55C4A3-B8DC-4FCF-B866-BC3B7FDBFBB3}",
-       "LibName": "Wwise RoomVerb",
-       "LibId": "7733251"
-      },
-      {
-       "Id": "438002550",
-       "Name": "Metal_Hangar (Custom)",
-       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\AUXs\\Rooms\\Elevator\\[Effect Slot [0]: (RoomVerb)]\\Metal_Hangar (Custom)",
-       "GUID": "{C38E2746-37DC-47D9-9732-7CC4D839170C}",
-       "LibName": "Wwise RoomVerb",
-       "LibId": "7733251"
-      },
-      {
-       "Id": "580668364",
-       "Name": "Aluminium_Tank (Custom)",
-       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\AUXs\\Rooms\\Corridors\\[Effect Slot [0]: (RoomVerb)]\\Aluminium_Tank (Custom)",
-       "GUID": "{865D6620-A9B9-4AA6-ABE4-DAC48C186D7B}",
+       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\AUXs\\Rooms\\Elevator\\[Effect Slot [0]: (RoomVerb)]\\Room_Medium_Tiled (Custom)",
+       "GUID": "{5CFA00D4-5469-43F3-81DC-74E5EF7ED26E}",
        "LibName": "Wwise RoomVerb",
        "LibId": "7733251"
       },
@@ -66,19 +84,53 @@
        "GUID": "{A31F8306-1453-4012-92A4-AE974D0066E5}",
        "LibName": "Wwise RoomVerb",
        "LibId": "7733251"
+      },
+      {
+       "Id": "780014612",
+       "Name": "Meter (Custom)",
+       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\_utility\\[Effect Slot [0]: (Meter)]\\Meter (Custom)",
+       "GUID": "{3CCCFE37-6945-4655-A890-BDB16D7B9285}",
+       "LibName": "Wwise Meter",
+       "LibId": "8454147"
+      },
+      {
+       "Id": "793376829",
+       "Name": "AK Convolution Reverb (Custom)",
+       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Music\\MusicReverb\\[Effect Slot [0]: (AK Convolution Reverb)]\\AK Convolution Reverb (Custom)",
+       "GUID": "{B3B02953-C945-440D-90FA-9191AD1DD1BB}",
+       "LibName": "Wwise Convolution Reverb",
+       "LibId": "8323075",
+       "MediaRefs": [
+        {
+         "Id": "487124878"
+        }
+       ]
       }
      ],
      "ShareSets": [
       {
-       "Id": "361056738",
-       "Name": "New_iZotope_Hybrid_Reverb",
-       "ObjectPath": "\\Effects\\Custom Effects\\New_iZotope_Hybrid_Reverb",
-       "GUID": "{CAA746A6-834D-4263-8927-DBA3B37BF221}",
-       "LibName": "iZotope Hybrid Reverb",
-       "LibId": "135219",
+       "Id": "1222575028",
+       "Name": "AK_Convolution_Reverb_Terminal",
+       "ObjectPath": "\\Effects\\Reverbs\\AK_Convolution_Reverb_Terminal",
+       "GUID": "{77FD6BA1-BEB0-4647-A6B2-42737F6CC12F}",
+       "LibName": "Wwise Convolution Reverb",
+       "LibId": "8323075",
        "MediaRefs": [
         {
-         "Id": "844479567"
+         "Id": "851596344"
+        }
+       ]
+      },
+      {
+       "Id": "2589999434",
+       "Name": "AK_Convolution_Reverb_Corridor",
+       "ObjectPath": "\\Effects\\Reverbs\\AK_Convolution_Reverb_Corridor",
+       "GUID": "{AB2DABDF-4731-414B-AA46-66753D5CD039}",
+       "LibName": "Wwise Convolution Reverb",
+       "LibId": "8323075",
+       "MediaRefs": [
+        {
+         "Id": "402359572"
         }
        ]
       },
@@ -112,24 +164,10 @@
     },
     "Busses": [
      {
-      "Id": "82043516",
-      "Name": "Ambience3D",
-      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\Ambience\\Ambience3D",
-      "GUID": "{2D9DB95F-701F-40C5-A325-239F4DCF673B}",
-      "Color": "13"
-     },
-     {
       "Id": "85412153",
       "Name": "Ambience",
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\Ambience",
       "GUID": "{9EC0A8E5-6830-4DB2-B98D-A85E57CE105A}",
-      "Color": "13"
-     },
-     {
-      "Id": "98821071",
-      "Name": "Ambience2D",
-      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\Ambience\\Ambience2D",
-      "GUID": "{49143703-043B-4C6C-B073-95DD23E63AC3}",
       "Color": "13"
      },
      {
@@ -143,14 +181,15 @@
       "Id": "429132440",
       "Name": "_utility",
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\_utility",
-      "GUID": "{3A4C77AE-14A5-41D5-AB51-67FA777CC790}"
-     },
-     {
-      "Id": "438105790",
-      "Name": "Outside",
-      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\Environment\\Outside",
-      "GUID": "{B96A7D5D-74E7-4394-A159-AD0686BE468B}",
-      "Color": "4"
+      "GUID": "{3A4C77AE-14A5-41D5-AB51-67FA777CC790}",
+      "Color": "27",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "780014612"
+        }
+       ]
+      }
      },
      {
       "Id": "1069431850",
@@ -164,7 +203,14 @@
       "Name": "Environment",
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\Environment",
       "GUID": "{ECB7702E-300C-493D-A8E6-9D5BE98DCAE7}",
-      "Color": "4"
+      "Color": "4",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "146556776"
+        }
+       ]
+      }
      },
      {
       "Id": "1359360203",
@@ -181,24 +227,39 @@
       "Color": "15"
      },
      {
+      "Id": "3164629225",
+      "Name": "Holo",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\Holo",
+      "GUID": "{DE6AA2C1-D043-463D-8057-338102A32EAA}",
+      "Color": "16"
+     },
+     {
+      "Id": "3170124113",
+      "Name": "Voice",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Voice",
+      "GUID": "{8D10DFD7-BB6D-4F8D-B3C2-F8613ADDDA29}",
+      "Color": "24"
+     },
+     {
       "Id": "3368497452",
       "Name": "AUXs",
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\AUXs",
       "GUID": "{E629D68C-704D-46A8-BD3A-AF23EF7E9E65}",
-      "Color": "21"
-     },
-     {
-      "Id": "3553349781",
-      "Name": "Inside",
-      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\Environment\\Inside",
-      "GUID": "{955050CD-ACC3-48ED-8CC8-11D9754EF154}",
-      "Color": "4"
+      "Color": "21",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "235539008"
+        }
+       ]
+      }
      },
      {
       "Id": "3803692087",
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus",
-      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}",
+      "Color": "10"
      },
      {
       "Id": "3991942870",
@@ -206,6 +267,13 @@
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Music",
       "GUID": "{AFD51C94-BD4C-4638-A356-8372437DC97D}",
       "Color": "6"
+     },
+     {
+      "Id": "4021644157",
+      "Name": "Burned",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\Burned",
+      "GUID": "{ED18D11A-0E26-4BC8-B2A7-8011BC93143E}",
+      "Color": "22"
      }
     ],
     "AuxBusses": [
@@ -224,11 +292,36 @@
       }
      },
      {
+      "Id": "414380065",
+      "Name": "Terminal",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\AUXs\\Rooms\\Terminal",
+      "GUID": "{AAABB9A5-EAF0-4E3B-9B0C-AEB2C80ACF63}",
+      "Color": "21",
+      "MaxAttenuation": "30",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1222575028"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "849258820",
+        "Name": "EarlyReflections",
+        "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\AUXs\\EarlyReflections",
+        "GUID": "{1ED24EFF-7068-41B0-950A-F7774D2A9E63}",
+        "Color": "21"
+       }
+      ]
+     },
+     {
       "Id": "849258820",
       "Name": "EarlyReflections",
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\AUXs\\EarlyReflections",
       "GUID": "{1ED24EFF-7068-41B0-950A-F7774D2A9E63}",
       "Color": "21",
+      "MaxAttenuation": "30",
       "PluginRefs": {
        "ShareSets": [
         {
@@ -238,55 +331,18 @@
       }
      },
      {
-      "Id": "1938385722",
-      "Name": "Corridors",
-      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\AUXs\\Rooms\\Corridors",
-      "GUID": "{AE7BC320-FC8F-406C-AD74-237A920429FD}",
-      "Color": "21",
+      "Id": "1575916026",
+      "Name": "MusicReverb",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Music\\MusicReverb",
+      "GUID": "{0D720CA7-C912-4A8A-84E6-678DC6825428}",
+      "Color": "6",
       "PluginRefs": {
        "Custom": [
         {
-         "Id": "580668364"
+         "Id": "793376829"
         }
        ]
-      },
-      "AuxBusRefs": [
-       {
-        "Id": "849258820",
-        "Name": "EarlyReflections",
-        "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\AUXs\\EarlyReflections",
-        "GUID": "{1ED24EFF-7068-41B0-950A-F7774D2A9E63}",
-        "Color": "21"
-       }
-      ]
-     },
-     {
-      "Id": "1941896084",
-      "Name": "Room_1",
-      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\AUXs\\Rooms\\Room_1",
-      "GUID": "{AAABB9A5-EAF0-4E3B-9B0C-AEB2C80ACF63}",
-      "Color": "21",
-      "PluginRefs": {
-       "Custom": [
-        {
-         "Id": "395674233"
-        }
-       ],
-       "ShareSets": [
-        {
-         "Id": "361056738"
-        }
-       ]
-      },
-      "AuxBusRefs": [
-       {
-        "Id": "849258820",
-        "Name": "EarlyReflections",
-        "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\AUXs\\EarlyReflections",
-        "GUID": "{1ED24EFF-7068-41B0-950A-F7774D2A9E63}",
-        "Color": "21"
-       }
-      ]
+      }
      },
      {
       "Id": "2786758029",
@@ -308,13 +364,38 @@
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\AUXs\\Rooms\\Elevator",
       "GUID": "{47C113E2-8AAC-4A0A-9DE6-B0DB144722EC}",
       "Color": "21",
+      "MaxAttenuation": "30",
       "PluginRefs": {
        "Custom": [
         {
-         "Id": "438002550"
+         "Id": "526522748"
         }
        ]
       }
+     },
+     {
+      "Id": "4149449619",
+      "Name": "Corridor_1",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\AUXs\\Rooms\\Corridor_1",
+      "GUID": "{AE7BC320-FC8F-406C-AD74-237A920429FD}",
+      "Color": "21",
+      "MaxAttenuation": "30",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2589999434"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "849258820",
+        "Name": "EarlyReflections",
+        "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\AUXs\\EarlyReflections",
+        "GUID": "{1ED24EFF-7068-41B0-950A-F7774D2A9E63}",
+        "Color": "21"
+       }
+      ]
      }
     ],
     "StateGroups": [
@@ -714,12 +795,12 @@
        {
         "Name": "AbsorptionLow",
         "Type": "Real32",
-        "Value": "0"
+        "Value": "23"
        },
        {
         "Name": "AbsorptionMidLow",
         "Type": "Real32",
-        "Value": "0"
+        "Value": "15"
        },
        {
         "Name": "AbsorptionMidHigh",
@@ -729,7 +810,7 @@
        {
         "Name": "AbsorptionHigh",
         "Type": "Real32",
-        "Value": "0"
+        "Value": "77"
        },
        {
         "Name": "Scattering",
@@ -945,6 +1026,6 @@
     ]
    }
   ],
-  "FileHash": "{1A89E9BF-5943-F52B-B7E0-D3B4D6224830}"
+  "FileHash": "{D99C0FA0-5D37-2C7F-E8B8-54F9AA47D845}"
  }
 }

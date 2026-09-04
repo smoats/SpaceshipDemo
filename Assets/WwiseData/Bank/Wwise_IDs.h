@@ -92,28 +92,28 @@ namespace AK
     {
         static const AkUniqueID _UTILITY = 429132440U;
         static const AkUniqueID AMBIENCE = 85412153U;
-        static const AkUniqueID AMBIENCE2D = 98821071U;
-        static const AkUniqueID AMBIENCE3D = 82043516U;
         static const AkUniqueID AUXS = 3368497452U;
+        static const AkUniqueID BURNED = 4021644157U;
         static const AkUniqueID ENVIRONMENT = 1229948536U;
-        static const AkUniqueID INSIDE = 3553349781U;
+        static const AkUniqueID HOLO = 3164629225U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MUSIC = 3991942870U;
-        static const AkUniqueID OUTSIDE = 438105790U;
         static const AkUniqueID PLAYER = 1069431850U;
         static const AkUniqueID ROOMS = 1359360203U;
         static const AkUniqueID SFX = 393239870U;
         static const AkUniqueID UI = 1551306167U;
+        static const AkUniqueID VOICE = 3170124113U;
     } // namespace BUSSES
 
     namespace AUX_BUSSES
     {
-        static const AkUniqueID CORRIDORS = 1938385722U;
+        static const AkUniqueID CORRIDOR_1 = 4149449619U;
         static const AkUniqueID EARLYREFLECTIONS = 849258820U;
         static const AkUniqueID ELEVATOR = 3705378287U;
         static const AkUniqueID ENGINE = 268529915U;
         static const AkUniqueID MAINDECK = 2786758029U;
-        static const AkUniqueID ROOM_1 = 1941896084U;
+        static const AkUniqueID MUSICREVERB = 1575916026U;
+        static const AkUniqueID TERMINAL = 414380065U;
     } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES

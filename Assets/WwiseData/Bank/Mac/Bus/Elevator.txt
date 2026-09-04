@@ -2,5 +2,5 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	3705378287	Elevator			\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Elevator	
 
 Effect plug-ins	ID	Name	Type				Notes
-	438002550	Metal_Hangar (Custom)	Wwise RoomVerb			
+	526522748	Room_Medium_Tiled (Custom)	Wwise RoomVerb			
 

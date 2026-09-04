@@ -1,6 +1,0 @@
-Auxiliary Bus	ID	Name			Wwise Object Path	Notes
-	1938385722	Corridors			\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Corridors	
-
-Effect plug-ins	ID	Name	Type				Notes
-	580668364	Aluminium_Tank (Custom)	Wwise RoomVerb			
-

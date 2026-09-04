@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="414380065" Type="Bus" GUID="{AAABB9A5-EAF0-4E3B-9B0C-AEB2C80ACF63}" Language="SFX" Hash="{93C61A7A-93AE-B14E-1E24-8579FBA254B9}">
+			<ObjectPath>Terminal</ObjectPath>
+			<ShortName>Terminal</ShortName>
+			<Path>Bus/Terminal.bnk</Path>
+			<Media>
+				<File Id="851596344" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>B-39 Black Widow Submarine Engine Room.wav</ShortName>
+					<Path>Media/851596344.wem</Path>
+					<CachePath>00/{00DB6ACF-37AC-D5FE-8D3D-B35AEB13541F}.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="1222575028" Name="AK_Convolution_Reverb_Terminal" ObjectPath="\Effects\Reverbs\AK_Convolution_Reverb_Terminal" GUID="{77FD6BA1-BEB0-4647-A6B2-42737F6CC12F}" LibName="Wwise Convolution Reverb" LibId="8323075">
+						<MediaRefs>
+							<MediaRef Id="851596344"/>
+						</MediaRefs>
+					</Plugin>
+				</ShareSets>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="414380065" Name="Terminal" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Terminal" GUID="{AAABB9A5-EAF0-4E3B-9B0C-AEB2C80ACF63}" Color="21" MaxAttenuation="30">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1222575028"/>
+						</ShareSets>
+					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="849258820" Name="EarlyReflections" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\EarlyReflections" GUID="{1ED24EFF-7068-41B0-950A-F7774D2A9E63}" Color="21"/>
+					</AuxBusRefs>
+				</AuxBus>
+			</AuxBusses>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{F15F0D19-2C27-B79D-332E-1EF6A04B999D}</FileHash>
+</SoundBanksInfo>

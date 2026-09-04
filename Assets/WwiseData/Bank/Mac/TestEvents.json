@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{3E00C3E0-C090-461E-83B2-95321957B4D7}",
     "Language": "SFX",
-    "Hash": "{A52E88A3-10D5-122B-A5B0-D3CEC71C214C}",
+    "Hash": "{8C6B4F4B-4E51-E8DB-DBD5-2EEE43C550B5}",
     "ObjectPath": "\\SoundBanks\\Soundbanks\\TestEvents",
     "ShortName": "TestEvents",
     "Path": "TestEvents.bnk",
@@ -29,7 +29,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Test\\test_Supersonic - Skrillex_01.wav",
-      "CachePath": "4B/{4B595E89-1EDD-ECAF-847C-3C224E62FFA6}.wem"
+      "CachePath": "55/{557F03E7-C50A-1088-7B8B-2EF2C1E35F35}.wem"
      }
     ],
     "Events": [
@@ -38,7 +38,7 @@
       "Name": "tst_Play_880Hz_lp",
       "ObjectPath": "\\Events\\TestEvents\\tst_Play_880Hz_lp",
       "GUID": "{7FCC2BC3-C8D4-49A7-B9BE-7FD0AA6C2D26}",
-      "MaxAttenuation": "40",
+      "MaxAttenuation": "30",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -61,7 +61,7 @@
       "Name": "tst_Play_Supersonic",
       "ObjectPath": "\\Events\\TestEvents\\tst_Play_Supersonic",
       "GUID": "{D6B715DF-E4E7-4F29-B053-34FC38171C11}",
-      "MaxAttenuation": "40",
+      "MaxAttenuation": "30",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -81,6 +81,6 @@
     ]
    }
   ],
-  "FileHash": "{F2D0D053-236F-6BF6-472A-A2E730674D82}"
+  "FileHash": "{5CDFCD90-ABA7-0B93-9F7E-EEF26EA0A83C}"
  }
 }

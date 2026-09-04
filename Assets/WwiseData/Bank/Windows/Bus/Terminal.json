@@ -1,0 +1,75 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "414380065",
+    "Type": "Bus",
+    "GUID": "{AAABB9A5-EAF0-4E3B-9B0C-AEB2C80ACF63}",
+    "Language": "SFX",
+    "Hash": "{93C61A7A-93AE-B14E-1E24-8579FBA254B9}",
+    "ObjectPath": "Terminal",
+    "ShortName": "Terminal",
+    "Path": "Bus/Terminal.bnk",
+    "Media": [
+     {
+      "Id": "851596344",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "B-39 Black Widow Submarine Engine Room.wav",
+      "Path": "Media/851596344.wem",
+      "CachePath": "00/{00DB6ACF-37AC-D5FE-8D3D-B35AEB13541F}.wem"
+     }
+    ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "1222575028",
+       "Name": "AK_Convolution_Reverb_Terminal",
+       "ObjectPath": "\\Effects\\Reverbs\\AK_Convolution_Reverb_Terminal",
+       "GUID": "{77FD6BA1-BEB0-4647-A6B2-42737F6CC12F}",
+       "LibName": "Wwise Convolution Reverb",
+       "LibId": "8323075",
+       "MediaRefs": [
+        {
+         "Id": "851596344"
+        }
+       ]
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "414380065",
+      "Name": "Terminal",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\AUXs\\Rooms\\Terminal",
+      "GUID": "{AAABB9A5-EAF0-4E3B-9B0C-AEB2C80ACF63}",
+      "Color": "21",
+      "MaxAttenuation": "30",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1222575028"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "849258820",
+        "Name": "EarlyReflections",
+        "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\AUXs\\EarlyReflections",
+        "GUID": "{1ED24EFF-7068-41B0-950A-F7774D2A9E63}",
+        "Color": "21"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{FF3403CC-842F-0819-3695-EAC9A688F66C}"
+ }
+}

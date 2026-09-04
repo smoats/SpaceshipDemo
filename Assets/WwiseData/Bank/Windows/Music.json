@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{62351333-A9A4-471D-80F6-F4A27C7A2FD4}",
     "Language": "SFX",
-    "Hash": "{1C8F55F9-5E0D-9995-3029-27F944E48B6C}",
+    "Hash": "{FC6FB235-3779-8853-769F-4DF8A80ED642}",
     "ObjectPath": "\\SoundBanks\\Soundbanks\\Music",
     "ShortName": "Music",
     "Path": "Music.bnk",
@@ -100,6 +100,15 @@
       "GUID": "{CA3F6233-AD77-4F70-8EE5-C2194B654DBE}",
       "Color": "18",
       "DurationType": "Infinite",
+      "AuxBusRefs": [
+       {
+        "Id": "1575916026",
+        "Name": "MusicReverb",
+        "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Music\\MusicReverb",
+        "GUID": "{0D720CA7-C912-4A8A-84E6-678DC6825428}",
+        "Color": "6"
+       }
+      ],
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -108,39 +117,58 @@
          "Id": "3604647259",
          "GUID": "{6002BEA1-5A6C-4A7F-88D9-BBD60DBDBBD8}"
         },
-        "MediaRefs": [
+        "Children": [
          {
-          "Id": "99267492"
-         },
-         {
-          "Id": "175004890"
-         },
-         {
-          "Id": "226536422"
-         },
-         {
-          "Id": "345883505"
-         },
-         {
-          "Id": "672927643"
-         },
-         {
-          "Id": "812432388"
-         },
-         {
-          "Id": "900973150"
-         },
-         {
-          "Id": "992080249"
-         }
-        ],
-        "PluginRefs": {
-         "ShareSets": [
-          {
-           "Id": "2098638826"
+          "SwitchValue": {
+           "GroupType": "State",
+           "GroupId": "984691642",
+           "Id": "0",
+           "GUID": "{288C5B4D-B42A-43E0-815A-193CE3C95521}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "99267492"
+           },
+           {
+            "Id": "175004890"
+           },
+           {
+            "Id": "226536422"
+           },
+           {
+            "Id": "345883505"
+           },
+           {
+            "Id": "672927643"
+           },
+           {
+            "Id": "812432388"
+           },
+           {
+            "Id": "900973150"
+           },
+           {
+            "Id": "992080249"
+           }
+          ],
+          "PluginRefs": {
+           "ShareSets": [
+            {
+             "Id": "2098638826"
+            }
+           ]
           }
-         ]
-        }
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "4091656514",
+         "Id": "3573931707",
+         "GUID": "{D4E686B1-CF6E-41E3-862C-C55D4980A1AF}"
+        },
+        "Children": []
        },
        {
         "SwitchValue": {
@@ -149,7 +177,17 @@
          "Id": "702482391",
          "GUID": "{22669760-FDD6-4A40-81FA-129627D8552D}"
         },
-        "Children": []
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "State",
+           "GroupId": "984691642",
+           "Id": "0",
+           "GUID": "{288C5B4D-B42A-43E0-815A-193CE3C95521}"
+          },
+          "Children": []
+         }
+        ]
        }
       ]
      },
@@ -282,6 +320,6 @@
     ]
    }
   ],
-  "FileHash": "{E194E09B-780E-BC73-4209-F67C15A28193}"
+  "FileHash": "{887E6AB0-0976-FB2C-BF90-A24E7D26BE24}"
  }
 }

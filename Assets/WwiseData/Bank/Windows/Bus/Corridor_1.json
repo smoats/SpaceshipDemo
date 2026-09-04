@@ -1,0 +1,75 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "4149449619",
+    "Type": "Bus",
+    "GUID": "{AE7BC320-FC8F-406C-AD74-237A920429FD}",
+    "Language": "SFX",
+    "Hash": "{6A9EBB40-F9AC-65D5-BE52-AB326252FC0B}",
+    "ObjectPath": "Corridor_1",
+    "ShortName": "Corridor_1",
+    "Path": "Bus/Corridor_1.bnk",
+    "Media": [
+     {
+      "Id": "402359572",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "B-39 Black Widow Submarine Aft Torpedo Room.wav",
+      "Path": "Media/402359572.wem",
+      "CachePath": "D8/{D8BDD5B8-980A-BE9F-1102-0BFC5F7BAB41}.wem"
+     }
+    ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "2589999434",
+       "Name": "AK_Convolution_Reverb_Corridor",
+       "ObjectPath": "\\Effects\\Reverbs\\AK_Convolution_Reverb_Corridor",
+       "GUID": "{AB2DABDF-4731-414B-AA46-66753D5CD039}",
+       "LibName": "Wwise Convolution Reverb",
+       "LibId": "8323075",
+       "MediaRefs": [
+        {
+         "Id": "402359572"
+        }
+       ]
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "4149449619",
+      "Name": "Corridor_1",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\AUXs\\Rooms\\Corridor_1",
+      "GUID": "{AE7BC320-FC8F-406C-AD74-237A920429FD}",
+      "Color": "21",
+      "MaxAttenuation": "30",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2589999434"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "849258820",
+        "Name": "EarlyReflections",
+        "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\AUXs\\EarlyReflections",
+        "GUID": "{1ED24EFF-7068-41B0-950A-F7774D2A9E63}",
+        "Color": "21"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D86DEF69-B0D6-D7E6-7569-6E9DB7FD7D62}"
+ }
+}

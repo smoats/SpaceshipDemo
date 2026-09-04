@@ -1,0 +1,6 @@
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1575916026	MusicReverb			\Default Work Unit\Master Audio Bus\Music\MusicReverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	793376829	AK Convolution Reverb (Custom)	Wwise Convolution Reverb			
+

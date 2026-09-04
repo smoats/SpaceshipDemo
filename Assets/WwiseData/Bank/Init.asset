@@ -27,12 +27,18 @@ MonoBehaviour:
     LocalizedStreamingMediaValues:
       localizedMediaList:
       - media:
-        - m_AssetGUID: 9f90cbf0c05cc8441b65efe4697f9c8c
+        - m_AssetGUID: 9efe77df4d4c59648a93a9ba9ca9a778
           m_SubObjectName: 
           m_SubObjectType: 
           m_SubObjectGUID: 
           m_EditorAssetChanged: 0
-          id: 844479567
+          id: 402359572
+        - m_AssetGUID: 3fe7b4b60307e584fa846bdf8991cf0d
+          m_SubObjectName: 
+          m_SubObjectType: 
+          m_SubObjectGUID: 
+          m_EditorAssetChanged: 0
+          id: 487124878
   - WwisePlatform: Mac
     LocalizedBankKeys:
     - SFX
@@ -47,12 +53,18 @@ MonoBehaviour:
     LocalizedStreamingMediaValues:
       localizedMediaList:
       - media:
-        - m_AssetGUID: 999e74888f447404d8f255b361f075d6
+        - m_AssetGUID: 2c3cade8bd9656a4aad02f33556107d3
           m_SubObjectName: 
           m_SubObjectType: 
           m_SubObjectGUID: 
           m_EditorAssetChanged: 0
-          id: 844479567
+          id: 402359572
+        - m_AssetGUID: 1d7c8f21a00246648914c15f4b6030aa
+          m_SubObjectName: 
+          m_SubObjectType: 
+          m_SubObjectGUID: 
+          m_EditorAssetChanged: 0
+          id: 487124878
   currentPlatformAssets:
     WwisePlatform: Windows
     LocalizedBankKeys:
@@ -68,9 +80,15 @@ MonoBehaviour:
     LocalizedStreamingMediaValues:
       localizedMediaList:
       - media:
-        - m_AssetGUID: 9f90cbf0c05cc8441b65efe4697f9c8c
+        - m_AssetGUID: 9efe77df4d4c59648a93a9ba9ca9a778
           m_SubObjectName: 
           m_SubObjectType: 
           m_SubObjectGUID: 
           m_EditorAssetChanged: 0
-          id: 844479567
+          id: 402359572
+        - m_AssetGUID: 3fe7b4b60307e584fa846bdf8991cf0d
+          m_SubObjectName: 
+          m_SubObjectType: 
+          m_SubObjectGUID: 
+          m_EditorAssetChanged: 0
+          id: 487124878

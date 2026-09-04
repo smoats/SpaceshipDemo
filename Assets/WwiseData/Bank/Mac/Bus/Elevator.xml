@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="3705378287" Type="Bus" GUID="{47C113E2-8AAC-4A0A-9DE6-B0DB144722EC}" Language="SFX" Hash="{1B067493-0C29-95D5-6D36-51FB80F3FB69}">
+		<SoundBank Id="3705378287" Type="Bus" GUID="{47C113E2-8AAC-4A0A-9DE6-B0DB144722EC}" Language="SFX" Hash="{CD677233-ED38-40C6-D4E1-B54949772CB7}">
 			<ObjectPath>Elevator</ObjectPath>
 			<ShortName>Elevator</ShortName>
 			<Path>Bus/Elevator.bnk</Path>
 			<Plugins>
 				<Custom>
-					<Plugin Id="438002550" Name="Metal_Hangar (Custom)" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Elevator\[Effect Slot [0]: (RoomVerb)]\Metal_Hangar (Custom)" GUID="{C38E2746-37DC-47D9-9732-7CC4D839170C}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="526522748" Name="Room_Medium_Tiled (Custom)" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Elevator\[Effect Slot [0]: (RoomVerb)]\Room_Medium_Tiled (Custom)" GUID="{5CFA00D4-5469-43F3-81DC-74E5EF7ED26E}" LibName="Wwise RoomVerb" LibId="7733251"/>
 				</Custom>
 			</Plugins>
 			<AuxBusses>
-				<AuxBus Id="3705378287" Name="Elevator" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Elevator" GUID="{47C113E2-8AAC-4A0A-9DE6-B0DB144722EC}" Color="21">
+				<AuxBus Id="3705378287" Name="Elevator" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Elevator" GUID="{47C113E2-8AAC-4A0A-9DE6-B0DB144722EC}" Color="21" MaxAttenuation="30">
 					<PluginRefs>
 						<Custom>
-							<PluginRef Id="438002550"/>
+							<PluginRef Id="526522748"/>
 						</Custom>
 					</PluginRefs>
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4D55019E-6FAC-DA54-45A0-3C5094C2BBA4}</FileHash>
+	<FileHash>{A124B738-A602-721C-6503-88140F623462}</FileHash>
 </SoundBanksInfo>

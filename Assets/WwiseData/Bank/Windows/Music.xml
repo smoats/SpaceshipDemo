@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="3991942870" Type="User" GUID="{62351333-A9A4-471D-80F6-F4A27C7A2FD4}" Language="SFX" Hash="{1C8F55F9-5E0D-9995-3029-27F944E48B6C}">
+		<SoundBank Id="3991942870" Type="User" GUID="{62351333-A9A4-471D-80F6-F4A27C7A2FD4}" Language="SFX" Hash="{FC6FB235-3779-8853-769F-4DF8A80ED642}">
 			<ObjectPath>\SoundBanks\Soundbanks\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
@@ -46,28 +46,45 @@
 			</Plugins>
 			<Events>
 				<Event Id="2480461419" Name="mus_Play_Music" ObjectPath="\Events\Music\mus_Play_Music" GUID="{CA3F6233-AD77-4F70-8EE5-C2194B654DBE}" Color="18" DurationType="Infinite">
+					<AuxBusRefs>
+						<AuxBusRef Id="1575916026" Name="MusicReverb" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Music\MusicReverb" GUID="{0D720CA7-C912-4A8A-84E6-678DC6825428}" Color="6"/>
+					</AuxBusRefs>
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="State" GroupId="4091656514" Id="3604647259" GUID="{6002BEA1-5A6C-4A7F-88D9-BBD60DBDBBD8}"/>
-							<MediaRefs>
-								<MediaRef Id="99267492"/>
-								<MediaRef Id="175004890"/>
-								<MediaRef Id="226536422"/>
-								<MediaRef Id="345883505"/>
-								<MediaRef Id="672927643"/>
-								<MediaRef Id="812432388"/>
-								<MediaRef Id="900973150"/>
-								<MediaRef Id="992080249"/>
-							</MediaRefs>
-							<PluginRefs>
-								<ShareSets>
-									<PluginRef Id="2098638826"/>
-								</ShareSets>
-							</PluginRefs>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="984691642" Id="0" GUID="{288C5B4D-B42A-43E0-815A-193CE3C95521}"/>
+									<MediaRefs>
+										<MediaRef Id="99267492"/>
+										<MediaRef Id="175004890"/>
+										<MediaRef Id="226536422"/>
+										<MediaRef Id="345883505"/>
+										<MediaRef Id="672927643"/>
+										<MediaRef Id="812432388"/>
+										<MediaRef Id="900973150"/>
+										<MediaRef Id="992080249"/>
+									</MediaRefs>
+									<PluginRefs>
+										<ShareSets>
+											<PluginRef Id="2098638826"/>
+										</ShareSets>
+									</PluginRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="4091656514" Id="3573931707" GUID="{D4E686B1-CF6E-41E3-862C-C55D4980A1AF}"/>
+							<Children/>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="State" GroupId="4091656514" Id="702482391" GUID="{22669760-FDD6-4A40-81FA-129627D8552D}"/>
-							<Children/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="984691642" Id="0" GUID="{288C5B4D-B42A-43E0-815A-193CE3C95521}"/>
+									<Children/>
+								</SwitchContainer>
+							</Children>
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
@@ -107,5 +124,5 @@
 			</Triggers>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B66A1F07-6804-EA2E-E1ED-6CCA37307B7E}</FileHash>
+	<FileHash>{9BB11789-A384-1F72-28CB-8F26A9C50D20}</FileHash>
 </SoundBanksInfo>

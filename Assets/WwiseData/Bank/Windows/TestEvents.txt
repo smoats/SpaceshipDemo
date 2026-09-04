@@ -5,5 +5,5 @@ Event	ID	Name			Wwise Object Path	Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	269277191	880Hz_3D_lp	.cache\F8\{F82E9239-F62F-947A-2798-B35B8A16A82F}.wem		\Containers\_utility\test_signals_3D\880Hz_3D_lp		960096
-	431370555	test_Supersonic - Skrillex_01	.cache\4B\{4B595E89-1EDD-ECAF-847C-3C224E62FFA6}.wem		\Containers\_utility\test_signals_3D\test_Supersonic - Skrillex_01		32558528
+	431370555	test_Supersonic - Skrillex_01	.cache\55\{557F03E7-C50A-1088-7B8B-2EF2C1E35F35}.wem		\Containers\_utility\test_signals_3D\test_Supersonic - Skrillex_01		21514396
 

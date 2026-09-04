@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="1099549313" Type="Event" GUID="{AFDD0470-8F80-46AD-BB5A-B206013D8558}" Language="SFX" Hash="{6A2E944A-8B78-629D-5796-6FD240503C81}">
+		<SoundBank Id="1099549313" Type="Event" GUID="{AFDD0470-8F80-46AD-BB5A-B206013D8558}" Language="SFX" Hash="{383ED85A-6730-E082-F014-B8F9D1108D1A}">
 			<ObjectPath>tst_Play_880Hz_3D_beep</ObjectPath>
 			<ShortName>tst_Play_880Hz_3D_beep</ShortName>
 			<Path>Event/tst_Play_880Hz_3D_beep.bnk</Path>
@@ -13,7 +13,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1099549313" Name="tst_Play_880Hz_3D_beep" ObjectPath="\Events\TestEvents\tst_Play_880Hz_3D_beep" GUID="{AFDD0470-8F80-46AD-BB5A-B206013D8558}" MaxAttenuation="40" DurationType="OneShot" DurationMin="0.6037019" DurationMax="0.6037019">
+				<Event Id="1099549313" Name="tst_Play_880Hz_3D_beep" ObjectPath="\Events\TestEvents\tst_Play_880Hz_3D_beep" GUID="{AFDD0470-8F80-46AD-BB5A-B206013D8558}" MaxAttenuation="30" DurationType="OneShot" DurationMin="0.6037019" DurationMax="0.6037019">
 					<MediaRefs>
 						<MediaRef Id="986699865"/>
 					</MediaRefs>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{00596CCC-DB73-9DC3-DE07-16BAAEA3D42A}</FileHash>
+	<FileHash>{5E108FFB-CC42-59D4-8DBD-8A070C51E889}</FileHash>
 </SoundBanksInfo>

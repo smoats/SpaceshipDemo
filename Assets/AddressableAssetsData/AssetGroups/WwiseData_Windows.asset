@@ -25,6 +25,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3fe7b4b60307e584fa846bdf8991cf0d
+    m_Address: Assets/WwiseData/Bank/Windows/Media/487124878.wem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a04408212c93c44ca4bc45d70d3f7d7
+    m_Address: Assets/WwiseData/Bank/Windows/Bus/Elevator.bnk
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 603df10eb4c15c441bb9d9787e43d94d
     m_Address: Assets/WwiseData/Bank/Windows/SFX.bnk
     m_ReadOnly: 0
@@ -35,18 +45,13 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 852de4d69fd646646a48658c758571f4
-    m_Address: Assets/WwiseData/Bank/Windows/Bus/Room_1.bnk
+  - m_GUID: 863128d08dbb72d4195547aead0db00c
+    m_Address: Assets/WwiseData/Bank/Windows/Bus/Terminal.bnk
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 897a056b78972814a82e2802a3b95b44
-    m_Address: Assets/WwiseData/Bank/Windows/Bus/Corridors.bnk
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 9f90cbf0c05cc8441b65efe4697f9c8c
-    m_Address: Assets/WwiseData/Bank/Windows/Media/844479567.wem
+  - m_GUID: 9efe77df4d4c59648a93a9ba9ca9a778
+    m_Address: Assets/WwiseData/Bank/Windows/Media/402359572.wem
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -55,8 +60,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a835394dceea0a24c9432b3a8393b6bc
+    m_Address: Assets/WwiseData/Bank/Windows/Bus/Corridor_1.bnk
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: af0f7b33c552549459b967905ec0b1c1
     m_Address: Assets/WwiseData/Bank/Windows/Bus/EarlyReflections.bnk
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7af4f4cda9f1ed4a9e7b56269764b8e
+    m_Address: Assets/WwiseData/Bank/Windows/Media/851596344.wem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dc6c82ae5db1b654788ec0f4e0841135
+    m_Address: Assets/WwiseData/Bank/Windows/Bus/MusicReverb.bnk
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

@@ -1,7 +1,0 @@
-Auxiliary Bus	ID	Name			Wwise Object Path	Notes
-	1941896084	Room_1			\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Room_1	
-
-Effect plug-ins	ID	Name	Type				Notes
-	361056738	New_iZotope_Hybrid_Reverb	iZotope Hybrid Reverb			
-	395674233	Room_Medium_Tiled (Custom)	Wwise RoomVerb			
-

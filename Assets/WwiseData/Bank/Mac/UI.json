@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{17E82E3A-267E-4928-818F-9747346AFDCC}",
     "Language": "SFX",
-    "Hash": "{54104EA9-CD01-76AF-7A1D-581705A56D24}",
+    "Hash": "{4928F8C3-68E1-4F84-C638-7F79070AB14B}",
     "ObjectPath": "\\SoundBanks\\Soundbanks\\UI",
     "ShortName": "UI",
     "Path": "UI.bnk",
@@ -165,6 +165,6 @@
     ]
    }
   ],
-  "FileHash": "{8632BB7F-AB41-7D2E-A557-D539C0A1A328}"
+  "FileHash": "{9B1B6785-653C-6EA1-D064-8C33FCC804F2}"
  }
 }

@@ -1,0 +1,6 @@
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	414380065	Terminal			\Default Work Unit\Master Audio Bus\SFX\AUXs\Rooms\Terminal	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1222575028	AK_Convolution_Reverb_Terminal	Wwise Convolution Reverb			
+

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="849258820" Type="Bus" GUID="{1ED24EFF-7068-41B0-950A-F7774D2A9E63}" Language="SFX" Hash="{9345AE95-E08D-F887-0514-8B7F12026FAB}">
+		<SoundBank Id="849258820" Type="Bus" GUID="{1ED24EFF-7068-41B0-950A-F7774D2A9E63}" Language="SFX" Hash="{3A04AA39-52C2-1CCC-D309-9C0792AB5515}">
 			<ObjectPath>EarlyReflections</ObjectPath>
 			<ShortName>EarlyReflections</ShortName>
 			<Path>Bus/EarlyReflections.bnk</Path>
@@ -11,7 +11,7 @@
 				</ShareSets>
 			</Plugins>
 			<AuxBusses>
-				<AuxBus Id="849258820" Name="EarlyReflections" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\EarlyReflections" GUID="{1ED24EFF-7068-41B0-950A-F7774D2A9E63}" Color="21">
+				<AuxBus Id="849258820" Name="EarlyReflections" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\EarlyReflections" GUID="{1ED24EFF-7068-41B0-950A-F7774D2A9E63}" Color="21" MaxAttenuation="30">
 					<PluginRefs>
 						<ShareSets>
 							<PluginRef Id="3399505373"/>
@@ -21,5 +21,5 @@
 			</AuxBusses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0DA92244-0975-33A1-F319-BB3BEAC6A508}</FileHash>
+	<FileHash>{96E9805B-1AD3-7625-00D0-21B27F97C552}</FileHash>
 </SoundBanksInfo>

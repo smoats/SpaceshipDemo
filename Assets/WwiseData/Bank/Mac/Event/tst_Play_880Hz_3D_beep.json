@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{AFDD0470-8F80-46AD-BB5A-B206013D8558}",
     "Language": "SFX",
-    "Hash": "{6A2E944A-8B78-629D-5796-6FD240503C81}",
+    "Hash": "{383ED85A-6730-E082-F014-B8F9D1108D1A}",
     "ObjectPath": "tst_Play_880Hz_3D_beep",
     "ShortName": "tst_Play_880Hz_3D_beep",
     "Path": "Event/tst_Play_880Hz_3D_beep.bnk",
@@ -31,7 +31,7 @@
       "Name": "tst_Play_880Hz_3D_beep",
       "ObjectPath": "\\Events\\TestEvents\\tst_Play_880Hz_3D_beep",
       "GUID": "{AFDD0470-8F80-46AD-BB5A-B206013D8558}",
-      "MaxAttenuation": "40",
+      "MaxAttenuation": "30",
       "DurationType": "OneShot",
       "DurationMin": "0.6037019",
       "DurationMax": "0.6037019",
@@ -44,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{9065C630-9BA4-7A08-5AC6-440C46801BA1}"
+  "FileHash": "{790FCB44-0D63-E943-4709-21B67842FE57}"
  }
 }

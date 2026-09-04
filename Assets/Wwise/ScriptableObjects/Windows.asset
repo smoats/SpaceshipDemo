@@ -99,7 +99,7 @@ MonoBehaviour:
       m_MaxSoundPropagationDepth: 8
       m_MovementThreshold: 0.25
       m_NumberOfPrimaryRays: 35
-      m_MaxReflectionOrder: 4
+      m_MaxReflectionOrder: 2
       m_MaxDiffractionOrder: 4
       m_DiffractionOnReflectionsOrder: 2
       m_MaxEmitterRoomAuxSends: 3

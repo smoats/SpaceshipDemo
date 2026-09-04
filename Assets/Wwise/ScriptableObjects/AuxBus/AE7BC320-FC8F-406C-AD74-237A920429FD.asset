@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dddd87354d2e114e94051be3f1afd08, type: 3}
   m_Name: AE7BC320-FC8F-406C-AD74-237A920429FD
   m_EditorClassIdentifier: 
-  objectName: Corridors
-  id: 1938385722
+  objectName: Corridor_1
+  id: 4149449619
   guid: AE7BC320-FC8F-406C-AD74-237A920429FD

@@ -10,17 +10,17 @@
     "Type": "Bus",
     "GUID": "{47C113E2-8AAC-4A0A-9DE6-B0DB144722EC}",
     "Language": "SFX",
-    "Hash": "{1B067493-0C29-95D5-6D36-51FB80F3FB69}",
+    "Hash": "{CD677233-ED38-40C6-D4E1-B54949772CB7}",
     "ObjectPath": "Elevator",
     "ShortName": "Elevator",
     "Path": "Bus/Elevator.bnk",
     "Plugins": {
      "Custom": [
       {
-       "Id": "438002550",
-       "Name": "Metal_Hangar (Custom)",
-       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\AUXs\\Rooms\\Elevator\\[Effect Slot [0]: (RoomVerb)]\\Metal_Hangar (Custom)",
-       "GUID": "{C38E2746-37DC-47D9-9732-7CC4D839170C}",
+       "Id": "526522748",
+       "Name": "Room_Medium_Tiled (Custom)",
+       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\AUXs\\Rooms\\Elevator\\[Effect Slot [0]: (RoomVerb)]\\Room_Medium_Tiled (Custom)",
+       "GUID": "{5CFA00D4-5469-43F3-81DC-74E5EF7ED26E}",
        "LibName": "Wwise RoomVerb",
        "LibId": "7733251"
       }
@@ -33,10 +33,11 @@
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX\\AUXs\\Rooms\\Elevator",
       "GUID": "{47C113E2-8AAC-4A0A-9DE6-B0DB144722EC}",
       "Color": "21",
+      "MaxAttenuation": "30",
       "PluginRefs": {
        "Custom": [
         {
-         "Id": "438002550"
+         "Id": "526522748"
         }
        ]
       }
@@ -44,6 +45,6 @@
     ]
    }
   ],
-  "FileHash": "{E31C06A1-0A30-1768-664D-333A0FEADC68}"
+  "FileHash": "{EA39EAA2-FB74-50B0-4ADF-934E1F4D45DB}"
  }
 }

@@ -4,11 +4,11 @@
   "BasePlatform": "Windows",
   "PluginLibs": [
    {
-    "LibName": "iZotope Hybrid Reverb",
-    "LibId": "135219",
+    "LibName": "Wwise Parametric EQ",
+    "LibId": "6881283",
     "Type": "Effect",
-    "DLL": "iZotope",
-    "StaticLib": "iZHybridReverbFX"
+    "DLL": "AkParametricEQ",
+    "StaticLib": "AkParametricEQFX"
    },
    {
     "LibName": "Wwise Matrix Reverb",
@@ -23,6 +23,20 @@
     "Type": "Effect",
     "DLL": "AkRoomVerb",
     "StaticLib": "AkRoomVerbFX"
+   },
+   {
+    "LibName": "Wwise Convolution Reverb",
+    "LibId": "8323075",
+    "Type": "Effect",
+    "DLL": "AkConvolutionReverb",
+    "StaticLib": "AkConvolutionReverbFX"
+   },
+   {
+    "LibName": "Wwise Meter",
+    "LibId": "8454147",
+    "Type": "Effect",
+    "DLL": "AkMeter",
+    "StaticLib": "AkMeterFX"
    },
    {
     "LibName": "Wwise Reflect",
@@ -42,6 +56,6 @@
     "Type": "AudioDevice"
    }
   ],
-  "FileHash": "{6427EDAF-7E2B-1D9E-EA80-3C7A568A23F6}"
+  "FileHash": "{B0C8EE02-6CA4-AC91-48CB-CFD2A5A5C2EC}"
  }
 }

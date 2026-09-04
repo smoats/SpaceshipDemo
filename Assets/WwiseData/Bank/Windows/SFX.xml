@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" GUID="{836A5791-17FF-4791-81A0-25D8F58E7A99}" Language="SFX" Hash="{A5FF0F3C-8223-01B4-62C3-EC003A45FE94}">
+		<SoundBank Id="393239870" Type="User" GUID="{836A5791-17FF-4791-81A0-25D8F58E7A99}" Language="SFX" Hash="{94F2BCEB-438D-31B4-86DB-194E83192244}">
 			<ObjectPath>\SoundBanks\Soundbanks\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -16,7 +16,7 @@
 				</File>
 				<File Id="162699505" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Environment\Elevator\spc_sfx_elevator_door.wav</ShortName>
-					<CachePath>E8/{E894108C-D178-9B0B-EFE1-F995FF525F2B}.wem</CachePath>
+					<CachePath>FB/{FB1FC5AC-AB11-61C6-29ED-4C1EDAD161CF}.wem</CachePath>
 				</File>
 				<File Id="212066122" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player\Footsteps\Footsteps, Human, Metal Ladder, Sneakers SND4062.wav</ShortName>
@@ -28,7 +28,7 @@
 				</File>
 				<File Id="412105135" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Environment\Elevator\spc_sfx_elevator_stop.wav</ShortName>
-					<CachePath>38/{384E4DB7-7B31-0C3E-1D80-E6CB64FB6DB5}.wem</CachePath>
+					<CachePath>71/{71AE3201-F5C0-DBFE-F1B2-4B1464B4F6AA}.wem</CachePath>
 				</File>
 				<File Id="498415207" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player\Footsteps\Footsteps, Human, Metal Ladder, Sneakers SND4062.wav</ShortName>
@@ -50,10 +50,6 @@
 					<ShortName>Player\Footsteps\Footsteps, Human, Metal Ladder, Sneakers SND4062.wav</ShortName>
 					<CachePath>0D/{0D33FB17-1936-1B6D-D3F7-19031A601F50}.wem</CachePath>
 				</File>
-				<File Id="638280477" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Environment\Spaceship\Steam\Water, Steam, Steam, Long, Constant SND64324.wav</ShortName>
-					<CachePath>A2/{A2242A64-D29F-323A-C74E-A9355C50CBBB}.wem</CachePath>
-				</File>
 				<File Id="662297845" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player\Footsteps\Footsteps, Human, Metal Ladder, Sneakers SND4062.wav</ShortName>
 					<CachePath>64/{64195F9E-73A4-FB7E-0930-AC124F1C6F99}.wem</CachePath>
@@ -64,11 +60,15 @@
 				</File>
 				<File Id="852197693" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Environment\Sparks\spc_sfx_sparks_var02.wav</ShortName>
-					<CachePath>0B/{0B8105A8-602A-F1E0-D49C-2E9BAA2E52D6}.wem</CachePath>
+					<CachePath>08/{0824BFAE-F16D-A251-FC06-9B9FBD1D0727}.wem</CachePath>
 				</File>
 				<File Id="885820701" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Environment\Sparks\spc_sfx_sparks_var03.wav</ShortName>
 					<CachePath>A1/{A1C45714-715A-761D-92CF-E02969943FEE}.wem</CachePath>
+				</File>
+				<File Id="962693988" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Environment\Sparks\spc_sfx_sparks_var02.wav</ShortName>
+					<CachePath>95/{950A3D3D-D95C-0F5C-090C-6BE6CD79A1DB}.wem</CachePath>
 				</File>
 				<File Id="971699724" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player\Footsteps\Footsteps, Human, Metal Ladder, Sneakers SND4062.wav</ShortName>
@@ -79,42 +79,40 @@
 					<CachePath>7F/{7FEBEA05-8037-BE87-1DA5-F7878BB5D25A}.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="2667647788" Name="Single_Band_1Khz_Wide" ObjectPath="\Effects\Factory Effects\Parametric EQ\Band Pass Filters\Single_Band_1Khz_Wide" GUID="{9B6A1D1B-F90F-4EAC-B796-2943413957FE}" LibName="Wwise Parametric EQ" LibId="6881283"/>
+				</ShareSets>
+			</Plugins>
 			<Events>
-				<Event Id="2720011068" Name="enc_Play_elevator_door" ObjectPath="\Events\Environment\enc_Play_elevator_door" GUID="{7FE5DEF4-E39F-44AF-9C33-1BE58164A0F1}" Color="4" MaxAttenuation="40" DurationType="OneShot" DurationMin="6.7800627" DurationMax="6.7800627">
+				<Event Id="2720011068" Name="enc_Play_elevator_door" ObjectPath="\Events\Environment\enc_Play_elevator_door" GUID="{7FE5DEF4-E39F-44AF-9C33-1BE58164A0F1}" Color="4" MaxAttenuation="30" DurationType="OneShot" DurationMin="4.06984" DurationMax="4.06984">
 					<MediaRefs>
 						<MediaRef Id="162699505"/>
 					</MediaRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="849258820" Name="EarlyReflections" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\EarlyReflections" GUID="{1ED24EFF-7068-41B0-950A-F7774D2A9E63}" Color="21"/>
-					</AuxBusRefs>
 				</Event>
-				<Event Id="2077017211" Name="env_Play_elevator_stop" ObjectPath="\Events\Environment\env_Play_elevator_stop" GUID="{63540B98-A70B-4FE6-A79F-9925153EC742}" Color="4" MaxAttenuation="40" DurationType="OneShot" DurationMin="5.350021" DurationMax="5.350021">
+				<Event Id="2077017211" Name="env_Play_elevator_stop" ObjectPath="\Events\Environment\env_Play_elevator_stop" GUID="{63540B98-A70B-4FE6-A79F-9925153EC742}" Color="4" MaxAttenuation="30" DurationType="OneShot" DurationMin="5.350021" DurationMax="5.350021">
 					<MediaRefs>
 						<MediaRef Id="412105135"/>
 					</MediaRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="849258820" Name="EarlyReflections" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\EarlyReflections" GUID="{1ED24EFF-7068-41B0-950A-F7774D2A9E63}" Color="21"/>
-					</AuxBusRefs>
 				</Event>
-				<Event Id="1116795697" Name="env_Play_Spark" ObjectPath="\Events\Environment\env_Play_Spark" GUID="{2DDD3FEA-E1DF-4E81-A738-834BAB0FA24A}" Color="4" MaxAttenuation="40" DurationType="OneShot" DurationMin="0.36979166" DurationMax="0.5970625">
+				<Event Id="1116795697" Name="env_Play_Spark" ObjectPath="\Events\Environment\env_Play_Spark" GUID="{2DDD3FEA-E1DF-4E81-A738-834BAB0FA24A}" Color="4" DurationType="OneShot" DurationMin="0.26363778" DurationMax="0.49901056">
 					<MediaRefs>
 						<MediaRef Id="54077337"/>
 						<MediaRef Id="841163289"/>
 						<MediaRef Id="852197693"/>
 						<MediaRef Id="885820701"/>
+						<MediaRef Id="962693988"/>
 					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2667647788"/>
+						</ShareSets>
+					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="849258820" Name="EarlyReflections" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\EarlyReflections" GUID="{1ED24EFF-7068-41B0-950A-F7774D2A9E63}" Color="21"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="2371890402" Name="env_Play_Steam" ObjectPath="\Events\Environment\env_Play_Steam" GUID="{7EF501BF-A30C-4AAC-95E8-F12AECF116F1}" Color="4" MaxAttenuation="40" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="638280477"/>
-					</MediaRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="849258820" Name="EarlyReflections" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX\AUXs\EarlyReflections" GUID="{1ED24EFF-7068-41B0-950A-F7774D2A9E63}" Color="21"/>
-					</AuxBusRefs>
-				</Event>
+				<Event Id="2371890402" Name="env_Play_Steam" ObjectPath="\Events\Environment\env_Play_Steam" GUID="{7EF501BF-A30C-4AAC-95E8-F12AECF116F1}" Color="4" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3082617436" Name="plr_Play_fs" ObjectPath="\Events\Player\plr_Play_fs" GUID="{4F3F05C8-CDEB-4FE1-9182-2C4199A3D473}" Color="11" DurationType="OneShot" DurationMin="0.4504451" DurationMax="0.78414595">
 					<MediaRefs>
 						<MediaRef Id="59608555"/>
@@ -133,5 +131,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{952D04EC-CF3A-1483-6F15-4ECAD78CEEC2}</FileHash>
+	<FileHash>{925D4B92-1832-D132-E01A-B57DE5CFE0FD}</FileHash>
 </SoundBanksInfo>

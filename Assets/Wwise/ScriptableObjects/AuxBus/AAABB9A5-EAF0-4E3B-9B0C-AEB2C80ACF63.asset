@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dddd87354d2e114e94051be3f1afd08, type: 3}
   m_Name: AAABB9A5-EAF0-4E3B-9B0C-AEB2C80ACF63
   m_EditorClassIdentifier: 
-  objectName: Room_1
-  id: 1941896084
+  objectName: Terminal
+  id: 414380065
   guid: AAABB9A5-EAF0-4E3B-9B0C-AEB2C80ACF63

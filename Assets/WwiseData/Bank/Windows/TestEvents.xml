@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="155015370" Type="User" GUID="{3E00C3E0-C090-461E-83B2-95321957B4D7}" Language="SFX" Hash="{A52E88A3-10D5-122B-A5B0-D3CEC71C214C}">
+		<SoundBank Id="155015370" Type="User" GUID="{3E00C3E0-C090-461E-83B2-95321957B4D7}" Language="SFX" Hash="{8C6B4F4B-4E51-E8DB-DBD5-2EEE43C550B5}">
 			<ObjectPath>\SoundBanks\Soundbanks\TestEvents</ObjectPath>
 			<ShortName>TestEvents</ShortName>
 			<Path>TestEvents.bnk</Path>
@@ -12,17 +12,17 @@
 				</File>
 				<File Id="431370555" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Test\test_Supersonic - Skrillex_01.wav</ShortName>
-					<CachePath>4B/{4B595E89-1EDD-ECAF-847C-3C224E62FFA6}.wem</CachePath>
+					<CachePath>55/{557F03E7-C50A-1088-7B8B-2EF2C1E35F35}.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="4230237515" Name="tst_Play_880Hz_lp" ObjectPath="\Events\TestEvents\tst_Play_880Hz_lp" GUID="{7FCC2BC3-C8D4-49A7-B9BE-7FD0AA6C2D26}" MaxAttenuation="40" DurationType="Infinite">
+				<Event Id="4230237515" Name="tst_Play_880Hz_lp" ObjectPath="\Events\TestEvents\tst_Play_880Hz_lp" GUID="{7FCC2BC3-C8D4-49A7-B9BE-7FD0AA6C2D26}" MaxAttenuation="30" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="269277191"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3379435718" Name="tst_Play_880Hz_lp_Stop" ObjectPath="\Events\TestEvents\tst_Play_880Hz_lp_Stop" GUID="{CC394F90-903D-45C7-9727-23F742018301}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="2036962697" Name="tst_Play_Supersonic" ObjectPath="\Events\TestEvents\tst_Play_Supersonic" GUID="{D6B715DF-E4E7-4F29-B053-34FC38171C11}" MaxAttenuation="40" DurationType="Infinite">
+				<Event Id="2036962697" Name="tst_Play_Supersonic" ObjectPath="\Events\TestEvents\tst_Play_Supersonic" GUID="{D6B715DF-E4E7-4F29-B053-34FC38171C11}" MaxAttenuation="30" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="431370555"/>
 					</MediaRefs>
@@ -33,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{999B428F-E03E-5DA5-7C8B-AAFD52F43486}</FileHash>
+	<FileHash>{93E15F78-3A43-98DD-DA69-3C769102EED0}</FileHash>
 </SoundBanksInfo>

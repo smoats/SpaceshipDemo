@@ -14,39 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_dataPerPlatformList:
   - WwisePlatform: Mac
-    LocalizedBankKeys:
-    - SFX
-    LocalizedBanksValues:
-    - m_AssetGUID: ed595b246e83b474097b23bea1bbc44f
-      m_SubObjectName: 
-      m_SubObjectType: 
-      m_SubObjectGUID: 
-      m_EditorAssetChanged: 0
+    LocalizedBankKeys: []
+    LocalizedBanksValues: []
     LocalizedStreamingMediaKeys: []
     LocalizedStreamingMediaValues:
       localizedMediaList: []
   - WwisePlatform: Windows
-    LocalizedBankKeys:
-    - SFX
-    LocalizedBanksValues:
-    - m_AssetGUID: 897a056b78972814a82e2802a3b95b44
-      m_SubObjectName: 
-      m_SubObjectType: 
-      m_SubObjectGUID: 
-      m_EditorAssetChanged: 0
+    LocalizedBankKeys: []
+    LocalizedBanksValues: []
     LocalizedStreamingMediaKeys: []
     LocalizedStreamingMediaValues:
       localizedMediaList: []
   currentPlatformAssets:
     WwisePlatform: Windows
-    LocalizedBankKeys:
-    - SFX
-    LocalizedBanksValues:
-    - m_AssetGUID: 897a056b78972814a82e2802a3b95b44
-      m_SubObjectName: 
-      m_SubObjectType: 
-      m_SubObjectGUID: 
-      m_EditorAssetChanged: 0
+    LocalizedBankKeys: []
+    LocalizedBanksValues: []
     LocalizedStreamingMediaKeys: []
     LocalizedStreamingMediaValues:
       localizedMediaList: []
